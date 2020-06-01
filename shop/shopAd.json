@@ -1,0 +1,10 @@
+[
+  {
+    "title": "商品标题",
+    "url": "http://www.baidu.com",
+    "desc": "商品描述",
+    "show": true,
+    "isGoods": true,
+    "goodsId": ""
+  }
+]
