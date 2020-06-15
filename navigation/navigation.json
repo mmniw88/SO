@@ -103,24 +103,6 @@
           "type": "app://customWeb",
           "pic": "http://www.meijuniao.com/favicon.ico",
           "url": "http://m.meijuniao.com/"
-        },
-        {
-          "name": "腾讯6000部免费",
-          "type": "app://customWeb",
-          "pic": "https://v.qq.com/favicon.ico",
-          "url": "https://v.qq.com/movie/p/topic/allforfree/index.html"
-        },
-        {
-          "name": "爱奇艺免费",
-          "type": "app://customWeb",
-          "pic": "https://www.iqiyi.com/favicon.ico",
-          "url": "https://www.iqiyi.com/kszt/freefilm.html"
-        },
-        {
-          "name": "芒果TV免费",
-          "type": "app://customWeb",
-          "pic": "https://www.mgtv.com/favicon.ico",
-          "url": "https://www.mgtv.com/t/3-4994.html"
         }
       ]
     },
