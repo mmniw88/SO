@@ -69,6 +69,12 @@
           "url": "https://www.kankanwu.com/"
         },
         {
+          "name": "新时空动漫",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-01-05/1578198966_9359.ico",
+          "url": "https://www.xskdm.com/"
+        },
+        {
           "name": "神马影院",
           "type": "app://customWeb",
           "pic": "http://ilxdh.com/images/default_site_icon.png",
@@ -85,6 +91,18 @@
           "type": "app://customWeb",
           "pic": "http://img.ilxdh.com/navig/2020-01-03/1578061046_9191.png",
           "url": "https://www.tcmove.com/"
+        },
+        {
+          "name": "爱美剧",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-04-13/1586787161_1363.ico",
+          "url": "https://m.imeiju.io/"
+        },
+        {
+          "name": "美剧鸟",
+          "type": "app://customWeb",
+          "pic": "http://www.meijuniao.com/favicon.ico",
+          "url": "http://m.meijuniao.com/"
         },
         {
           "name": "腾讯6000部免费",
