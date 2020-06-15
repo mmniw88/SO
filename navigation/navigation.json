@@ -49,6 +49,60 @@
           "type": "app://customWeb",
           "pic": "https://www.mengmiandaxia.cn/favicon.ico",
           "url": "https://www.mengmiandaxia.cn/"
+        },
+        {
+          "name": "xijingTv",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-04-13/1586786828_6785.png",
+          "url": "http://xijing.tv/"
+        },
+        {
+          "name": "看看屋",
+          "type": "app://customWeb",
+          "pic": "",
+          "url": "https://www.kankanwu.com/"
+        },
+        {
+          "name": "AGE动漫",
+          "type": "app://customWeb",
+          "pic": "https://www.agefans.tv/favicon.ico",
+          "url": "https://www.kankanwu.com/"
+        },
+        {
+          "name": "神马影院",
+          "type": "app://customWeb",
+          "pic": "http://ilxdh.com/images/default_site_icon.png",
+          "url": "https://www.shenma4480.com/"
+        },
+        {
+          "name": "94神马",
+          "type": "app://customWeb",
+          "pic": "http://www.9rmb.com/favicon.ico",
+          "url": "http://www.9rmb.com/"
+        },
+        {
+          "name": "太初影院",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-01-03/1578061046_9191.png",
+          "url": "https://www.tcmove.com/"
+        },
+        {
+          "name": "腾讯6000部免费",
+          "type": "app://customWeb",
+          "pic": "https://v.qq.com/favicon.ico",
+          "url": "https://v.qq.com/movie/p/topic/allforfree/index.html"
+        },
+        {
+          "name": "爱奇艺免费",
+          "type": "app://customWeb",
+          "pic": "https://www.iqiyi.com/favicon.ico",
+          "url": "https://www.iqiyi.com/kszt/freefilm.html"
+        },
+        {
+          "name": "芒果TV免费",
+          "type": "app://customWeb",
+          "pic": "https://www.mgtv.com/favicon.ico",
+          "url": "https://www.mgtv.com/t/3-4994.html"
         }
       ]
     },
