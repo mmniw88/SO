@@ -21,6 +21,18 @@
           "url": "https://www.huya.com/g/seeTogether"
         },
         {
+          "name": "斗鱼一起看",
+          "type": "app://customWeb",
+          "pic": "https://www.douyu.com/favicon.ico",
+          "url": "https://m.douyu.com/list/room?type=yqk"
+        },
+        {
+          "name": "企鹅电竞",
+          "type": "app://customWeb",
+          "pic": "https://egame.qq.com/favicon.ico",
+          "url": "https://cdn.egame.qq.com/pgg-play/module/livelist.html?layoutid=2000000110"
+        },
+        {
           "name": "NOW影视",
           "type": "app://customWeb",
           "pic": "http://www.baidu.com/aaa.jpg",
