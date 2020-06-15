@@ -20,6 +20,59 @@
           "url": "http://www.baidu.com"
         }
       ]
+    },
+    {
+      "name": "在线直播",
+      "data": [
+        {
+          "name": "虎牙直播",
+          "type": "app://customWeb",
+          "pic": "https://www.huya.com/favicon.ico",
+          "url": "https://www.huya.com/"
+        },
+        {
+          "name": "斗鱼直播",
+          "type": "app://customWeb",
+          "pic": "https://www.douyu.com/favicon.ico",
+          "url": "https://www.douyu.com/"
+        },
+        {
+          "name": "哔哩哔哩",
+          "type": "app://customWeb",
+          "pic": "https://live.bilibili.com/favicon.ico",
+          "url": "https://live.bilibili.com/"
+        },
+        {
+          "name": "YY直播",
+          "type": "app://customWeb",
+          "pic": "https://www.yy.com/favicon.ico",
+          "url": "https://www.yy.com/"
+        },
+        {
+          "name": "龙珠直播",
+          "type": "app://customWeb",
+          "pic": "http://www.longzhu.com/favicon.ico",
+          "url": "http://www.longzhu.com/"
+        },
+        {
+          "name": "战旗直播",
+          "type": "app://customWeb",
+          "pic": "https://www.zhanqi.tv/favicon.ico",
+          "url": "https://www.zhanqi.tv/"
+        },
+        {
+          "name": "快手直播",
+          "type": "app://customWeb",
+          "pic": "https://www.zhanqi.tv/favicon.ico",
+          "url": "https://live.kuaishou.com/"
+        },
+        {
+          "name": "企鹅直播",
+          "type": "app://customWeb",
+          "pic": "https://www.zhanqi.tv/favicon.ico",
+          "url": "https://live.qq.com/"
+        }
+      ]
     }
   ]
 }
