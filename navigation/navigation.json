@@ -1,0 +1,22 @@
+[
+  {
+    "name": "常用",
+    "data": [
+      {
+        "name": "常用",
+        "type": "app://collect",
+        "url": "http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "在线影视",
+    "data": [
+      {
+        "name": "常用",
+        "type": "app://collect",
+        "url": "http://www.baidu.com"
+      }
+    ]
+  }
+]
