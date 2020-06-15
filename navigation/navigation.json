@@ -1,22 +1,25 @@
-[
-  {
-    "name": "常用",
-    "data": [
-      {
-        "name": "常用",
-        "type": "app://collect",
-        "url": "http://www.baidu.com"
-      }
-    ]
-  },
-  {
-    "name": "在线影视",
-    "data": [
-      {
-        "name": "常用",
-        "type": "app://collect",
-        "url": "http://www.baidu.com"
-      }
-    ]
-  }
-]
+{
+  "data": [
+    {
+      "name": "常用",
+      "data": [
+        {
+          "name": "常用",
+          "type": "app://collect",
+          "url": "http://www.baidu.com"
+        }
+      ]
+    },
+    {
+      "name": "在线影视",
+      "data": [
+        {
+          "name": "测试",
+          "type": "app://collect",
+          "pic": "http://www.baidu.com/aaa.jpg",
+          "url": "http://www.baidu.com"
+        }
+      ]
+    }
+  ]
+}
