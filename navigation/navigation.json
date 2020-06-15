@@ -4,8 +4,9 @@
       "name": "常用",
       "data": [
         {
-          "name": "常用",
+          "name": "我的收藏",
           "type": "app://collect",
+          "pic": "",
           "url": "http://www.baidu.com"
         }
       ]
@@ -13,6 +14,12 @@
     {
       "name": "在线影视",
       "data": [
+        {
+          "name": "虎牙一起看",
+          "type": "app://customWeb",
+          "pic": "https://www.huya.com/favicon.ico",
+          "url": "https://www.huya.com/g/seeTogether"
+        },
         {
           "name": "NOW影视",
           "type": "app://customWeb",
@@ -30,6 +37,18 @@
           "type": "app://customWeb",
           "pic": "http://www.baidu.com/aaa.jpg",
           "url": "https://www.duboku.net/"
+        },
+        {
+          "name": "1090影视",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2019-12-27/1577425343_5406.png",
+          "url": "http://1090ys1.com/"
+        },
+        {
+          "name": "蒙面大侠",
+          "type": "app://customWeb",
+          "pic": "https://www.mengmiandaxia.cn/favicon.ico",
+          "url": "https://www.mengmiandaxia.cn/"
         }
       ]
     },
