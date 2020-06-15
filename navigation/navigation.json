@@ -14,10 +14,22 @@
       "name": "在线影视",
       "data": [
         {
-          "name": "测试",
+          "name": "NOW影视",
           "type": "app://collect",
           "pic": "http://www.baidu.com/aaa.jpg",
-          "url": "http://www.baidu.com"
+          "url": "https://www.novipnoad.com/"
+        },
+        {
+          "name": "完美看看",
+          "type": "app://collect",
+          "pic": "http://www.baidu.com/aaa.jpg",
+          "url": "http://1090ys1.com/"
+        },
+        {
+          "name": "独播库",
+          "type": "app://collect",
+          "pic": "http://www.baidu.com/aaa.jpg",
+          "url": "https://www.duboku.net/"
         }
       ]
     },
