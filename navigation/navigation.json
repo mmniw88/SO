@@ -85,6 +85,17 @@
           "url": "https://live.qq.com/"
         }
       ]
+    },
+    {
+      "name": "音乐读物",
+      "data": [
+        {
+          "name": "疯狂音乐搜索",
+          "type": "app://customWeb",
+          "pic": "http://music.ifkdy.com/favicon.ico",
+          "url": "http://music.ifkdy.com/"
+        }
+      ]
     }
   ]
 }
