@@ -180,12 +180,7 @@
           "pic": "http://music.ifkdy.com/favicon.ico",
           "url": "http://music.ifkdy.com/"
         },
-        {
-          "name": "豆瓣音乐",
-          "type": "app://customWeb",
-          "pic": "https://music.douban.com/favicon.ico",
-          "url": "https://music.douban.com/"
-        },
+
         {
           "name": "豆瓣FM",
           "type": "app://customWeb",
