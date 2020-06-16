@@ -176,7 +176,7 @@
       "data": [
         {
           "name": "疯狂音乐搜索",
-          "type": "app://customWeb",
+          "type": "app://x5WebParse",
           "pic": "http://music.ifkdy.com/favicon.ico",
           "url": "http://music.ifkdy.com/"
         }
