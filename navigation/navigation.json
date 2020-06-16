@@ -4,8 +4,9 @@
       "name": "常用",
       "data": [
         {
-          "name": "常用",
+          "name": "我的收藏",
           "type": "app://collect",
+          "pic": "",
           "url": "http://www.baidu.com"
         }
       ]
@@ -13,6 +14,24 @@
     {
       "name": "在线影视",
       "data": [
+        {
+          "name": "虎牙一起看",
+          "type": "app://customWeb",
+          "pic": "https://www.huya.com/favicon.ico",
+          "url": "https://www.huya.com/g/seeTogether"
+        },
+        {
+          "name": "斗鱼一起看",
+          "type": "app://customWeb",
+          "pic": "https://www.douyu.com/favicon.ico",
+          "url": "https://m.douyu.com/list/room?type=yqk"
+        },
+        {
+          "name": "企鹅电竞",
+          "type": "app://customWeb",
+          "pic": "https://egame.qq.com/favicon.ico",
+          "url": "https://cdn.egame.qq.com/pgg-play/module/livelist.html?layoutid=2000000110"
+        },
         {
           "name": "NOW影视",
           "type": "app://customWeb",
@@ -30,6 +49,72 @@
           "type": "app://customWeb",
           "pic": "http://www.baidu.com/aaa.jpg",
           "url": "https://www.duboku.net/"
+        },
+        {
+          "name": "1090影视",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2019-12-27/1577425343_5406.png",
+          "url": "http://1090ys1.com/"
+        },
+        {
+          "name": "蒙面大侠",
+          "type": "app://customWeb",
+          "pic": "https://www.mengmiandaxia.cn/favicon.ico",
+          "url": "https://www.mengmiandaxia.cn/"
+        },
+        {
+          "name": "xijingTv",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-04-13/1586786828_6785.png",
+          "url": "http://xijing.tv/"
+        },
+        {
+          "name": "看看屋",
+          "type": "app://customWeb",
+          "pic": "",
+          "url": "https://www.kankanwu.com/"
+        },
+        {
+          "name": "AGE动漫",
+          "type": "app://customWeb",
+          "pic": "https://www.agefans.tv/favicon.ico",
+          "url": "https://www.kankanwu.com/"
+        },
+        {
+          "name": "新时空动漫",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-01-05/1578198966_9359.ico",
+          "url": "https://www.xskdm.com/"
+        },
+        {
+          "name": "神马影院",
+          "type": "app://customWeb",
+          "pic": "http://ilxdh.com/images/default_site_icon.png",
+          "url": "https://www.shenma4480.com/"
+        },
+        {
+          "name": "94神马",
+          "type": "app://customWeb",
+          "pic": "http://www.9rmb.com/favicon.ico",
+          "url": "http://www.9rmb.com/"
+        },
+        {
+          "name": "太初影院",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-01-03/1578061046_9191.png",
+          "url": "https://www.tcmove.com/"
+        },
+        {
+          "name": "爱美剧",
+          "type": "app://customWeb",
+          "pic": "http://img.ilxdh.com/navig/2020-04-13/1586787161_1363.ico",
+          "url": "https://m.imeiju.io/"
+        },
+        {
+          "name": "美剧鸟",
+          "type": "app://customWeb",
+          "pic": "http://www.meijuniao.com/favicon.ico",
+          "url": "http://m.meijuniao.com/"
         }
       ]
     },
