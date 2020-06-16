@@ -191,30 +191,6 @@
           "type": "app://customWeb",
           "pic": "https://music.douban.com/favicon.ico",
           "url": "https://douban.fm/"
-        },
-        {
-          "name": "腾讯MV",
-          "type": "app://customWeb",
-          "pic": "https://v.qq.com/favicon.ico",
-          "url": "https://v.qq.com/music/"
-        },
-        {
-          "name": "爱奇艺MV",
-          "type": "app://customWeb",
-          "pic": "http://music.iqiyi.com/favicon.ico",
-          "url": "http://music.iqiyi.com/"
-        },
-        {
-          "name": "酷我MV",
-          "type": "app://customWeb",
-          "pic": "http://www.kuwo.cn/favicon.ico",
-          "url": "http://www.kuwo.cn/mvs"
-        },
-        {
-          "name": "酷狗MV",
-          "type": "app://customWeb",
-          "pic": "http://www.kugou.com/favicon.ico",
-          "url": "http://www.kugou.com/mvweb/html/"
         }
       ]
     }
