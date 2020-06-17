@@ -16,6 +16,12 @@
           "url": "http://www.baidu.com"
         },
         {
+          "name": "自定义苹果CMS10接口",
+          "type": "app://customMac10",
+          "pic": "",
+          "url": "http://www.baidu.com"
+        },
+        {
           "name": "我的收藏",
           "type": "app://collect",
           "pic": "",
