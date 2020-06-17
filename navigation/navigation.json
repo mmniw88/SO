@@ -72,7 +72,7 @@
           "name": "1090影视",
           "type": "app://customWeb",
           "pic": "http://img.ilxdh.com/navig/2019-12-27/1577425343_5406.png",
-          "url": "http://1090ys1.com/"
+          "url": "http://1090ys1.com/&&&3lga3"
         },
         {
           "name": "蒙面大侠",
@@ -90,13 +90,18 @@
           "name": "看看屋",
           "type": "app://customWeb",
           "pic": "",
-          "url": "https://www.kankanwu.com/"
+          "url": "https://www.kankanwu.com/&&&jianpian"
         },
         {
           "name": "AGE动漫",
           "type": "app://customWeb",
           "pic": "https://www.agefans.tv/favicon.ico",
-          "url": "https://www.kankanwu.com/"
+          "url": "https://www.agefans.tv/"
+        },        {
+          "name": "多米动漫",
+          "type": "app://customWeb",
+          "pic": "https://www.agefans.tv/favicon.ico",
+          "url": "http://www.duomimh.com/"
         },
         {
           "name": "新时空动漫",
@@ -114,13 +119,13 @@
           "name": "94神马",
           "type": "app://customWeb",
           "pic": "http://www.9rmb.com/favicon.ico",
-          "url": "http://www.9rmb.com/"
+          "url": "http://www.9rmb.com/&&&efacepop,ff01s"
         },
         {
           "name": "太初影院",
           "type": "app://customWeb",
           "pic": "http://img.ilxdh.com/navig/2020-01-03/1578061046_9191.png",
-          "url": "https://www.tcmove.com/"
+          "url": "https://www.tcmove.com/&&&site:12443"
         },
         {
           "name": "爱美剧",
@@ -132,7 +137,7 @@
           "name": "美剧鸟",
           "type": "app://customWeb",
           "pic": "http://www.meijuniao.com/favicon.ico",
-          "url": "http://m.meijuniao.com/"
+          "url": "http://m.meijuniao.com/&&&ae01.alicdn,app/"
         }
       ]
     },
