@@ -51,6 +51,18 @@
           "url": "https://m.douyu.com/list/room?type=yqk"
         },
         {
+          "name": "爱奇艺一起看",
+          "type": "app://customWeb",
+          "pic": "https://www.iqiyi.com/favicon.ico",
+          "url": "https://m-live.iqiyi.com/cate/minishow&&&ad-banner"
+        },
+        {
+          "name": "网易一起看",
+          "type": "app://customWeb",
+          "pic": "https://www.asdf.com/favicon.ico",
+          "url": "https://h5.cc.163.com/g/65004/&&&ad-banner"
+        },
+        {
           "name": "企鹅电竞",
           "type": "app://customWeb",
           "pic": "https://egame.qq.com/favicon.ico",
@@ -182,28 +194,10 @@
           "url": "https://www.yy.com/"
         },
         {
-          "name": "龙珠直播",
+          "name": "电视直播",
           "type": "app://customWeb",
-          "pic": "http://www.longzhu.com/favicon.ico",
-          "url": "http://www.longzhu.com/"
-        },
-        {
-          "name": "战旗直播",
-          "type": "app://customWeb",
-          "pic": "https://www.zhanqi.tv/favicon.ico",
-          "url": "https://www.zhanqi.tv/"
-        },
-        {
-          "name": "快手直播",
-          "type": "app://customWeb",
-          "pic": "https://www.zhanqi.tv/favicon.ico",
-          "url": "https://live.kuaishou.com/"
-        },
-        {
-          "name": "企鹅直播",
-          "type": "app://customWeb",
-          "pic": "https://www.zhanqi.tv/favicon.ico",
-          "url": "https://live.qq.com/"
+          "pic": "",
+          "url": "http://www.dszbdq.cn/&&&ad-banner"
         }
       ]
     },
