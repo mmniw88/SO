@@ -51,6 +51,12 @@
           "url": "https://cdn.egame.qq.com/pgg-play/module/livelist.html?layoutid=2000000110"
         },
         {
+          "name": "南瓜影视",
+          "type": "app://customWeb",
+          "pic": "http://www.baidu.com/aaa.jpg",
+          "url": "http://www.nangua5.com/&&&dlads"
+        },
+        {
           "name": "NOW影视",
           "type": "app://customWeb",
           "pic": "http://www.baidu.com/aaa.jpg",
@@ -97,7 +103,8 @@
           "type": "app://customWeb",
           "pic": "https://www.agefans.tv/favicon.ico",
           "url": "https://www.agefans.tv/"
-        },        {
+        },
+        {
           "name": "多米动漫",
           "type": "app://customWeb",
           "pic": "https://www.agefans.tv/favicon.ico",
