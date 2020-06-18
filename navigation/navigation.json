@@ -26,6 +26,12 @@
           "type": "app://collect",
           "pic": "",
           "url": "http://www.baidu.com"
+        },
+        {
+          "name": "历史记录",
+          "type": "app://history",
+          "pic": "",
+          "url": "http://www.baidu.com"
         }
       ]
     },
