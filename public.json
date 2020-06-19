@@ -2,7 +2,7 @@
   "success": true,
   "error": null,
   "data": {
-    "xxPlay": "https://android.xiaoxiaoapps.com/vod/reqplay/{id}?playindex={index}&apiVersion=29&deviceModel=HUAWEI&deviceName=HWVOG&brand=VOG-AL00&serial=unknown&version=2.1.32&platform=android",
+    "xxPlay": "https://n7ro4n501yq4xz577ety.leleapps.com/vod/reqplay/{id}?playindex={index}&apiVersion=29&deviceModel=HUAWEI&deviceName=HWVOG&brand=VOG-AL00&serial=unknown&version=2.1.32&platform=android",
     "wlDetail": "http://api.tgmmvip.com/wolong/gae/video/detail?videoId={id}&ver=2.0.6&platform=android",
     "wlPlay": "http://api.tgmmvip.com/wolong/gae/video/plays?videoId={id}"
   }
