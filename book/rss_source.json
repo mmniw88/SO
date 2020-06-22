@@ -1,0 +1,37 @@
+[
+  {
+    "customOrder": 0,
+    "enableJs": true,
+    "enabled": true,
+    "loadWithBaseUrl": true,
+    "ruleArticles": "$.data.datas",
+    "ruleContent": "",
+    "ruleDescription": "<iframe   width=\"350px\" height=\"250px\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" src=\"http:\/\/liveshare.huya.com\/iframe\/{{$.profileRoom}}\"><\/iframe>\n",
+    "ruleImage": "$.screenshot",
+    "ruleLink": "$.profileRoom",
+    "rulePubDate": "$.introduction",
+    "ruleTitle": "$.roomName",
+    "sourceIcon": "https:\/\/www.huya.com\/favicon.ico",
+    "sourceName": "虎牙直播",
+    "sourceUrl": "https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=1&tagAll=0&page=1",
+    "ruleNextPage": "<js>\nvar id=baseUrl.match(\/page=\\d\/)[0].replace(\/page=\/,'')\nid=Number(id)\nid=id+1\nvar id2=baseUrl.replace(\/page=\\d\/,'page='+id)\nreuslt=id2\n<\/js>",
+    "sortUrl": "英雄联盟::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=1&tagAll=0&page=1\nlol云顶之弈::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=5485&tagAll=0&page=1\r\n穿越火线::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=4&tagAll=0&page=1\nDNF::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=2&tagAll=0&page=1\n魔兽世界::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=8&tagAll=0&page=1\n炉石传说::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=393&tagAll=0&page=1\n魔兽世界3::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=4615&tagAll=0&page=1\n绝地求生::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=2793&tagAll=0&page=1\n我的世界::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=1732&tagAll=0&page=1\n二次元::https:\/\/www.huya.com\/cache.php?m=LiveList&do=getLiveListByPage&gameId=2633&tagAll=0&page=1"
+  },
+  {
+    "customOrder": -114,
+    "enableJs": true,
+    "enabled": true,
+    "loadWithBaseUrl": true,
+    "ruleArticles": "class.2u",
+    "ruleContent": "<js>\nresult='<body style=\"background-color:#000\"><iframe src=\"'+baseUrl+'\" width=\"100%\" height=\"280px\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"><\/iframe>'\n<\/js>",
+    "ruleDescription": "",
+    "ruleImage": "",
+    "ruleLink": "tag.a.1@href",
+    "rulePubDate": "",
+    "ruleTitle": "tag.p@text##\\+",
+    "sourceIcon": "http:\/\/img2.3png.com\/a507fc72abc2eea3b9ad8780d7c33155ffde.png",
+    "sourceName": "电视直播",
+    "sourceUrl": "http:\/\/ivi.bupt.edu.cn\/",
+    "sourceGroup": "🍀直播"
+  }
+]
