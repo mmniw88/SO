@@ -12,8 +12,8 @@
     "ruleTitle": "$.title",
     "sourceGroup": "VIP",
     "sourceIcon": "https://gitee.com/alanskycn/yuedu/raw/master/JS/icon.jpg",
-    "sourceName": "Legado",
-    "sourceUrl": "https://gitee.com/alanskycn/yuedu/raw/master/JS/RSS/custom/customRss.json"
+    "sourceName": "资源导入合集",
+    "sourceUrl": "https://gitee.com/shuncaigao/sourceShare/raw/master/book/customRss.json"
   },
   {
     "customOrder": 0,
