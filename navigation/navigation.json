@@ -5,7 +5,7 @@
       "data": [
         {
           "name": "更新日志",
-          "type": "app://x5WebParse",
+          "type": "app://customWeb",
           "pic": "",
           "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/update.html"
         },
