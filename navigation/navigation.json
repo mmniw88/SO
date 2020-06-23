@@ -4,6 +4,12 @@
       "name": "常用",
       "data": [
         {
+          "name": "更新日志",
+          "type": "app://x5WebParse",
+          "pic": "",
+          "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/update.html"
+        },
+        {
           "name": "小说阅读",
           "type": "app://book",
           "pic": "",
