@@ -41,7 +41,7 @@
         },
         {
           "name": "m3u测试",
-          "type": "app://m3u",
+          "type": "url://m3u",
           "pic": "",
           "url": "http://www.baidu.com"
         }
