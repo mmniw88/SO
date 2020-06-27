@@ -41,9 +41,9 @@
         },
         {
           "name": "m3u测试",
-          "type": "url://m3u",
+          "type": "app://m3u",
           "pic": "",
-          "url": "http://www.baidu.com"
+          "url": "https://gitee.com/qq50951685/IPTV/raw/master/%E7%9B%B4%E6%92%AD%E6%BA%90/%E7%A7%81%E4%BA%BA%E5%AE%9A%E5%88%B6%E6%BA%90.m3u"
         }
       ]
     },
