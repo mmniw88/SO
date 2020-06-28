@@ -2,30 +2,31 @@
   "data": [
     {
       "directors": [
-        "安东尼·琼"
+        "雅各布·海尔",
+        "艾丽卡·海斯"
       ],
-      "rate": "9.1",
-      "cover_x": 2703,
-      "star": "45",
-      "title": "外星也难民 第一季",
-      "url": "https:\/\/movie.douban.com\/subject\/30312909\/",
+      "rate": "9.8",
+      "cover_x": 1200,
+      "star": "50",
+      "title": "瑞克和莫蒂 第四季",
+      "url": "https:\/\/movie.douban.com\/subject\/27166039\/",
       "casts": [
         "贾斯汀·罗兰",
-        "托马斯·米德蒂奇",
-        "肖恩·吉布朗尼",
-        "玛丽·麦克",
-        "安德鲁·达利"
+        "克里斯·帕内尔",
+        "斯宾瑟·格拉默",
+        "萨拉·乔克",
+        "凯瑞·华格伦"
       ],
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2600469202.jpg",
-      "id": "30312909",
-      "cover_y": 4004
+      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2573033857.jpg",
+      "id": "27166039",
+      "cover_y": 1800
     },
     {
       "directors": [
         "黄成希",
         "危天行"
       ],
-      "rate": "8.2",
+      "rate": "8.0",
       "cover_x": 1080,
       "star": "40",
       "title": "一人之下 第三季",
@@ -40,28 +41,6 @@
       "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2561547232.jpg",
       "id": "34456079",
       "cover_y": 1530
-    },
-    {
-      "directors": [
-        "外崎春雄",
-        "细川秀树",
-        "间岛崇宽"
-      ],
-      "rate": "9.1",
-      "cover_x": 1500,
-      "star": "45",
-      "title": "鬼灭之刃",
-      "url": "https:\/\/movie.douban.com\/subject\/30210221\/",
-      "casts": [
-        "花江夏树",
-        "鬼头明里",
-        "下野纮",
-        "松冈祯丞",
-        "冈本信彦"
-      ],
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2551222097.jpg",
-      "id": "30210221",
-      "cover_y": 2121
     },
     {
       "directors": [
@@ -118,48 +97,6 @@
     },
     {
       "directors": [
-        "李豪凌",
-        "王昕"
-      ],
-      "rate": "8.8",
-      "cover_x": 700,
-      "star": "45",
-      "title": "一人之下 第一季",
-      "url": "https:\/\/movie.douban.com\/subject\/26815153\/",
-      "casts": [
-        "田丸笃志",
-        "饭田友子",
-        "早见沙织",
-        "野岛健儿",
-        "立花慎之介"
-      ],
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2370126919.jpg",
-      "id": "26815153",
-      "cover_y": 982
-    },
-    {
-      "directors": [
-        "王昕",
-        "陈烨"
-      ],
-      "rate": "9.2",
-      "cover_x": 770,
-      "star": "45",
-      "title": "一人之下 第二季",
-      "url": "https:\/\/movie.douban.com\/subject\/27034748\/",
-      "casts": [
-        "曹云图",
-        "小连杀",
-        "彭尧",
-        "宝木中阳",
-        "阿杰"
-      ],
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2503247980.jpg",
-      "id": "27034748",
-      "cover_y": 1080
-    },
-    {
-      "directors": [
         "韦斯利·阿彻",
         "皮特·米歇尔斯"
       ],
@@ -181,11 +118,58 @@
     },
     {
       "directors": [
+        "藤原佳幸"
+      ],
+      "rate": "8.5",
+      "cover_x": 826,
+      "star": "45",
+      "title": "昨日之歌",
+      "url": "https:\/\/movie.douban.com\/subject\/33408089\/",
+      "casts": [
+        "小林亲弘",
+        "宫本侑芽",
+        "花泽香菜",
+        "花江夏树",
+        "柳田淳一"
+      ],
+      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2581656193.jpg",
+      "id": "33408089",
+      "cover_y": 1166
+    },
+    {
+      "directors": [
+        "外崎春雄",
+        "细川秀树",
+        "间岛崇宽",
+        "伊藤祐毅",
+        "野中卓也 ",
+        "五味伸介",
+        "宫原秀二",
+        "高桥贤"
+      ],
+      "rate": "9.1",
+      "cover_x": 1500,
+      "star": "45",
+      "title": "鬼灭之刃",
+      "url": "https:\/\/movie.douban.com\/subject\/30210221\/",
+      "casts": [
+        "花江夏树",
+        "鬼头明里",
+        "下野纮",
+        "松冈祯丞",
+        "冈本信彦"
+      ],
+      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2551222097.jpg",
+      "id": "30210221",
+      "cover_y": 2121
+    },
+    {
+      "directors": [
         "贾斯汀·罗兰",
         "胡安·何塞·梅扎-莱昂"
       ],
       "rate": "9.8",
-      "cover_x": 440,
+      "cover_x": 523,
       "star": "50",
       "title": "瑞克和莫蒂 第三季",
       "url": "https:\/\/movie.douban.com\/subject\/26592971\/",
@@ -196,30 +180,9 @@
         "萨拉·乔克",
         "内森·菲利安"
       ],
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2453814101.jpg",
+      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2492804476.jpg",
       "id": "26592971",
-      "cover_y": 640
-    },
-    {
-      "directors": [
-        "雅各布·海尔",
-        "艾丽卡·海斯"
-      ],
-      "rate": "9.8",
-      "cover_x": 1200,
-      "star": "50",
-      "title": "瑞克和莫蒂 第四季",
-      "url": "https:\/\/movie.douban.com\/subject\/27166039\/",
-      "casts": [
-        "贾斯汀·罗兰",
-        "克里斯·帕内尔",
-        "斯宾瑟·格拉默",
-        "萨拉·乔克",
-        "凯瑞·华格伦"
-      ],
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2573033857.jpg",
-      "id": "27166039",
-      "cover_y": 1800
+      "cover_y": 800
     },
     {
       "directors": [
@@ -246,24 +209,24 @@
     },
     {
       "directors": [
-        "楠叶宏三",
-        "芝山努"
+        "李豪凌",
+        "王昕"
       ],
-      "rate": "9.5",
-      "cover_x": 1000,
-      "star": "50",
-      "title": "哆啦A梦",
-      "url": "https:\/\/movie.douban.com\/subject\/1782004\/",
+      "rate": "8.8",
+      "cover_x": 700,
+      "star": "45",
+      "title": "一人之下 第一季",
+      "url": "https:\/\/movie.douban.com\/subject\/26815153\/",
       "casts": [
-        "大山信代",
-        "小原乃梨子",
-        "野村道子",
-        "立壁和也",
-        "肝付兼太"
+        "田丸笃志",
+        "饭田友子",
+        "早见沙织",
+        "野岛健儿",
+        "立花慎之介"
       ],
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2510688261.jpg",
-      "id": "1782004",
-      "cover_y": 1382
+      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2370126919.jpg",
+      "id": "26815153",
+      "cover_y": 982
     },
     {
       "directors": [
@@ -285,50 +248,45 @@
     },
     {
       "directors": [
-        "青山刚昌",
-        "山本泰一郎"
+        "楠叶宏三",
+        "芝山努"
       ],
-      "rate": "9.2",
-      "cover_x": 560,
-      "star": "45",
-      "title": "名侦探柯南",
-      "url": "https:\/\/movie.douban.com\/subject\/1463371\/",
+      "rate": "9.5",
+      "cover_x": 1000,
+      "star": "50",
+      "title": "哆啦A梦",
+      "url": "https:\/\/movie.douban.com\/subject\/1782004\/",
       "casts": [
-        "高山南",
-        "山崎和佳奈",
-        "神谷明",
-        "小山力也",
-        "林原惠美"
+        "大山信代",
+        "小原乃梨子",
+        "野村道子",
+        "立壁和也",
+        "肝付兼太"
       ],
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2257391444.jpg",
-      "id": "1463371",
-      "cover_y": 800
+      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2510688261.jpg",
+      "id": "1782004",
+      "cover_y": 1382
     },
     {
       "directors": [
-        "青木荣",
-        "碇谷敦",
-        "下平佑一",
-        "又贺大介",
-        "栗山贵行",
-        "久保田雄大",
-        "青柳隆平"
+        "王昕",
+        "陈烨"
       ],
       "rate": "9.1",
-      "cover_x": 780,
+      "cover_x": 770,
       "star": "45",
-      "title": "异度侵入",
-      "url": "https:\/\/movie.douban.com\/subject\/34456027\/",
+      "title": "一人之下 第二季",
+      "url": "https:\/\/movie.douban.com\/subject\/27034748\/",
       "casts": [
-        "津田健次郎",
-        "细谷佳正",
-        "竹内良太",
-        "市道真央",
-        "布里德卡特·塞拉·惠美"
+        "曹云图",
+        "小连杀",
+        "彭尧",
+        "宝木中阳",
+        "阿杰"
       ],
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2584476257.jpg",
-      "id": "34456027",
-      "cover_y": 1101
+      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2503247980.jpg",
+      "id": "27034748",
+      "cover_y": 1080
     },
     {
       "directors": [
@@ -356,31 +314,9 @@
     },
     {
       "directors": [
-        "戴铁郎",
-        "范马迪",
-        "熊南清"
-      ],
-      "rate": "8.6",
-      "cover_x": 542,
-      "star": "45",
-      "title": "黑猫警长",
-      "url": "https:\/\/movie.douban.com\/subject\/1860377\/",
-      "casts": [
-        "史东敏",
-        "王卫",
-        "张泉灵",
-        "杨文元",
-        "杨玉天"
-      ],
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2528877467.jpg",
-      "id": "1860377",
-      "cover_y": 766
-    },
-    {
-      "directors": [
         "槐佳佳"
       ],
-      "rate": "8.9",
+      "rate": "8.7",
       "cover_x": 3306,
       "star": "45",
       "title": "大理寺日志",
@@ -419,6 +355,53 @@
     },
     {
       "directors": [
+        "青木荣",
+        "碇谷敦",
+        "下平佑一",
+        "又贺大介",
+        "栗山贵行",
+        "久保田雄大",
+        "青柳隆平"
+      ],
+      "rate": "9.1",
+      "cover_x": 780,
+      "star": "45",
+      "title": "异度侵入",
+      "url": "https:\/\/movie.douban.com\/subject\/34456027\/",
+      "casts": [
+        "津田健次郎",
+        "细谷佳正",
+        "竹内良太",
+        "市道真央",
+        "布里德卡特·塞拉·惠美"
+      ],
+      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2584476257.jpg",
+      "id": "34456027",
+      "cover_y": 1101
+    },
+    {
+      "directors": [
+        "青山刚昌",
+        "山本泰一郎"
+      ],
+      "rate": "9.2",
+      "cover_x": 560,
+      "star": "45",
+      "title": "名侦探柯南",
+      "url": "https:\/\/movie.douban.com\/subject\/1463371\/",
+      "casts": [
+        "高山南",
+        "山崎和佳奈",
+        "神谷明",
+        "小山力也",
+        "林原惠美"
+      ],
+      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2257391444.jpg",
+      "id": "1463371",
+      "cover_y": 800
+    },
+    {
+      "directors": [
         "浅香守生",
         "神户守",
         "片渊须直",
@@ -454,6 +437,26 @@
       "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2361563805.jpg",
       "id": "1465035",
       "cover_y": 1708
+    },
+    {
+      "directors": [
+        "安东尼·琼"
+      ],
+      "rate": "9.1",
+      "cover_x": 2703,
+      "star": "45",
+      "title": "外星也难民 第一季",
+      "url": "https:\/\/movie.douban.com\/subject\/30312909\/",
+      "casts": [
+        "贾斯汀·罗兰",
+        "托马斯·米德蒂奇",
+        "肖恩·吉布朗尼",
+        "玛丽·麦克",
+        "安德鲁·达利"
+      ],
+      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2600469202.jpg",
+      "id": "30312909",
+      "cover_y": 4004
     }
   ]
 }
