@@ -5,7 +5,8 @@
       "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
       "url": "测试",
       "type": "测试",
-      "subTitle": "测试"
+      "subTitle": "测试",
+      "click": true
     }
   ]
 }
