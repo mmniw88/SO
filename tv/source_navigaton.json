@@ -5,20 +5,20 @@
       "pic": "http://pic7.iqiyipic.com/common/lego/20170609/2d8de9e879e24dcab785c73318bf6587.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/munaiyi.json",
       "type": "gitJson",
-      "subTitle": "木乃伊复活暗黑来袭",
+      "subTitle": "木乃伊复活暗黑来袭整理中",
       "click": true
     },
     {
-      "name": "测试html",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/test.json",
+      "name": "海盗系列",
+      "pic": "http://pic0.iqiyipic.com/common/lego/20170605/0d8a5c22c7ba40519350ef68f4039095.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/haidao.json",
       "type": "gitJson",
-      "subTitle": "新增两部",
+      "subTitle": "海盗系列电影整理中",
       "click": true
     },
     {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
+      "name": "漫威系列",
+      "pic": "http://pic8.iqiyipic.com/common/lego/20170509/6b6b280a938d40fd8097bfae6fb2b57a.jpg",
       "url": "测试",
       "type": "测试",
       "subTitle": "小标题小标题小标题小标题小标题",
