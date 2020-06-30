@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "https://gitee.com/bliemhax/lbkodi_live_source/raw/master/livelist.m3u",
-      "type": "m3u",
-      "subTitle": "小标题小标题小标题小标题小标题",
+      "name": "木乃伊系列",
+      "pic": "http://pic7.iqiyipic.com/common/lego/20170609/2d8de9e879e24dcab785c73318bf6587.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/munaiyi.json",
+      "type": "gitJson",
+      "subTitle": "木乃伊复活暗黑来袭",
       "click": true
     },
     {
