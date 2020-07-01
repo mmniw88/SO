@@ -27,7 +27,7 @@
     {
       "name": "大标题",
       "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/douban100.json",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "gitJson",
       "subTitle": "小标题小标题小标题小标题小标题",
       "click": true
