@@ -7,9 +7,5 @@
   {"name": "大额券","type": "coupon_amount_start=100"},
   {"name": "销量榜","type": "sale_num_start=10000"},
   {"name": "精选品牌","type": "cid=0&pinpai=1"},
-  {"name": "聚划算","type": "jt=juhuasuan"},
-  {"name": "金牌卖家","type": "tj=gold_seller"},
-  {"name": "天猫商品","type": "tj=tmall"},
-  {"name": "天猫国际","type": "jh=haitao"},
-  {"name": "极有家","type": "jh=jiyoujia"}
+  {"name": "聚划算","type": "jt=juhuasuan"}
 ]
