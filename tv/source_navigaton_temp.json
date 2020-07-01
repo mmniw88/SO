@@ -1,6 +1,13 @@
 {
   "data": [
-
+    {
+      "name": "豆瓣TOP100",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "gitJson",
+      "subTitle": "豆瓣TOP100",
+      "click": true
+    },
     {
       "name": "木乃伊系列",
       "pic": "http://pic7.iqiyipic.com/common/lego/20170609/2d8de9e879e24dcab785c73318bf6587.jpg",
