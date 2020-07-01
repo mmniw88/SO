@@ -1,11 +1,40 @@
-[
-  {"name": "今日上新","type": "today=1"},
-  {"name": "限时抢购","type": "jt=taoqianggou"},
-  {"name": "极品爆单","type": "baodan=1"},
-  {"name": "9.9包邮","type": "price=0.0-9.9"},
-  {"name": "19.9包邮","type": "price=0.0-19.9"},
-  {"name": "大额券","type": "coupon_amount_start=100"},
-  {"name": "销量榜","type": "sale_num_start=10000"},
-  {"name": "精选品牌","type": "cid=0&pinpai=1"},
-  {"name": "聚划算","type": "jt=juhuasuan"}
-]
+{
+  "data": [
+    {
+      "name": "今日上新",
+      "type": "today=1"
+    },
+    {
+      "name": "限时抢购",
+      "type": "jt=taoqianggou"
+    },
+    {
+      "name": "极品爆单",
+      "type": "baodan=1"
+    },
+    {
+      "name": "9.9包邮",
+      "type": "price=0.0-9.9"
+    },
+    {
+      "name": "19.9包邮",
+      "type": "price=0.0-19.9"
+    },
+    {
+      "name": "大额券",
+      "type": "coupon_amount_start=100"
+    },
+    {
+      "name": "销量榜",
+      "type": "sale_num_start=10000"
+    },
+    {
+      "name": "精选品牌",
+      "type": "cid=0&pinpai=1"
+    },
+    {
+      "name": "聚划算",
+      "type": "jt=juhuasuan"
+    }
+  ]
+}
