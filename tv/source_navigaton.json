@@ -33,67 +33,11 @@
       "click": true
     },
     {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
-      "click": true
-    },
-    {
-      "name": "大标题",
-      "pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4116929131,507038119&fm=26&gp=0.jpg",
-      "url": "测试",
-      "type": "测试",
-      "subTitle": "小标题小标题小标题小标题小标题",
+      "name": "直播源",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4200.jpg",
+      "url": "https://gitee.com/xiliuwangluo/zby/raw/master/yuan.m3u8",
+      "type": "m3u",
+      "subTitle": "央视卫视影视直播",
       "click": true
     }
   ]
