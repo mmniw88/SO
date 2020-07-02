@@ -197,7 +197,7 @@
         }
     },
     {
-        "search_url": "http://1090ys.com/?c=search",
+        "search_url": "http://1090ys1.com/?c=search",
         "web_name": "1090影视",
         "kw": "wd",
         "params": [
