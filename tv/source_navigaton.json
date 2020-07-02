@@ -2,30 +2,6 @@
   "data": [
 
     {
-      "name": "木乃伊系列",
-      "pic": "http://pic7.iqiyipic.com/common/lego/20170609/2d8de9e879e24dcab785c73318bf6587.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/munaiyi.json",
-      "type": "gitJson",
-      "subTitle": "木乃伊复活暗黑来袭整理中",
-      "click": true
-    },
-    {
-      "name": "海盗系列",
-      "pic": "http://pic0.iqiyipic.com/common/lego/20170605/0d8a5c22c7ba40519350ef68f4039095.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/haidao.json",
-      "type": "gitJson",
-      "subTitle": "海盗系列电影整理中",
-      "click": true
-    },
-    {
-      "name": "漫威系列",
-      "pic": "http://pic8.iqiyipic.com/common/lego/20170509/6b6b280a938d40fd8097bfae6fb2b57a.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/manwei.json",
-      "type": "gitJson",
-      "subTitle": "百看不厌的漫威超级英雄！",
-      "click": true
-    },
-    {
       "name": "直播源",
       "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/live.m3u",
