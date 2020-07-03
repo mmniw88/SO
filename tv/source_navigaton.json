@@ -11,8 +11,8 @@
     },
     {
       "name": "动画电影",
-      "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/donghuadianying.m3u",
+      "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p4187.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/donghuadianying.json",
       "type": "gitJson",
       "subTitle": "经典动画电影",
       "click": true
