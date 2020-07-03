@@ -265,7 +265,7 @@
                 "iframeAttr": "src",
                 "iframeIndex": 0,
                 "isFrame": true,
-                "isFrameProcess": false,
+                "isFrameProcess": true,
                 "isItemAttr": false,
                 "isNameAttr": false,
                 "isReg": true,
@@ -294,7 +294,12 @@
         }
     },
     {
-        "search_url": "https://www.weixintv8.com/index.php?m=vod-search",
+        "search_url": "https://www.weixintv8.com/index.php?m=vod-search
+
+
+
+
+        ",
         "web_name": "微信影院",
         "kw": "wd",
         "params": [
