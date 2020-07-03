@@ -81,10 +81,16 @@
           "url": "https://cdn.egame.qq.com/pgg-play/module/livelist.html?layoutid=2000000110"
         },
         {
-          "name": "南瓜影视",
+          "name": "蓝光高清",
           "type": "app://customWeb",
-          "pic": "http://www.baidu.com/aaa.jpg",
-          "url": "http://www.nangua5.com/&&&dlads,njcn888,longdidi"
+          "pic": "1",
+          "url": "https://www.magedn.com/"
+        },
+        {
+          "name": "低端影视",
+          "type": "app://customWeb",
+          "pic": "1",
+          "url": "https://ddrk.me/&&a2dc053a2eab8dbt.png,pbw/333.jpg,A9jmsY41EwiUzou.png"
         },
         {
           "name": "NOW影视",
@@ -93,16 +99,22 @@
           "url": "https://www.novipnoad.com/"
         },
         {
-          "name": "完美看看",
-          "type": "app://customWeb",
-          "pic": "http://www.baidu.com/aaa.jpg",
-          "url": "https://www.wanmeikk.me/&&&2qux,hzyyhz"
-        },
-        {
           "name": "独播库",
           "type": "app://customWeb",
           "pic": "http://www.baidu.com/aaa.jpg",
           "url": "https://www.duboku.net/&&&ads"
+        },
+        {
+          "name": "南瓜影视",
+          "type": "app://customWeb",
+          "pic": "http://www.baidu.com/aaa.jpg",
+          "url": "http://www.nangua5.com/&&&dlads,njcn888,longdidi"
+        },
+        {
+          "name": "完美看看",
+          "type": "app://customWeb",
+          "pic": "http://www.baidu.com/aaa.jpg",
+          "url": "https://www.wanmeikk.me/&&&2qux,hzyyhz"
         },
         {
           "name": "1090影视",
@@ -216,7 +228,8 @@
           "type": "app://m3u",
           "pic": "",
           "url": "https://iptv-org.github.io/iptv/languages/zho.m3u"
-        },        {
+        },
+        {
           "name": "直播频道2",
           "type": "app://m3u",
           "pic": "",
