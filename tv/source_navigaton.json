@@ -31,6 +31,14 @@
       "type": "gitJson",
       "subTitle": "经典动画电影整理中",
       "click": true
+    },
+    {
+      "name": "豆瓣TOP100",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "gitJson",
+      "subTitle": "豆瓣TOP100",
+      "click": true
     }
   ]
 }
