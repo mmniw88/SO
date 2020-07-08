@@ -1,49 +1,6 @@
 {
   "data": [
-    {
-      "name": "直播源",
-      "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/live.m3u",
-      "type": "m3u",
-      "subTitle": "影视24小时直播整理中",
-      "click": true,
-      "webPlus": {}
-    },
-    {
-      "name": "直播源",
-      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3203.jpg",
-      "url": "https://gitee.com/guyuexuan/iptv/raw/master/ysp.m3u",
-      "type": "m3u",
-      "subTitle": "央视卫视高清直播源",
-      "click": true,
-      "webPlus": {}
-    },
-    {
-      "name": "在线教育",
-      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3740.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/studay.m3u",
-      "type": "m3u",
-      "subTitle": "收集在线教育学习频道",
-      "click": true,
-      "webPlus": {}
-    },
-    {
-      "name": "动画电影",
-      "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p4187.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/donghuadianying.json",
-      "type": "gitJson",
-      "subTitle": "经典动画电影整理中",
-      "click": true,
-      "webPlus": {}
-    },
-    {
-      "name": "豆瓣TOP100",
-      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
-      "type": "gitJson",
-      "subTitle": "豆瓣TOP100",
-      "click": true
-    },
+
     {
       "name": "Web插件",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
@@ -219,7 +176,8 @@
             "1",
             "2",
             "3",
-            "4"
+            "4",
+            "7"
           ],
           "page": "1"
         },
