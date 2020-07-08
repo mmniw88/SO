@@ -75,7 +75,7 @@
             "7",
             "4"
           ],
-          "page": "0"
+          "page": "1"
         },
         "html": {
           "episodes": {
@@ -107,7 +107,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "div.meta",
+            "descCss": "div.hdtag",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "src",
