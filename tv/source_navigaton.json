@@ -42,109 +42,109 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "gitJson",
       "subTitle": "豆瓣TOP100",
+      "click": true
+    },
+    {
+      "name": "Web插件",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "webPlus",
+      "subTitle": "开发测试中...",
       "click": true,
       "webPlus": {
-        "name": "豆瓣TOP100",
-        "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
-        "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
-        "type": "webPlug",
-        "subTitle": "豆瓣TOP100",
-        "click": true,
-        "data": {
-          "search_url": "http://1090ys1.com/?c=search",
-          "web_name": "1090影视",
-          "kw": "wd",
-          "params": [
-            {
-              "key": "key",
-              "value": "value"
-            }
-          ],
-          "html": {
-            "episodes": {
-              "hasUrlPrefix": false,
-              "isListItemAttr": true,
-              "isReg": false,
-              "isRegNeedDecoder": false,
-              "listCss": "ul > li",
-              "isMultiList": false,
-              "listCssMulti": "",
-              "listItemAttr": "href",
-              "listItemCss": "a",
-              "listItemIndex": 0,
-              "mainCss": "div#play_1",
-              "mainIndex": 0,
-              "regIndexList": [
-                0
-              ],
-              "regItemIndex": 0,
-              "regItemStr": "",
-              "regSplitList": [
-                ""
-              ],
-              "regStrList": [
-                ""
-              ]
-            },
-            "search": {
-              "isKWInUrl": false,
-              "isWebPlay": false,
-              "descAttr": "",
-              "descCss": "div.detail",
-              "descIndex": 0,
-              "hasUrlPrefix": false,
-              "imgAttr": "data-original",
-              "imgCss": "a",
-              "imgIndex": 0,
-              "isDescAttr": false,
-              "isImgAttr": true,
-              "isNameAttr": true,
-              "isUrlAttr": true,
-              "mainCss": "div.stui-pannel_bd",
-              "mainListIndex": 0,
-              "nameAttr": "title",
-              "nameCss": "a",
-              "nameIndex": 0,
-              "searchListCss": "ul > li",
-              "urlAttr": "href",
-              "urlCss": "a",
-              "urlIndex": 0
-            },
-            "video": {
-              "episodesListCss": "",
-              "episodesMainCss": "",
-              "episodesMainIndex": 0,
-              "hasEpisodes": false,
-              "hasUrlPrefix": false,
-              "iframeAttr": "src",
-              "iframeIndex": 0,
-              "isFrame": true,
-              "isFrameProcess": false,
-              "isItemAttr": false,
-              "isNameAttr": false,
-              "isReg": true,
-              "isUrlAttr": false,
-              "itemAttr": "",
-              "itemCss": "script",
-              "itemIndex": 2,
-              "mainCss": "body",
-              "mainIndex": 0,
-              "nameAttr": "",
-              "nameCss": "",
-              "nameIndex": 0,
-              "regIndex": 0,
-              "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
-              "title": "",
-              "urlAttr": "",
-              "urlCss": "",
-              "urlIndex": 0,
-              "videoCss": "",
-              "videoIndex": 1,
-              "isVideoUrlAttr": true,
-              "videoUrlAttr": "",
-              "isFromWebView": false,
-              "js": ""
-            }
+        "search_url": "http://1090ys1.com/?c=search",
+        "web_name": "1090影视",
+        "kw": "wd",
+        "params": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "isReg": false,
+            "isRegNeedDecoder": false,
+            "listCss": "ul > li",
+            "isMultiList": false,
+            "listCssMulti": "",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div#play_1",
+            "mainIndex": 0,
+            "regIndexList": [
+              0
+            ],
+            "regItemIndex": 0,
+            "regItemStr": "",
+            "regSplitList": [
+              ""
+            ],
+            "regStrList": [
+              ""
+            ]
+          },
+          "search": {
+            "isKWInUrl":false,
+            "isWebPlay":false,
+            "descAttr": "",
+            "descCss": "div.detail",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.stui-pannel_bd",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "video": {
+            "episodesListCss": "",
+            "episodesMainCss": "",
+            "episodesMainIndex": 0,
+            "hasEpisodes": false,
+            "hasUrlPrefix": false,
+            "iframeAttr": "src",
+            "iframeIndex": 0,
+            "isFrame": true,
+            "isFrameProcess": false,
+            "isItemAttr": false,
+            "isNameAttr": false,
+            "isReg": true,
+            "isUrlAttr": false,
+            "itemAttr": "",
+            "itemCss": "script",
+            "itemIndex": 2,
+            "mainCss": "body",
+            "mainIndex": 0,
+            "nameAttr": "",
+            "nameCss": "",
+            "nameIndex": 0,
+            "regIndex": 0,
+            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "title": "",
+            "urlAttr": "",
+            "urlCss": "",
+            "urlIndex": 0,
+            "videoCss": "",
+            "videoIndex": 1,
+            "isVideoUrlAttr": true,
+            "videoUrlAttr": "",
+            "isFromWebView": false,
+            "js": ""
           }
         }
       }
