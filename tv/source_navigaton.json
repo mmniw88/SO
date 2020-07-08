@@ -107,7 +107,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "div.hdtag",
+            "descCss": "button.hdtag",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "src",
