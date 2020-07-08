@@ -1,0 +1,339 @@
+{
+  "data": [
+    {
+      "name": "直播源",
+      "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/live.m3u",
+      "type": "m3u",
+      "subTitle": "影视24小时直播整理中",
+      "click": true,
+      "webPlus": {}
+    },
+    {
+      "name": "直播源",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3203.jpg",
+      "url": "https://gitee.com/guyuexuan/iptv/raw/master/ysp.m3u",
+      "type": "m3u",
+      "subTitle": "央视卫视高清直播源",
+      "click": true,
+      "webPlus": {}
+    },
+    {
+      "name": "在线教育",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3740.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/studay.m3u",
+      "type": "m3u",
+      "subTitle": "收集在线教育学习频道",
+      "click": true,
+      "webPlus": {}
+    },
+    {
+      "name": "动画电影",
+      "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p4187.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/donghuadianying.json",
+      "type": "gitJson",
+      "subTitle": "经典动画电影整理中",
+      "click": true,
+      "webPlus": {}
+    },
+    {
+      "name": "豆瓣TOP100",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "gitJson",
+      "subTitle": "豆瓣TOP100",
+      "click": true
+    },
+    {
+      "name": "Web插件",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "webPlug",
+      "subTitle": "开发测试中...",
+      "click": true,
+      "webPlus": {
+        "search_url": "http://www.9rmb.com/search?wd=",
+        "nav_url": "http://www.9rmb.com/type/navCate/navPage.html",
+        "web_name": "1090影视",
+        "kw": "wd",
+        "params": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "navHtml": {
+          "name": [
+            "电影",
+            "电视剧",
+            "动漫",
+            "综艺"
+          ],
+          "cate": [
+            "1",
+            "2",
+            "7",
+            "4"
+          ],
+          "page": "1"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "isReg": false,
+            "isRegNeedDecoder": false,
+            "listCss": "ul > li",
+            "isMultiList": false,
+            "listCssMulti": "",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.panel.panel-default.resource-list",
+            "mainIndex": 0,
+            "regIndexList": [
+              0
+            ],
+            "regItemIndex": 0,
+            "regItemStr": "",
+            "regSplitList": [
+              ""
+            ],
+            "regStrList": [
+              ""
+            ]
+          },
+          "nav": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "button.hdtag",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "src",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.row",
+            "mainListIndex": 1,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "div.col-md-1-5 > div.movie-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "div.detail",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.stui-pannel_bd",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "video": {
+            "episodesListCss": "",
+            "episodesMainCss": "",
+            "episodesMainIndex": 0,
+            "hasEpisodes": false,
+            "hasUrlPrefix": false,
+            "iframeAttr": "src",
+            "iframeIndex": 0,
+            "isFrame": true,
+            "isFrameProcess": false,
+            "isItemAttr": false,
+            "isNameAttr": false,
+            "isReg": true,
+            "isUrlAttr": false,
+            "itemAttr": "",
+            "itemCss": "script",
+            "itemIndex": 2,
+            "mainCss": "body",
+            "mainIndex": 0,
+            "nameAttr": "",
+            "nameCss": "",
+            "nameIndex": 0,
+            "regIndex": 0,
+            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "title": "",
+            "urlAttr": "",
+            "urlCss": "",
+            "urlIndex": 0,
+            "videoCss": "",
+            "videoIndex": 1,
+            "isVideoUrlAttr": true,
+            "videoUrlAttr": "",
+            "isFromWebView": false,
+            "js": ""
+          }
+        }
+      }
+    },
+    {
+      "name": "Web插件",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "webPlug",
+      "subTitle": "开发测试中...",
+      "click": true,
+      "webPlus": {
+        "search_url": "http://1090ys.com/?c=search",
+        "nav_url": "http://1090ys1.com/whole/navCate_______0_addtime_navPage.html",
+        "web_name": "1090影视",
+        "kw": "wd",
+        "params": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "navHtml": {
+          "name": [
+            "电影",
+            "美剧",
+            "韩剧",
+            "日剧",
+            "国产剧"
+          ],
+          "cate": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "page": "1"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "isReg": false,
+            "isRegNeedDecoder": false,
+            "listCss": "ul > li",
+            "isMultiList": false,
+            "listCssMulti": "",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div#play_1",
+            "mainIndex": 0,
+            "regIndexList": [
+              0
+            ],
+            "regItemIndex": 0,
+            "regItemStr": "",
+            "regSplitList": [
+              ""
+            ],
+            "regStrList": [
+              ""
+            ]
+          },
+          "nav": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "span.pic-text.text-right",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.stui-pannel_bd",
+            "mainListIndex": 1,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "div.detail",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.stui-pannel_bd",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "video": {
+            "episodesListCss": "",
+            "episodesMainCss": "",
+            "episodesMainIndex": 0,
+            "hasEpisodes": false,
+            "hasUrlPrefix": false,
+            "iframeAttr": "src",
+            "iframeIndex": 0,
+            "isFrame": true,
+            "isFrameProcess": false,
+            "isItemAttr": false,
+            "isNameAttr": false,
+            "isReg": true,
+            "isUrlAttr": false,
+            "itemAttr": "",
+            "itemCss": "script",
+            "itemIndex": 2,
+            "mainCss": "body",
+            "mainIndex": 0,
+            "nameAttr": "",
+            "nameCss": "",
+            "nameIndex": 0,
+            "regIndex": 0,
+            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "title": "",
+            "urlAttr": "",
+            "urlCss": "",
+            "urlIndex": 0,
+            "videoCss": "",
+            "videoIndex": 1,
+            "isVideoUrlAttr": true,
+            "videoUrlAttr": "",
+            "isFromWebView": false,
+            "js": ""
+          }
+        }
+      }
+    }
+  ]
+}
