@@ -222,7 +222,7 @@
             "isNameAttr": true,
             "isUrlAttr": true,
             "mainCss": "div.stui-pannel_bd",
-            "mainListIndex": 1,
+            "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
