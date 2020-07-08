@@ -48,7 +48,7 @@
       "name": "Web插件",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
-      "type": "webPlus",
+      "type": "webPlug",
       "subTitle": "开发测试中...",
       "click": true,
       "webPlus": {
