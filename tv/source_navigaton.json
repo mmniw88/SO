@@ -107,7 +107,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "div.detail",
+            "descCss": "div.meta",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "src",
