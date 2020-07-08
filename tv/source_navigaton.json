@@ -7,7 +7,7 @@
       "type": "m3u",
       "subTitle": "影视24小时直播整理中",
       "click": true,
-      "webPlus":{}
+      "webPlus": {}
     },
     {
       "name": "直播源",
@@ -16,7 +16,7 @@
       "type": "m3u",
       "subTitle": "央视卫视高清直播源",
       "click": true,
-      "webPlus":{}
+      "webPlus": {}
     },
     {
       "name": "在线教育",
@@ -25,7 +25,7 @@
       "type": "m3u",
       "subTitle": "收集在线教育学习频道",
       "click": true,
-      "webPlus":{}
+      "webPlus": {}
     },
     {
       "name": "动画电影",
@@ -34,7 +34,7 @@
       "type": "gitJson",
       "subTitle": "经典动画电影整理中",
       "click": true,
-      "webPlus":{}
+      "webPlus": {}
     },
     {
       "name": "豆瓣TOP100",
@@ -52,7 +52,8 @@
       "subTitle": "开发测试中...",
       "click": true,
       "webPlus": {
-        "search_url": "http://1090ys1.com/?c=search",
+        "search_url": "http://www.9rmb.com/search?wd=",
+        "nav_url": "http://www.9rmb.com/type/navCate/navPage.html",
         "web_name": "1090影视",
         "kw": "wd",
         "params": [
@@ -61,6 +62,21 @@
             "value": "value"
           }
         ],
+        "navHtml": {
+          "name": [
+            "电影",
+            "电视剧",
+            "动漫",
+            "综艺"
+          ],
+          "cate": [
+            "1",
+            "2",
+            "7",
+            "4"
+          ],
+          "page": "0"
+        },
         "html": {
           "episodes": {
             "hasUrlPrefix": false,
@@ -87,9 +103,33 @@
               ""
             ]
           },
+          "nav": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "div.detail",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "src",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.row",
+            "mainListIndex": 1,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "div.col-md-1-5 > div.movie-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
           "search": {
-            "isKWInUrl":false,
-            "isWebPlay":false,
+            "isKWInUrl": false,
+            "isWebPlay": false,
             "descAttr": "",
             "descCss": "div.detail",
             "descIndex": 0,
