@@ -552,7 +552,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.stui-vodlist.clearfix",
+            "mainCss": "div.stui-pannel.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
