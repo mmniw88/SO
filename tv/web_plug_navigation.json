@@ -159,7 +159,7 @@
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3190.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清速度快有筛选(菜单键或上下键选集)",
+      "subTitle": "高清速度快有筛选(无法播放先设置解码器为IJK)",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
