@@ -5,7 +5,7 @@
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清无筛选(菜单键选集)",
+      "subTitle": "高清无筛选(菜单键或上下键选集)",
       "click": true,
       "webPlus": {
         "search_url": "http://www.9rmb.com/search?wd=",
@@ -159,7 +159,7 @@
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3190.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清速度快有筛选(菜单键选集)",
+      "subTitle": "高清速度快有筛选(菜单键或上下键选集)",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
@@ -313,7 +313,7 @@
       "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p3725.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清无筛选(菜单键选集)",
+      "subTitle": "高清无筛选(菜单键或上下键选集)",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
@@ -475,7 +475,7 @@
       "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p3728.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清有筛选(菜单键选集)",
+      "subTitle": "高清有筛选(菜单键或上下键选集)",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
