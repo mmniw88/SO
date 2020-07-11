@@ -229,7 +229,7 @@
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasUrlPrefix": false,
-            "imgAttr": "a",
+            "imgAttr": "div",
             "imgCss": "data-original",
             "imgIndex": 0,
             "isDescAttr": false,
