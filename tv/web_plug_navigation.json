@@ -236,7 +236,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.myui-panel_bd",
+            "mainCss": "div.myui-panel-box.clearfix > div.myui-panel_bd",
             "mainListIndex": 2,
             "nameAttr": "title",
             "nameCss": "a",
