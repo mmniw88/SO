@@ -2,63 +2,63 @@
   "data": [
     {
       "id": 1,
-      "name": "123(推荐)",
+      "name": "123云(资源站)",
       "url": "http://cj.123ku2.com:12315/inc/123kum3u8.php",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 4,
-      "name": "OK(推荐)",
+      "name": "OK云(资源站)",
       "url": "http://cj.okzy.tv/inc/apickm3u8s.php",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 5,
-      "name": "小小影视(首选)",
+      "name": "小小影视(自建站)",
       "url": "https://n7ro4n501yq4xz577ety.leleapps.com/search?wd={keywords}&schtype=0&page=1&apiVersion=29&deviceModel=VOG-AL00&brand=HUAWEI&deviceName=HWVOG&serial=unknown&platform=android&version=2.1.32",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 6,
-      "name": "209(推荐)",
+      "name": "209云(资源站)",
       "url": "http://cj.1156zy.com/inc/33uuck.php",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 10,
-      "name": "158(推荐)",
+      "name": "158云(资源站)",
       "url": "http://cj.158zyz.net:158/inc/158m3u8.php",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 18,
-      "name": "最大",
+      "name": "最大云(资源站)",
       "url": "http://www.zdziyuan.com/inc/api_zuidam3u8.php",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 19,
-      "name": "人人美剧",
+      "name": "人人美剧(资源站)",
       "url": "https://www.rrzy.cc/api.php/provide/vod/from/rrm3u8/at/xml/",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 20,
-      "name": "八戒(推荐)",
+      "name": "八戒云(资源站)",
       "url": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
       "click": true,
       "wePlus": {}
     },
     {
       "id": 23,
-      "name": "135",
+      "name": "135云(资源站)",
       "url": "http://cj.zycjw1.com/inc/135m3u8.php",
       "click": true,
       "wePlus": {}
