@@ -225,7 +225,7 @@
       "subTitle": "高清速度快有筛选(无法播放先设置解码器为IJK)",
       "click": false,
       "webPlus": {
-        "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd={wd}",
+        "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd={kw}",
         "nav_url": "https://www.muguangys.xyz/vodtype/navCate-navPage.html",
         "cate_url": "https://www.muguangys.xyz/vodshow/cateNav-cateArea--cateCate-----catePage---cateYear.html",
         "web_name": "暮光影视",
