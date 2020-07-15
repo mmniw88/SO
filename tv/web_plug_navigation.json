@@ -160,7 +160,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清速度快有筛选(无法播放先设置解码器为IJK)",
-      "click": false,
+      "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
         "nav_url": "https://www.muguangys.xyz/vodtype/navCate-navPage.html",
