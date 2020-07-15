@@ -313,7 +313,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "div.detail",
+            "descCss": "span.pic-tag.pic-tag-top",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
