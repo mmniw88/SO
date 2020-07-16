@@ -377,7 +377,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清有筛选(菜单键或上下键选集)",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "http://www.9ekk.com/vodsearch91.html?wd={kw}&submit=",
         "nav_url": "http://www.9ekk.com/vodshow/cateNav.html",
