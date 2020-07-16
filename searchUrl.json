@@ -425,7 +425,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.tab-content.myui-panel_bd",
+            "mainCss": "div#playlist4",
             "mainIndex": 0,
             "regIndexList": [
               0
