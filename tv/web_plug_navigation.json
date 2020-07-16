@@ -633,8 +633,8 @@
       "click": true,
       "webPlus": {
         "search_url": "https://www.k1080.net/index.php/vodshow/-------------.html?wd=",
-        "nav_url": "https://www.k1080.net/index.php/vodtype/cateNav.html",
-        "cate_url": "https://www.k1080.net/index.php/vodshow/cateNav-cateArea--cateCate-----catePage---cateYear.html",
+        "nav_url": "https://www.k1080.net/index.php/vodtype/navCate.html",
+        "cate_url": "https://www.k1080.net/index.php/vodshow/navCate-cateArea--cateCate-----catePage---cateYear.html",
         "web_name": "1080影视",
         "kw": "wd",
         "params": [
@@ -787,8 +787,8 @@
       "click": true,
       "webPlus": {
         "search_url": "http://www.9ekk.com/vodsearch91.html?wd={kw}&submit=",
-        "nav_url": "http://www.9ekk.com/vodshow/cateNav/page/navPage.html",
-        "cate_url": "http://www.9ekk.com/vodshow/cateNav/area/cateArea/class/cateCate/page/catePage/year/cateYear.html",
+        "nav_url": "http://www.9ekk.com/vodshow/navCate/page/navPage.html",
+        "cate_url": "http://www.9ekk.com/vodshow/navCate/area/cateArea/class/cateCate/page/catePage/year/cateYear.html",
         "web_name": "9亿看看",
         "kw": "wd",
         "params": [
