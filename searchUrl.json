@@ -323,7 +323,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.myui-panel_bd col-pd.clearfix",
+            "mainCss": "div.myui-panel_bd.col-pd.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
