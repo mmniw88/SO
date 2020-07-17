@@ -826,7 +826,7 @@
       "subTitle": "最低720P(菜单键或上下键选集)",
       "click": true,
       "webPlus": {
-        "search_url": "https://www.k1080.net/index.php/vodshow/-------------.html?wd=",
+        "search_url": "https://www.subaibai.com/search/{kw}/",
         "nav_url": "https://www.subaibai.com/movie_bt/movie_bt_series/navCate/page/navPage",
         "cate_url": "https://www.k1080.net/index.php/vodshow/navCate-cateArea--cateCate-----catePage---cateYear.html",
         "web_name": "1080影视",
