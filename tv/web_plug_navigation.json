@@ -882,7 +882,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.bt_img mi_ne_kd mrb",
+            "mainCss": "div.bt_img mi_ne_kd.mrb",
             "mainListIndex": 1,
             "nameAttr": "title",
             "nameCss": "a",
