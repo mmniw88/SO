@@ -936,7 +936,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "span.qb",
+            "descCss": "div.hdinfo",
             "descIndex": 0,
             "hasUrlPrefix": true,
             "imgAttr": "data-original",
