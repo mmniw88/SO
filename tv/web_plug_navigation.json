@@ -633,8 +633,8 @@
       "click": true,
       "webPlus": {
         "search_url": "https://www.k1080.net/index.php/vodshow/-------------.html?wd=",
-        "nav_url": "https://www.k1080.net/index.php/vodtype/navCate.html",
-        "cate_url": "https://www.k1080.net/index.php/vodshow/navCate-cateArea--cateCate-----catePage---cateYear.html",
+        "nav_url": "https://www.k1080.net/index.php/vodtype/navCate-navPage.html",
+        "cate_url": "https://www.k1080.net/index.php/vodshow/cateNav-cateArea--cateCate-----catePage---cateYear.html",
         "web_name": "1080影视",
         "kw": "wd",
         "params": [
@@ -788,7 +788,7 @@
       "webPlus": {
         "search_url": "https://www.k1080.net/index.php/vodshow/-------------.html?wd=",
         "nav_url": "https://www.subaibai.com/movie_bt/movie_bt_series/navCate/page/navPage",
-        "cate_url": "https://www.k1080.net/index.php/vodshow/navCate-cateArea--cateCate-----catePage---cateYear.html",
+        "cate_url": "https://www.k1080.net/index.php/vodshow/cateNav-cateArea--cateCate-----catePage---cateYear.html",
         "web_name": "1080影视",
         "kw": "wd",
         "params": [
