@@ -6,6 +6,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清无筛选(菜单键或上下键选集)",
+      "subMobileTitle": "高清无筛选",
       "click": true,
       "webPlus": {
         "search_url": "http://www.9rmb.com/search?wd={kw}",
@@ -160,6 +161,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清速度快有筛选(菜单键或上下键选集)",
+      "subMobileTitle": "高清速度快有筛选",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
@@ -314,6 +316,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清无筛选(菜单键或上下键选集)",
+      "subMobileTitle": "高清无筛选",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
@@ -476,6 +479,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清有筛选(菜单键或上下键选集)",
+      "subMobileTitle": "高清有筛选",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
@@ -630,6 +634,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清有筛选(菜单键或上下键选集)",
+      "subMobileTitle": "高清有筛选",
       "click": true,
       "webPlus": {
         "search_url": "https://www.k1080.net/index.php/vodshow/-------------.html?wd=",
@@ -784,6 +789,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "最低720P(菜单键或上下键选集)",
+      "subMobileTitle": "最低720P",
       "click": true,
       "webPlus": {
         "search_url": "https://www.k1080.net/index.php/vodshow/-------------.html?wd=",
@@ -961,6 +967,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "超高清有筛选先别用",
+      "subMobileTitle": "超高清有筛选先别用",
       "click": false,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
@@ -1115,6 +1122,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清有筛选经常抽风不推荐",
+      "subMobileTitle": "高清有筛选经常抽风不推荐",
       "click": false,
       "webPlus": {
         "search_url": "http://1090ys.com/?c=search",
