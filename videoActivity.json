@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "error": null,
+  "data": {
+    "banner": [
+      {
+        "id": 1,
+        "name": "717",
+        "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01zSkzBN2JJi1icR589_!!2053469401.gif",
+        "url": "https://s.click.taobao.com/4BBBTyu",
+        "color": "#FFFFFF",
+        "type": "url://taobao"
+      }
+    ],
+    "activity": [
+      {
+        "id": 1,
+        "name": "大牌鞋子",
+        "pic": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01TCa00d2JJi1bBBbLG_!!2053469401.jpg",
+        "url": "https://s.click.taobao.com/cnABTyu",
+        "color": "11",
+        "type": "url://taobao"
+      },
+      {
+        "id": 2,
+        "name": "淘宝主会场",
+        "pic": "https://img.alicdn.com/imgextra/i1/2053469401/O1CN01swmtIq2JJi1ecSGze_!!2053469401.jpg",
+        "url": "https://s.click.taobao.com/cnABTyu",
+        "color": "11",
+        "type": "url://taobao"
+      },
+      {
+        "id": 3,
+        "name": "天猫主会场",
+        "pic": "https://img.alicdn.com/imgextra/i1/2053469401/O1CN013qLqVD2JJi1f8R1TA_!!2053469401.png",
+        "url": "https://s.click.taobao.com/kNqATyu",
+        "color": "1",
+        "type": "url://taobao"
+      },
+      {
+        "id": 4,
+        "name": "全球尖货",
+        "pic": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01DhRxob2JJi1gIWMt9_!!2053469401.jpg",
+        "url": "https://s.click.taobao.com/PzYQSyu",
+        "color": "1",
+        "type": "url://taobao"
+      }
+    ]
+  }
+}
