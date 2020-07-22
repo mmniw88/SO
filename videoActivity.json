@@ -28,16 +28,16 @@
         "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2170.jpg",
         "url": "https://s.click.taobao.com/cnABTyu",
         "color": "11",
-        "type": "url://taobao",
+        "type": "app://updateInfo",
         "show": true
       },
       {
         "id": 2,
-        "name": "小说阅读",
+        "name": "电视直播",
         "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p2166.jpg",
-        "url": "https://s.click.taobao.com/cnABTyu",
+        "url": "https://iptv-org.github.io/iptv/languages/zho.m3u",
         "color": "11",
-        "type": "url://taobao",
+        "type": "app://m3u",
         "show": true
       },
       {
@@ -47,7 +47,7 @@
         "url": "https://s.click.taobao.com/kNqATyu",
         "color": "1",
         "type": "url://taobao",
-        "show": true
+        "show": false
       },
       {
         "id": 4,
@@ -56,7 +56,7 @@
         "url": "https://s.click.taobao.com/PzYQSyu",
         "color": "1",
         "type": "url://taobao",
-        "show": true
+        "show": false
       }
     ]
   }
