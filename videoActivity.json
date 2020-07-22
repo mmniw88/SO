@@ -6,11 +6,19 @@
       {
         "id": 1,
         "name": "717",
-        "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594899664593",
+        "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p1700.jpg",
         "url": "https://s.click.taobao.com/4BBBTyu",
         "color": "#FFFFFF",
         "type": "url://taobao",
         "show": false
+      }, {
+        "id": 1,
+        "name": "717",
+        "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594899664593",
+        "url": "https://s.click.taobao.com/4BBBTyu",
+        "color": "#FFFFFF",
+        "type": "url://taobao",
+        "show": true
       }
     ],
     "activity": [
