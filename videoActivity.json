@@ -21,7 +21,7 @@
         "url": "https://s.click.taobao.com/cnABTyu",
         "color": "11",
         "type": "url://taobao",
-        "show": true
+        "show": false
       },
       {
         "id": 2,
