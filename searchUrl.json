@@ -22,13 +22,6 @@
       "wePlus": {}
     },
     {
-      "id": 10,
-      "name": "158云(资源站)",
-      "url": "http://cj.158zyz.net:158/inc/158m3u8.php",
-      "click": true,
-      "wePlus": {}
-    },
-    {
       "id": 18,
       "name": "最大云(资源站)",
       "url": "http://www.zdziyuan.com/inc/api_zuidam3u8.php",
