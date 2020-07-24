@@ -1050,7 +1050,7 @@
             "nameIndex": 0,
             "searchListCss": "li",
             "urlAttr": "href",
-            "urlCss": "a",
+            "urlCss": "div.myui-vodlist__detail > a",
             "urlIndex": 0
           },
           "search": {
