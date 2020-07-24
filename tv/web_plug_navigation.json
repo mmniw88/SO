@@ -74,7 +74,8 @@
             "isWebPlay": false,
             "descAttr": "",
             "descCss": "button.hdtag",
-            "descIndex": 0,
+            "descIndex": 0,            "hasImgUrlPrefix": true,
+
             "hasUrlPrefix": false,
             "imgAttr": "src",
             "imgCss": "img",
@@ -229,7 +230,8 @@
             "isWebPlay": false,
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
-            "descIndex": 0,
+            "descIndex": 0,            "hasImgUrlPrefix": true,
+
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
@@ -393,6 +395,8 @@
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
+
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
@@ -548,6 +552,8 @@
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
+
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
@@ -703,6 +709,8 @@
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
+
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
@@ -880,6 +888,8 @@
             "descAttr": "",
             "descCss": "span.qb",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
+
             "hasUrlPrefix": true,
             "imgAttr": "data-original",
             "imgCss": "img",
@@ -1036,6 +1046,7 @@
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasUrlPrefix": false,
+            "hasImgUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
             "imgIndex": 0,
@@ -1115,7 +1126,6 @@
         }
       }
     },
-
     {
       "name": "独播库",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
@@ -1191,6 +1201,7 @@
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
@@ -1348,6 +1359,7 @@
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
