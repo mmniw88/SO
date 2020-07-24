@@ -993,7 +993,7 @@
     },
     {
       "id": 2,
-      "name": "奈菲影视",
+      "name": "奈菲影视(云插件)",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3190.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
