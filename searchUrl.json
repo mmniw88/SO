@@ -841,40 +841,8 @@
           }
         ],
         "navHtml": {
-          "name": [
-            "国产电影",
-            "欧美电影",
-            "港台电影",
-            "日韩电影",
-            "泰国电影",
-            "香港经典电影",
-            "印度电影",
-            "动漫电影",
-            "国产剧",
-            "欧美剧",
-            "韩剧",
-            "日剧",
-            "港台剧",
-            "动漫",
-            "综艺"
-          ],
-          "cate": [
-            "guochandy",
-            "oumeidy",
-            "gangtaidy",
-            "rihandy",
-            "thaidy",
-            "xianggangdy",
-            "yindudy",
-            "documentary",
-            "guochanju",
-            "oumeiju",
-            "hanju",
-            "riju",
-            "gangju",
-            "dongmanju",
-            "zongyi"
-          ],
+          "name": [],
+          "cate": [],
           "page": "1"
         },
         "cateHtml": {
@@ -1020,27 +988,17 @@
           }
         ],
         "navHtml": {
-          "name": [
-            "电影",
-            "电视剧",
-            "动漫",
-            "综艺"
-          ],
-          "cate": [
-            "1",
-            "2",
-            "4",
-            "3"
-          ],
+          "name": [],
+          "cate": [],
           "page": "1"
         },
         "cateHtml": {
           "isCate": true,
           "isYear": true,
           "isArea": true,
-          "cate": "全部,&&动作,动作&&剧情,剧情&&喜剧,喜剧&&爱情,爱情&&科幻,科幻&&惊悚,惊悚&&恐怖,恐怖&&悬疑,悬疑&&奇幻,奇幻古装,古装&&灾难,灾难",
-          "year": "全部,&&2020,2020&&2019,2019&&2018,2018&&2017,2017&&2016,2016&&2015,2015&&2014,2014&&2013,2013&&2012,2012&&2011,2011&&2010,2010&&2009,2009&&2008,2008&&更早,更早",
-          "area": "全部,&&大陆,大陆&&香港,香港&&台湾,台湾&&美国,美国&&法国,法国&&英国,英国&&日本,日本&&韩国,韩国&&印度,印度&&泰国,泰国&&其他,其他"
+          "cate": "",
+          "year": "",
+          "area": ""
         },
         "html": {
           "episodes": {
@@ -1178,18 +1136,8 @@
         ],
         "navHtml": {
           "name": [
-            "电影",
-            "美剧",
-            "韩剧",
-            "日剧",
-            "国产剧"
           ],
           "cate": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "7"
           ],
           "page": "1"
         },
@@ -1268,6 +1216,153 @@
             "isNameAttr": true,
             "isUrlAttr": true,
             "mainCss": "ul.stui-vodlist__media.col-pd.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "video": {
+            "episodesListCss": "",
+            "episodesMainCss": "",
+            "episodesMainIndex": 0,
+            "hasEpisodes": false,
+            "hasUrlPrefix": false,
+            "iframeAttr": "src",
+            "iframeIndex": 0,
+            "isFrame": true,
+            "isFrameProcess": false,
+            "isItemAttr": false,
+            "isNameAttr": false,
+            "isReg": true,
+            "isUrlAttr": false,
+            "itemAttr": "",
+            "itemCss": "script",
+            "itemIndex": 2,
+            "mainCss": "body",
+            "mainIndex": 0,
+            "nameAttr": "",
+            "nameCss": "",
+            "nameIndex": 0,
+            "regIndex": 0,
+            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "title": "",
+            "urlAttr": "",
+            "urlCss": "",
+            "urlIndex": 0,
+            "videoCss": "",
+            "videoIndex": 1,
+            "isVideoUrlAttr": true,
+            "videoUrlAttr": "",
+            "isFromWebView": false,
+            "js": ""
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "哆咪动漫(云插件)",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "webPlug",
+      "subTitle": "高清无筛选",
+      "subMobileTitle": "质量非常之高",
+      "click": true,
+      "webPlus": {
+        "search_url": "http://www.dmdm2020.com/dongmansearch.html?wd={kw}",
+        "nav_url": "http://www.dmdm2020.com/dongmantype/navCate/page/navPage.html",
+        "cate_url": "",
+        "web_name": "1090影视",
+        "kw": "wd",
+        "params": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "navHtml": {
+          "name": [],
+          "cate": [],
+          "page": "1"
+        },
+        "cateHtml": {
+          "isCate": false,
+          "isYear": false,
+          "isArea": false,
+          "cate": "",
+          "year": "",
+          "area": ""
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "isReg": false,
+            "isRegNeedDecoder": false,
+            "listCss": "ul > li",
+            "isMultiList": false,
+            "listCssMulti": "",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div#playlist1",
+            "mainIndex": 0,
+            "regIndexList": [
+              0
+            ],
+            "regItemIndex": 0,
+            "regItemStr": "",
+            "regSplitList": [
+              ""
+            ],
+            "regStrList": [
+              ""
+            ]
+          },
+          "nav": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "span.pic-text.text-right",
+            "descIndex": 0,
+            "hasImgUrlPrefix": true,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul.myui-vodlist.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "span.pic-text.text-right",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul#searchList",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
