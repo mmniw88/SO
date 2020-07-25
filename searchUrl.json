@@ -9,6 +9,13 @@
     },
     {
       "id": 1,
+      "name": "天空云(资源站)",
+      "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/at/xml/",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
       "name": "OK云(资源站)",
       "url": "http://cj.okzy.tv/inc/apickm3u8s.php",
       "click": true,
