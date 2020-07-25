@@ -1289,7 +1289,7 @@
       "type": "webPlug",
       "subTitle": "高清有筛选经常抽风不推荐",
       "subMobileTitle": "高清有筛选经常抽风不推荐",
-      "click": false,
+      "click": true,
       "webPlus": {
         "search_url": "http://1090ys.com/?c=search",
         "nav_url": "http://1090ys1.com/whole/navCate_______0_addtime_navPage.html",
