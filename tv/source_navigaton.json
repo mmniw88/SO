@@ -24,7 +24,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/studay.m3u",
       "type": "m3u",
       "subTitle": "收集在线教育学习频道",
-      "click": true,
+      "click": false,
       "webPlus": {}
     },
     {
