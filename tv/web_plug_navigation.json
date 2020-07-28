@@ -1766,7 +1766,7 @@
       "type": "webPlug",
       "subTitle": "高清有筛选",
       "subMobileTitle": "清晰1080P/4K最高60帧",
-      "click": false,
+      "click": true,
       "webPlus": {
         "search_url": "http://www.dmdm2020.com/dongmansearch.html?wd={kw}",
         "nav_url": "http://www.9ekk.com/vodshow/navCate/page/navPage",
@@ -1781,10 +1781,18 @@
         ],
         "navHtml": {
           "name": [
-            "国语配音"
+            "国语配音",
+            "热播电影",
+            "热播电视",
+            "热播美剧",
+            "国内外剧"
           ],
           "cate": [
-            "gypy"
+            "gypy",
+            "zuijinrebodianying",
+            "zuijinrebodianshiju",
+            "rebomeiju",
+            "guoyupeiyinhanju"
           ],
           "page": "1"
         },
