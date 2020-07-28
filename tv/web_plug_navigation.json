@@ -1603,12 +1603,12 @@
       }
     },
     {
-      "name": "国语配音",
+      "name": "国语配音1080P",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清无筛选",
-      "subMobileTitle": "1080P/4K",
+      "subTitle": "高清有筛选",
+      "subMobileTitle": "清晰1080P/4K最高60帧",
       "click": true,
       "webPlus": {
         "search_url": "http://www.dmdm2020.com/dongmansearch.html?wd={kw}",
