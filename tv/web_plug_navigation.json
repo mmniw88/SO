@@ -1760,11 +1760,11 @@
       }
     },
     {
-      "name": "国语配音1080P",
+      "name": "9亿看看",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清有筛选",
+      "subTitle": "高清无筛选",
       "subMobileTitle": "清晰1080P/4K最高60帧",
       "click": true,
       "webPlus": {
