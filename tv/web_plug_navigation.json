@@ -1609,7 +1609,7 @@
       "type": "webPlug",
       "subTitle": "高清有筛选",
       "subMobileTitle": "清晰1080P/4K最高60帧",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "http://www.dmdm2020.com/dongmansearch.html?wd={kw}",
         "nav_url": "http://www.9ekk.com/vodshow/navCate/page/navPage",
