@@ -35,7 +35,7 @@
     "desc": "(福利购)打开浏览器或微信扫一扫看着电视领着优惠",
     "img": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594899664593",
     "scanDesc": "",
-    "show": true,
+    "show": false,
     "isGoods": false,
     "goodsId": "614895243709"
   }
