@@ -319,7 +319,7 @@
       "type": "webPlug",
       "subTitle": "高清无筛选(菜单键或上下键选集)",
       "subMobileTitle": "高清无筛选",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
         "nav_url": "https://www.wanmeikk.me/category/navCate-navPage.html",
