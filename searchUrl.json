@@ -531,7 +531,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清无筛选(菜单键或上下键选集)",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.wanmeikk.me/so/-------------.html?wd={kw}&submit=",
         "nav_url": "https://www.wanmeikk.me/category/navCate-navPage.html",
