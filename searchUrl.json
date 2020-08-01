@@ -974,7 +974,7 @@
       "type": "webPlug",
       "subTitle": "高清速度快有筛选(菜单键或上下键选集)",
       "subMobileTitle": "高清速度快有筛选",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.nfmovies.com/search.php?searchword={kw}",
         "nav_url": "https://www.nfmovies.com/list/?navCate-navPage.html",
@@ -1121,7 +1121,7 @@
       "type": "webPlug",
       "subTitle": "高清有筛选经常抽风不推荐",
       "subMobileTitle": "高清有筛选经常抽风不推荐",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "http://1090ys1.com/?c=search&wd={kw}",
         "nav_url": "http://1090ys1.com/whole/navCate_______0_addtime_navPage.html",
