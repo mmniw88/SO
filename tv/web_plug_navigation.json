@@ -1924,8 +1924,8 @@
       "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p3728.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
-      "subTitle": "高清有筛选(菜单键或上下键选集)",
-      "subMobileTitle": "高清有筛选",
+      "subTitle": "高清无筛选(菜单键或上下键选集)",
+      "subMobileTitle": "高清无筛选",
       "click": true,
       "webPlus": {
         "search_url": "https://www.muguangys.xyz/vodsearch/-------------.html?wd=",
