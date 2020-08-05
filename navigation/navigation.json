@@ -199,11 +199,18 @@
           "type": "app://customWeb",
           "pic": "h",
           "url": "https://www.edu-hb.com/&&&efacepop,ff01s"
-        },        {
+        },
+        {
           "name": "哔嘀影院",
           "type": "app://customWeb",
           "pic": "1",
           "url": "https://bde4.com/&&&efacepop,ff01s"
+        },
+        {
+          "name": "宅看影院",
+          "type": "app://customWeb",
+          "pic": "1",
+          "url": "https://www.zhaikanys.com/&&&efacepop,ff01s"
         },
         {
           "name": "太初影院",
