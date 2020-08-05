@@ -185,20 +185,25 @@
         {
           "name": "8号影院",
           "type": "app://customWeb",
-          "pic": "http://www.9rmb.com/favicon.ico",
+          "pic": "ht",
           "url": "http://8hyy.cc//&&&efacepop,ff01s"
         },
         {
           "name": "真不卡影院",
           "type": "app://customWeb",
-          "pic": "http://www.9rmb.com/favicon.ico",
+          "pic": "htt",
           "url": "https://www.zhenbuka.com/&&&efacepop,ff01s"
         },
         {
           "name": "爱迪生影院",
           "type": "app://customWeb",
-          "pic": "http://www.9rmb.com/favicon.ico",
+          "pic": "h",
           "url": "https://www.edu-hb.com/&&&efacepop,ff01s"
+        },        {
+          "name": "哔嘀影院",
+          "type": "app://customWeb",
+          "pic": "1",
+          "url": "https://bde4.com/&&&efacepop,ff01s"
         },
         {
           "name": "太初影院",
