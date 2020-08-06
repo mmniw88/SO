@@ -116,7 +116,6 @@
           "pic": "http://www.baidu.com/aaa.jpg",
           "url": "http://www.9ekk.com/&&&hlgglm,xunlei,2526game,68710266"
         },
-
         {
           "name": "完美看看",
           "type": "app://customWeb",
@@ -183,7 +182,6 @@
           "pic": "ht",
           "url": "http://8hyy.cc//&&&68710266,innvitor,abie18"
         },
-
         {
           "name": "爱迪生影院",
           "type": "app://customWeb",
@@ -201,6 +199,12 @@
           "type": "app://customWeb",
           "pic": "1",
           "url": "https://www.zhaikanys.com/&&&efacepop,ff01s"
+        },
+        {
+          "name": "电玩人高清",
+          "type": "app://customWeb",
+          "pic": "1",
+          "url": "http://www.ameiju.net/&&&efacepop,ff01s"
         },
         {
           "name": "太初影院",
