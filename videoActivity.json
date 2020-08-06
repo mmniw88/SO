@@ -85,6 +85,15 @@
         "color": "1",
         "type": "app://alipay",
         "show": true
+      },
+      {
+        "id": 4,
+        "name": "饿了么每日红包",
+        "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01usCS3I2C4PSCm4CJO_!!913168420.jpg",
+        "url": "https://m.tb.cn/h.VtLjXy7",
+        "color": "1",
+        "type": "url://taobao",
+        "show": true
       }
     ]
   }
