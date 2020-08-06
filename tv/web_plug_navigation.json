@@ -2290,7 +2290,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.dslist-group",
+            "mainCss": "ul.fed-part-rows",
             "mainIndex": 0,
             "regIndexList": [
               0
