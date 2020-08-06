@@ -2085,7 +2085,7 @@
       "click": true,
       "webPlus": {
         "search_url": "http://www.9rmb.com/search?wd={kw}",
-        "nav_url": "http://www.ameiju.net/vodtype/navPage.html",
+        "nav_url": "http://www.ameiju.net/vodtype/navCate/navPage.html",
         "cate_url": "http://www.ameiju.net/vodshow/cateNav-cateArea--cateCate--catePage--cateYear.html",
         "web_name": "电玩人高清",
         "kw": "wd",
