@@ -2284,13 +2284,13 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "a.fed-btns-info.fed-rims-info.fed-part-eone",
+            "listCss": "li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.fed-part-rows",
+            "mainCss": "div.fed-drop-boxs.fed-drop-btms.fed-matp-v > ul.fed-part-rows",
             "mainIndex": 0,
             "regIndexList": [
               0
