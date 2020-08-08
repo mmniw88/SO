@@ -45,7 +45,7 @@
         "id": 2,
         "name": "电视直播",
         "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p2166.jpg",
-        "url": "https://iptv-org.github.io/iptv/languages/zho.m3u",
+        "url": "https://gitee.com/guyuexuan/iptv/raw/master/dist/iptv.m3u",
         "color": "11",
         "type": "app://m3u",
         "show": true
