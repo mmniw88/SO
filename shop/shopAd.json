@@ -30,12 +30,22 @@
     "goodsId": "614895243709"
   },
   {
+    "title": "TV端需要注意哪些？",
+    "url": "https://mp.weixin.qq.com/s/M7BAVssld38BXQZJX0dQ9w",
+    "desc": "打开微信扫一扫查看TV端注意事项",
+    "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
+    "scanDesc": "",
+    "show": true,
+    "isGoods": false,
+    "goodsId": "614895243709"
+  },
+  {
     "title": "天猫商品一分购",
     "url": "http://www.dbmepxbvywhk.store/firstorder.html?id=56697",
     "desc": "(已亲测)打开浏览器或微信扫一扫领取天猫发放淘礼金内有具体视频教程",
     "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
     "scanDesc": "",
-    "show": true,
+    "show": false,
     "isGoods": false,
     "goodsId": "614895243709"
   }
