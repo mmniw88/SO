@@ -2128,13 +2128,13 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "li",
+            "listCss": "ul > li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.dslist-group",
+            "mainCss": "div.rb-item",
             "mainIndex": 0,
             "regIndexList": [
               0
