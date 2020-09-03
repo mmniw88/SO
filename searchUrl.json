@@ -23,6 +23,13 @@
     },
     {
       "id": 1,
+      "name": "秒播云2(资源站)",
+      "url": "http://caiji.mb77.vip/inc/mbckm3u8.php",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
       "name": "OK云(资源站)",
       "url": "http://cj.okzy.tv/inc/apickm3u8s.php",
       "click": true,
@@ -53,6 +60,34 @@
       "id": 1,
       "name": "八戒云(资源站)",
       "url": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
+      "name": "速播云(资源站)",
+      "url": "http://www.subo988.com/inc/maccms_subom3u8.php",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
+      "name": "豆瓣云(资源站)",
+      "url": "http://v.1988cj.com/inc/dbm3u8.php",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
+      "name": "摩卡云(资源站)",
+      "url": "https://cj.heiyap.com/api.php/provide/vod/from/mam3u8/at/xml/",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
+      "name": "88云(资源站)",
+      "url": "http://www.88zyw.net/inc/m3u8.php",
       "click": true,
       "wePlus": {}
     },
