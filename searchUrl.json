@@ -1649,6 +1649,7 @@
             "descAttr": "",
             "descCss": "span.video-grade",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "img",
