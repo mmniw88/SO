@@ -16,6 +16,13 @@
     },
     {
       "id": 1,
+      "name": "秒播云(资源站)",
+      "url": "http://caiji.mb77.vip/inc/mbckm3u8.php",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
       "name": "OK云(资源站)",
       "url": "http://cj.okzy.tv/inc/apickm3u8s.php",
       "click": true,
