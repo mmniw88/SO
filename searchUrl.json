@@ -93,6 +93,13 @@
     },
     {
       "id": 1,
+      "name": "聚合云(资源站)",
+      "url": "https://cj.cbi88.com/inc/api_juhem3u8s.php",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
       "name": "百度云(资源站)",
       "url": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml",
       "click": true,
