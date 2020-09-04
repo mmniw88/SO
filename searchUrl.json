@@ -16,6 +16,13 @@
     },
     {
       "id": 1,
+      "name": "百度云(资源站)",
+      "url": "https://www.wokuzy.com/api/xml/wokum3u8_s",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
       "name": "天空云(资源站)",
       "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/at/xml/",
       "click": true,
