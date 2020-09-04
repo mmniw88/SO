@@ -2487,7 +2487,7 @@
             "hasImgUrlPrefix": false,
             "hasUrlPrefix": true,
             "imgAttr": "src",
-            "imgCss": "a",
+            "imgCss": "img",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
