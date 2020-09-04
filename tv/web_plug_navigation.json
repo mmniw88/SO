@@ -2484,7 +2484,7 @@
             "descAttr": "",
             "descCss": "span.pic-text.text-right",
             "descIndex": 0,
-            "hasImgUrlPrefix": false,
+            "hasImgUrlPrefix": true,
             "hasUrlPrefix": true,
             "imgAttr": "src",
             "imgCss": "img",
