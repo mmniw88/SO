@@ -2486,7 +2486,7 @@
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
-            "imgAttr": "data-original",
+            "imgAttr": "src",
             "imgCss": "a",
             "imgIndex": 0,
             "isDescAttr": false,
