@@ -9,11 +9,26 @@
     },
     {
       "id": 1,
+      "name": "百度云(资源站)",
+      "url": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml",
+      "click": true,
+      "wePlus": {}
+    },
+    {
+      "id": 1,
       "name": "天空云(资源站)",
       "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/at/xml/",
       "click": true,
       "wePlus": {}
     },
+    {
+      "id": 1,
+      "name": "聚合云(资源站)",
+      "url": "https://cj.cbi88.com/inc/api_juhem3u8s.php",
+      "click": true,
+      "wePlus": {}
+    },
+
     {
       "id": 1,
       "name": "秒播云(资源站)",
@@ -91,20 +106,7 @@
       "click": true,
       "wePlus": {}
     },
-    {
-      "id": 1,
-      "name": "聚合云(资源站)",
-      "url": "https://cj.cbi88.com/inc/api_juhem3u8s.php",
-      "click": true,
-      "wePlus": {}
-    },
-    {
-      "id": 1,
-      "name": "百度云(资源站)",
-      "url": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml",
-      "click": true,
-      "wePlus": {}
-    },
+
     {
       "id": 2,
       "name": "小小影视(自建站)",
