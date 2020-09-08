@@ -2576,7 +2576,7 @@
       "webPlus": {
         "search_url": "http://www.dmdm2020.com/dongmansearch.html?wd={kw}",
         "nav_url": "https://cokemv.cn/index.php/vod/type/id/navCate/page/navPage.html",
-        "cate_url": "https://cokemv.cn/index.php/vod/show/id/area/cateArea/cateCate/page/catePage/year/cateYear.html",
+        "cate_url": "https://cokemv.cn/index.php/vod/show/id/area/cateArea/page/catePage/year/cateYear.html",
         "web_name": "COKEMV影视",
         "kw": "wd",
         "params": [
