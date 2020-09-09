@@ -10,12 +10,12 @@
     "goodsId": "570511367490"
   },
   {
-    "title": "618天猫主会场",
-    "url": "https://s.click.taobao.com/ZOsn1hv",
-    "desc": "618主会场-理想生活上天猫！打开手机淘宝扫描下面二维码进入",
-    "img": "https://gw.alicdn.com/tfs/TB12O3CIBr0gK0jSZFnXXbRRXXa-800-450.jpg",
+    "title": "聚划算99划算节",
+    "url": "https://s.click.taobao.com/r3Ckjwu",
+    "desc": "聚划算99划算节-天猫超市主会场！打开手机淘宝扫描下面二维码进入",
+    "img": "https://img.alicdn.com/imgextra/i2/2053469401/O1CN01KIvvUM2JJi2Fpa1hy_!!2053469401.jpg",
     "scanDesc": "",
-    "show": false,
+    "show": true,
     "isGoods": false,
     "goodsId": "614895243709"
   },
@@ -35,7 +35,7 @@
     "desc": "打开微信扫一扫查看TV端注意事项",
     "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
     "scanDesc": "",
-    "show": true,
+    "show": false,
     "isGoods": false,
     "goodsId": "614895243709"
   },
