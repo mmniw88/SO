@@ -5,7 +5,7 @@
     "desc": "中秋团圆季-进口好礼会场-打开手机淘宝扫描下面二维码进入",
     "img": "https://gw.alicdn.com/tfs/TB1nFoWUhD1gK0jSZFsXXbldVXa-800-450.png",
     "scanDesc": "\n打开手机淘宝扫描下面二维码进入",
-    "show": true,
+    "show": false,
     "isGoods": false,
     "goodsId": "570511367490"
   },
@@ -32,10 +32,10 @@
   {
     "title": "TV端需要注意哪些？",
     "url": "https://mp.weixin.qq.com/s/M7BAVssld38BXQZJX0dQ9w",
-    "desc": "打开微信扫一扫查看TV端注意事项",
+    "desc": "打开微信扫一扫查看TV端注意事项(看完别忘 点赞 再看 卡片广告 谢谢)",
     "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
     "scanDesc": "",
-    "show": false,
+    "show": true,
     "isGoods": false,
     "goodsId": "614895243709"
   },
