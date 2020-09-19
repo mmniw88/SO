@@ -282,6 +282,12 @@
           "type": "app://m3u",
           "pic": "",
           "url": "https://gitee.com/xiliuwangluo/zby/raw/master/yuan.m3u8"
+        },
+        {
+          "name": "直播频道4",
+          "type": "app://m3u",
+          "pic": "",
+          "url": "https://gitee.com/chang-chen/iptv/raw/master/cczby.m3u8"
         }
       ]
     },
