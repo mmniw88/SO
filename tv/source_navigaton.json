@@ -43,6 +43,14 @@
       "type": "gitJson",
       "subTitle": "豆瓣TOP100",
       "click": true
+    },
+    {
+      "name": "某酷24小时轮播",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/youku.json",
+      "type": "gitJson",
+      "subTitle": "某酷24小时轮播",
+      "click": true
     }
   ]
 }
