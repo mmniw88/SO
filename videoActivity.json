@@ -51,6 +51,15 @@
         "show": true
       },
       {
+        "id": 2,
+        "name": "24小时轮播",
+        "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p2166.jpg",
+        "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/youku.json",
+        "color": "11",
+        "type": "app://gitJson",
+        "show": true
+      },
+      {
         "id": 3,
         "name": "云插件",
         "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p3728.jpg",
