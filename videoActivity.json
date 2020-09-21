@@ -42,6 +42,15 @@
         "show": true
       },
       {
+        "id": 1,
+        "name": "历史记录",
+        "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4200.jpg",
+        "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/update.html",
+        "color": "11",
+        "type": "app://history",
+        "show": true
+      },
+      {
         "id": 2,
         "name": "电视直播",
         "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p2166.jpg",
