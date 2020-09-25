@@ -2723,7 +2723,7 @@
       }
     },
     {
-      "name": "蒙面大侠",
+      "name": "宅看影视",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3190.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
@@ -2824,7 +2824,7 @@
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
-            "imgCss": "img",
+            "imgCss": "a",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
