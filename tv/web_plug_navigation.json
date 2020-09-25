@@ -2771,7 +2771,7 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "li",
+            "listCss": "ul.fed-part-rows > li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
