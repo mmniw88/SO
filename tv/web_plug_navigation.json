@@ -2798,7 +2798,7 @@
             "descCss": "span.fed-list-remarks.fed-font-xii.fed-text-white.fed-text-center",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
-            "hasUrlPrefix": true,
+            "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "a",
             "imgIndex": 0,
