@@ -1,7 +1,16 @@
 {
   "data": [
     {
-      "name": "直播源",
+      "name": "直播源4K",
+      "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
+      "url": "https://gitee.com/meetoll/live_broadcast_source/raw/master/10%E6%9C%881%E6%97%A5%E6%9C%80%E6%96%B0%E7%9B%B4%E6%92%AD%E6%BA%90.m3u",
+      "type": "m3u",
+      "subTitle": "影视24小时直播整理中",
+      "click": true,
+      "webPlus": {}
+    },
+    {
+      "name": "直播源（维护中）",
       "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/live.m3u",
       "type": "m3u",
@@ -10,7 +19,7 @@
       "webPlus": {}
     },
     {
-      "name": "直播源",
+      "name": "直播源（维护中）",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p3203.jpg",
       "url": "https://gitee.com/guyuexuan/iptv/raw/master/dist/iptv.m3u",
       "type": "m3u",
@@ -42,7 +51,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "gitJson",
       "subTitle": "豆瓣TOP100",
-      "click": true
+      "click": false
     },
     {
       "name": "某酷24小时轮播",
