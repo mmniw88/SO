@@ -10,6 +10,15 @@
       "webPlus": {}
     },
     {
+      "name": "直播源自用",
+      "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
+      "url": "https://xxh668899.gitee.io/hometv/my.m3u",
+      "type": "m3u",
+      "subTitle": "影视24小时直播整理中",
+      "click": true,
+      "webPlus": {}
+    },
+    {
       "name": "直播源（维护中）",
       "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4216.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/live.m3u",
