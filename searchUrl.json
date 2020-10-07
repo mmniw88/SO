@@ -118,7 +118,7 @@
       "id": 2,
       "name": "小小影视(自建站)",
       "url": "https://n7ro4n501yq4xz577ety.leleapps.com/search?wd={keywords}&schtype=0&page=1&apiVersion=29&deviceModel=VOG-AL00&brand=HUAWEI&deviceName=HWVOG&serial=unknown&platform=android&version=2.1.32",
-      "click": true,
+      "click": false,
       "wePlus": {}
     },
     {
@@ -901,7 +901,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清有筛选(菜单键或上下键选集)",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.7xiady.cc/search/-------------/?wd={kw}",
         "nav_url": "https://www.7xiady.cc/type/dianying-navPage/",
@@ -1196,7 +1196,7 @@
       "type": "webPlug",
       "subTitle": "高清速度快有筛选(菜单键或上下键选集)",
       "subMobileTitle": "高清速度快有筛选",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.nfmovies.com/search.php?searchword={kw}",
         "nav_url": "https://www.nfmovies.com/list/?navCate-navPage.html",
@@ -1493,7 +1493,7 @@
       "type": "webPlug",
       "subTitle": "高清无筛选",
       "subMobileTitle": "质量非常之高",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "http://www.dmdm2020.com/dongmansearch.html?wd={kw}",
         "nav_url": "http://www.dmdm2020.com/dongmantype/navCate/page/navPage.html",
