@@ -284,7 +284,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清无筛选(菜单键或上下键选集)",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://cokemv.cn/index.php/vod/search.html?wd={kw}",
         "nav_url": "https://cokemv.cn/index.php/vod/type/id/navCate/page/navPage.html",
@@ -441,7 +441,7 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
       "subTitle": "高清有筛选(菜单键或上下键选集)",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.k1080.net/index.php/vodsearch/-------------.html?wd={kw}&submit=",
         "nav_url": "https://www.k1080.net/index.php/vodtype/cateNav.html",
@@ -1640,7 +1640,7 @@
       "type": "webPlug",
       "subTitle": "高清无筛选",
       "subMobileTitle": "质量非常之高",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "http://8hyy.cc/search.php?searchword={kw}",
         "nav_url": "http://www.dmdm2020.com/dongmantype/navCate/page/navPage.html",
@@ -1788,7 +1788,7 @@
       "type": "webPlug",
       "subTitle": "高清无筛选",
       "subMobileTitle": "质量非常之高",
-      "click": true,
+      "click": false,
       "webPlus": {
         "search_url": "https://www.douhao.tv/search.php?searchword={kw}",
         "nav_url": "http://www.dmdm2020.com/dongmantype/navCate/page/navPage.html",
