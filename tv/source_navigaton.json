@@ -69,6 +69,14 @@
       "type": "gitJson",
       "subTitle": "某酷24小时轮播",
       "click": true
+    },
+    {
+      "name": "活动站位图",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/youku.json",
+      "type": "activity",
+      "subTitle": "未上线",
+      "click": true
     }
   ]
 }
