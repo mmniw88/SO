@@ -12,6 +12,7 @@
       "id": 1,
       "name": "百度云(资源站)",
       "url": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml",
+      "cate": "动作片,5",
       "click": true,
       "wePlus": {}
     },
