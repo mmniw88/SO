@@ -72,10 +72,18 @@
     },
     {
       "name": "",
+      "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
+      "url": "https://mp.weixin.qq.com/s/JSOlvmV8YH7rg0qTZdx7pA",
+      "type": "activity",
+      "subTitle": "打开微信扫一扫查看新版本，别忘了点赞，点广告",
+      "click": true
+    },
+    {
+      "name": "",
       "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
       "url": "http://www.a06.store/firstorder.html?id=88745",
       "type": "activity",
-      "subTitle": "天猫首单礼金，微信扫一扫每天撸单(有具体教程)",
+      "subTitle": "天猫首单礼金，浏览器扫一扫每天撸单(有具体教程)",
       "click": true
     }
   ]
