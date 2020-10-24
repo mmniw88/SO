@@ -5,6 +5,12 @@
       "url": "https://www.2ajx.com/vip.php?url=",
       "ad": "",
       "click": true
+    },
+    {
+      "name": "测试线路2",
+      "url": "https://api.2020jx.com/?url=",
+      "ad": "",
+      "click": true
     }
   ]
 }
