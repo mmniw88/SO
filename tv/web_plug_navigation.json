@@ -3047,7 +3047,7 @@
       "click": true,
       "webPlus": {
         "search_url": "https://www.nfmovies.com/search.php?searchword={kw}",
-        "nav_url": "https://www.tzfile.com/movie_bt/movie_bt_series/navCate/page/navPage.html",
+        "nav_url": "https://www.tzfile.com/movie_bt/movie_bt_series/navCate/page/navPage",
         "cate_url": "https://www.nfmovies.com/search.php?page=catePage&searchtype=5&tid=cateNav&area=cateArea&year=cateYear",
         "web_name": "团长资源",
         "kw": "wd",
