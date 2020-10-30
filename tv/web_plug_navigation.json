@@ -2771,13 +2771,13 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "ul.myui-content__list.playlist.clearfix",
+            "listCss": "li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "li",
+            "mainCss": "ul.myui-content__list.playlist.clearfix",
             "mainIndex": 0,
             "regIndexList": [
               0
