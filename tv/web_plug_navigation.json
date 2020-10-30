@@ -2795,7 +2795,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "span.fed-list-remarks.fed-font-xii.fed-text-white.fed-text-center",
+            "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
