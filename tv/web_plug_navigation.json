@@ -2806,7 +2806,7 @@
             "isImgAttr": true,
             "isNameAttr": false,
             "isUrlAttr": true,
-            "mainCss": "ul.fed-list-info.fed-part-rows",
+            "mainCss": "ul.myui-vodlist.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
