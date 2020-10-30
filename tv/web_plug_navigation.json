@@ -2771,13 +2771,13 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "ul.fed-part-rows > li.fed-padding.fed-col-xs6.fed-col-sm4.fed-col-md3.fed-col-lg2",
+            "listCss": "ul.myui-content__list.playlist.clearfix",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.fed-tabs-boxs",
+            "mainCss": "li",
             "mainIndex": 0,
             "regIndexList": [
               0
