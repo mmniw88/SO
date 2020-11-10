@@ -100,6 +100,7 @@
             "descAttr": "",
             "descCss": "button.hdtag",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
             "imgAttr": "src",
             "imgCss": "img",
