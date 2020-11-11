@@ -15,7 +15,7 @@
     "desc": "打开淘宝扫一扫进入双十一会场最高1111元",
     "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01i6jheL2C4PVK3Z1zf_!!913168420.jpg",
     "scanDesc": "",
-    "show": true,
+    "show": false,
     "isGoods": false,
     "goodsId": "614895243709"
   },
@@ -35,7 +35,7 @@
     "desc": "微信扫一扫查看(看完别忘 点赞 再看 卡片广告 谢谢)",
     "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
     "scanDesc": "",
-    "show": false,
+    "show": true,
     "isGoods": false,
     "goodsId": "614895243709"
   },
