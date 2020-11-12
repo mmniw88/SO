@@ -111,22 +111,6 @@
       "cate": "动作片,5&&喜剧片,6&&爱情片,7&&科幻片,8&&恐怖片,9&&国产剧,12&&韩国剧,14&&美国剧,15综艺,3&&国产动漫,22&&日本动漫,21&&欧美动漫,23",
       "click": true,
       "wePlus": {}
-    },
-    {
-      "id": 1,
-      "name": "官方资源",
-      "url": "http://zy.itono.cn/inc/api.php",
-      "cate": "动作片,5&&喜剧片,6&&爱情片,7&&科幻片,8&&恐怖片,9&&国产剧,12&&韩国剧,14&&美国剧,15综艺,3&&动漫,4",
-      "click": true,
-      "wePlus": {}
-    },
-    {
-      "id": 2,
-      "name": "小小影视",
-      "url": "https://n7ro4n501yq4xz577ety.leleapps.com/search?wd={keywords}&schtype=0&page=1&apiVersion=29&deviceModel=VOG-AL00&brand=HUAWEI&deviceName=HWVOG&serial=unknown&platform=android&version=2.1.32",
-      "click": false,
-      "cate": "动作片,5&&喜剧片,6&&爱情片,7&&科幻片,8&&恐怖片,9&&国产剧,12&&韩国剧,14&&美国剧,15综艺,3&&动漫,4",
-      "wePlus": {}
     }
   ]
 }
