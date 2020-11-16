@@ -1,227 +1,229 @@
-[{
-  "name":"热门电影",
+{
   "data": [
     {
-      "rate": "7.9",
-      "cover_x": 2050,
-      "title": "迪丽丽的奇幻巴黎",
-      "url": "https:\/\/movie.douban.com\/subject\/26695000\/",
-      "playable": true,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2575736329.jpg",
-      "id": "26695000",
-      "cover_y": 2871,
-      "is_new": false
-    },
-    {
-      "rate": "7.1",
-      "cover_x": 800,
-      "title": "海吉拉",
-      "url": "https:\/\/movie.douban.com\/subject\/30242164\/",
-      "playable": false,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2524187708.jpg",
-      "id": "30242164",
-      "cover_y": 1138,
-      "is_new": false
-    },
-    {
-      "rate": "7.3",
-      "cover_x": 4618,
-      "title": "死侍2：我爱我家",
-      "url": "https:\/\/movie.douban.com\/subject\/26588308\/",
-      "playable": true,
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2545479945.jpg",
-      "id": "26588308",
-      "cover_y": 6842,
-      "is_new": false
-    },
-    {
-      "rate": "8.1",
-      "cover_x": 800,
-      "title": "野梨树",
-      "url": "https:\/\/movie.douban.com\/subject\/26878883\/",
-      "playable": false,
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2546455482.jpg",
-      "id": "26878883",
-      "cover_y": 1130,
-      "is_new": false
-    },
-    {
-      "rate": "9.1",
-      "cover_x": 1500,
-      "title": "何以为家",
-      "url": "https:\/\/movie.douban.com\/subject\/30170448\/",
-      "playable": true,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2555295759.jpg",
-      "id": "30170448",
-      "cover_y": 2210,
-      "is_new": false
-    },
-    {
-      "rate": "8.0",
-      "cover_x": 1300,
-      "title": "燃烧",
-      "url": "https:\/\/movie.douban.com\/subject\/26842702\/",
-      "playable": false,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2520095279.jpg",
-      "id": "26842702",
-      "cover_y": 1856,
-      "is_new": false
-    },
-    {
-      "rate": "7.3",
-      "cover_x": 2000,
-      "title": "此房是我造",
-      "url": "https:\/\/movie.douban.com\/subject\/26369884\/",
-      "playable": false,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2543305779.jpg",
-      "id": "26369884",
-      "cover_y": 3000,
-      "is_new": false
-    },
-    {
-      "rate": "8.0",
-      "cover_x": 2835,
-      "title": "不能说的游戏",
-      "url": "https:\/\/movie.douban.com\/subject\/30188243\/",
-      "playable": false,
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2538964304.jpg",
-      "id": "30188243",
-      "cover_y": 3850,
-      "is_new": false
-    },
-    {
-      "rate": "7.4",
-      "cover_x": 2048,
-      "title": "夜以继日",
-      "url": "https:\/\/movie.douban.com\/subject\/27037053\/",
-      "playable": false,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2518349518.jpg",
-      "id": "27037053",
-      "cover_y": 2891,
-      "is_new": false
-    },
-    {
-      "rate": "7.1",
-      "cover_x": 2025,
-      "title": "黑色党徒",
-      "url": "https:\/\/movie.douban.com\/subject\/27133913\/",
-      "playable": false,
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2522401855.jpg",
-      "id": "27133913",
-      "cover_y": 3000,
-      "is_new": false
-    },
-    {
-      "rate": "8.7",
-      "cover_x": 3300,
-      "title": "小偷家族",
-      "url": "https:\/\/movie.douban.com\/subject\/27622447\/",
-      "playable": true,
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2530599636.jpg",
-      "id": "27622447",
-      "cover_y": 4659,
-      "is_new": false
-    },
-    {
-      "rate": "8.6",
-      "cover_x": 640,
-      "title": "幸福的拉扎罗",
-      "url": "https:\/\/movie.douban.com\/subject\/27072795\/",
-      "playable": true,
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2521583093.jpg",
-      "id": "27072795",
-      "cover_y": 914,
-      "is_new": false
-    },
-    {
-      "rate": "8.1",
-      "cover_x": 420,
-      "title": "女孩",
-      "url": "https:\/\/movie.douban.com\/subject\/30194769\/",
-      "playable": false,
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2558211613.jpg",
-      "id": "30194769",
-      "cover_y": 594,
-      "is_new": false
-    },
-    {
-      "rate": "8.6",
-      "cover_x": 690,
-      "title": "特工",
-      "url": "https:\/\/movie.douban.com\/subject\/26683421\/",
-      "playable": false,
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2528281606.jpg",
-      "id": "26683421",
-      "cover_y": 986,
-      "is_new": false
-    },
-    {
-      "rate": "7.6",
-      "cover_x": 1142,
-      "title": "江湖儿女",
-      "url": "https:\/\/movie.douban.com\/subject\/26972258\/",
-      "playable": true,
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2533283770.jpg",
-      "id": "26972258",
-      "cover_y": 1600,
-      "is_new": false
-    },
-    {
-      "rate": "7.8",
-      "cover_x": 2570,
-      "title": "冷战",
-      "url": "https:\/\/movie.douban.com\/subject\/26894602\/",
-      "playable": true,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2526989708.jpg",
-      "id": "26894602",
-      "cover_y": 3704,
-      "is_new": false
-    },
-    {
-      "rate": "7.8",
-      "cover_x": 2332,
-      "title": "喜欢，轻吻，快跑",
-      "url": "https:\/\/movie.douban.com\/subject\/26979199\/",
-      "playable": false,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2527725378.jpg",
-      "id": "26979199",
-      "cover_y": 3328,
-      "is_new": false
-    },
-    {
-      "rate": "7.3",
-      "cover_x": 900,
-      "title": "老爸102岁",
-      "url": "https:\/\/movie.douban.com\/subject\/30183666\/",
-      "playable": false,
-      "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2540024317.jpg",
-      "id": "30183666",
-      "cover_y": 1301,
-      "is_new": false
-    },
-    {
-      "rate": "8.1",
-      "cover_x": 1968,
-      "title": "复仇者联盟3：无限战争",
-      "url": "https:\/\/movie.douban.com\/subject\/24773958\/",
-      "playable": true,
-      "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2517753454.jpg",
-      "id": "24773958",
-      "cover_y": 2756,
-      "is_new": false
-    },
-    {
-      "rate": "8.6",
-      "cover_x": 1697,
-      "title": "谁先爱上他的",
-      "url": "https:\/\/movie.douban.com\/subject\/27119586\/",
-      "playable": false,
-      "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2546961193.jpg",
-      "id": "27119586",
-      "cover_y": 2500,
-      "is_new": false
+      "name": "热门电影",
+      "listData": [
+        {
+          "rate": "7.9",
+          "cover_x": 2050,
+          "title": "迪丽丽的奇幻巴黎",
+          "url": "https:\/\/movie.douban.com\/subject\/26695000\/",
+          "playable": true,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2575736329.jpg",
+          "id": "26695000",
+          "cover_y": 2871,
+          "is_new": false
+        },
+        {
+          "rate": "7.1",
+          "cover_x": 800,
+          "title": "海吉拉",
+          "url": "https:\/\/movie.douban.com\/subject\/30242164\/",
+          "playable": false,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2524187708.jpg",
+          "id": "30242164",
+          "cover_y": 1138,
+          "is_new": false
+        },
+        {
+          "rate": "7.3",
+          "cover_x": 4618,
+          "title": "死侍2：我爱我家",
+          "url": "https:\/\/movie.douban.com\/subject\/26588308\/",
+          "playable": true,
+          "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2545479945.jpg",
+          "id": "26588308",
+          "cover_y": 6842,
+          "is_new": false
+        },
+        {
+          "rate": "8.1",
+          "cover_x": 800,
+          "title": "野梨树",
+          "url": "https:\/\/movie.douban.com\/subject\/26878883\/",
+          "playable": false,
+          "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2546455482.jpg",
+          "id": "26878883",
+          "cover_y": 1130,
+          "is_new": false
+        },
+        {
+          "rate": "9.1",
+          "cover_x": 1500,
+          "title": "何以为家",
+          "url": "https:\/\/movie.douban.com\/subject\/30170448\/",
+          "playable": true,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2555295759.jpg",
+          "id": "30170448",
+          "cover_y": 2210,
+          "is_new": false
+        },
+        {
+          "rate": "8.0",
+          "cover_x": 1300,
+          "title": "燃烧",
+          "url": "https:\/\/movie.douban.com\/subject\/26842702\/",
+          "playable": false,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2520095279.jpg",
+          "id": "26842702",
+          "cover_y": 1856,
+          "is_new": false
+        },
+        {
+          "rate": "7.3",
+          "cover_x": 2000,
+          "title": "此房是我造",
+          "url": "https:\/\/movie.douban.com\/subject\/26369884\/",
+          "playable": false,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2543305779.jpg",
+          "id": "26369884",
+          "cover_y": 3000,
+          "is_new": false
+        },
+        {
+          "rate": "8.0",
+          "cover_x": 2835,
+          "title": "不能说的游戏",
+          "url": "https:\/\/movie.douban.com\/subject\/30188243\/",
+          "playable": false,
+          "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2538964304.jpg",
+          "id": "30188243",
+          "cover_y": 3850,
+          "is_new": false
+        },
+        {
+          "rate": "7.4",
+          "cover_x": 2048,
+          "title": "夜以继日",
+          "url": "https:\/\/movie.douban.com\/subject\/27037053\/",
+          "playable": false,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2518349518.jpg",
+          "id": "27037053",
+          "cover_y": 2891,
+          "is_new": false
+        },
+        {
+          "rate": "7.1",
+          "cover_x": 2025,
+          "title": "黑色党徒",
+          "url": "https:\/\/movie.douban.com\/subject\/27133913\/",
+          "playable": false,
+          "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2522401855.jpg",
+          "id": "27133913",
+          "cover_y": 3000,
+          "is_new": false
+        },
+        {
+          "rate": "8.7",
+          "cover_x": 3300,
+          "title": "小偷家族",
+          "url": "https:\/\/movie.douban.com\/subject\/27622447\/",
+          "playable": true,
+          "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2530599636.jpg",
+          "id": "27622447",
+          "cover_y": 4659,
+          "is_new": false
+        },
+        {
+          "rate": "8.6",
+          "cover_x": 640,
+          "title": "幸福的拉扎罗",
+          "url": "https:\/\/movie.douban.com\/subject\/27072795\/",
+          "playable": true,
+          "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2521583093.jpg",
+          "id": "27072795",
+          "cover_y": 914,
+          "is_new": false
+        },
+        {
+          "rate": "8.1",
+          "cover_x": 420,
+          "title": "女孩",
+          "url": "https:\/\/movie.douban.com\/subject\/30194769\/",
+          "playable": false,
+          "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2558211613.jpg",
+          "id": "30194769",
+          "cover_y": 594,
+          "is_new": false
+        },
+        {
+          "rate": "8.6",
+          "cover_x": 690,
+          "title": "特工",
+          "url": "https:\/\/movie.douban.com\/subject\/26683421\/",
+          "playable": false,
+          "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2528281606.jpg",
+          "id": "26683421",
+          "cover_y": 986,
+          "is_new": false
+        },
+        {
+          "rate": "7.6",
+          "cover_x": 1142,
+          "title": "江湖儿女",
+          "url": "https:\/\/movie.douban.com\/subject\/26972258\/",
+          "playable": true,
+          "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2533283770.jpg",
+          "id": "26972258",
+          "cover_y": 1600,
+          "is_new": false
+        },
+        {
+          "rate": "7.8",
+          "cover_x": 2570,
+          "title": "冷战",
+          "url": "https:\/\/movie.douban.com\/subject\/26894602\/",
+          "playable": true,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2526989708.jpg",
+          "id": "26894602",
+          "cover_y": 3704,
+          "is_new": false
+        },
+        {
+          "rate": "7.8",
+          "cover_x": 2332,
+          "title": "喜欢，轻吻，快跑",
+          "url": "https:\/\/movie.douban.com\/subject\/26979199\/",
+          "playable": false,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2527725378.jpg",
+          "id": "26979199",
+          "cover_y": 3328,
+          "is_new": false
+        },
+        {
+          "rate": "7.3",
+          "cover_x": 900,
+          "title": "老爸102岁",
+          "url": "https:\/\/movie.douban.com\/subject\/30183666\/",
+          "playable": false,
+          "cover": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2540024317.jpg",
+          "id": "30183666",
+          "cover_y": 1301,
+          "is_new": false
+        },
+        {
+          "rate": "8.1",
+          "cover_x": 1968,
+          "title": "复仇者联盟3：无限战争",
+          "url": "https:\/\/movie.douban.com\/subject\/24773958\/",
+          "playable": true,
+          "cover": "https://img9.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2517753454.jpg",
+          "id": "24773958",
+          "cover_y": 2756,
+          "is_new": false
+        },
+        {
+          "rate": "8.6",
+          "cover_x": 1697,
+          "title": "谁先爱上他的",
+          "url": "https:\/\/movie.douban.com\/subject\/27119586\/",
+          "playable": false,
+          "cover": "https://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2546961193.jpg",
+          "id": "27119586",
+          "cover_y": 2500,
+          "is_new": false
+        }
+      ]
     }
   ]
-
 }
-]
