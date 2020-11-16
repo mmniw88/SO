@@ -1,0 +1,536 @@
+{
+  "data": [
+    {
+      "name": "热门电影",
+      "listData": [
+        {
+          "id": 100,
+          "pid": 1,
+          "cid": 122402,
+          "name": "电影直播厅1",
+          "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p4188.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/122402rK7MO9bXSq.flv?uuid="
+        },
+        {
+          "id": 101,
+          "pid": 1,
+          "cid": 3637778,
+          "name": "电影直播厅2",
+          "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p4189.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/3637778raLSXdOdu.flv?uuid="
+        },
+        {
+          "id": 102,
+          "pid": 1,
+          "cid": 85894,
+          "name": "电影直播厅3",
+          "pic": "https://img9.doubanio.com/view/activity_page/raw/public/p4196.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/85894rmovieChow.flv?uuid="
+        },
+        {
+          "id": 103,
+          "pid": 1,
+          "cid": 1504768,
+          "name": "电影直播厅4",
+          "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4213.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/1504768rgidcFEaq.flv?uuid="
+        },
+        {
+          "id": 105,
+          "pid": 1,
+          "cid": 252802,
+          "name": "电影直播厅5",
+          "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4210.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/252802rbQGaZXUQi.flv?uuid="
+        },
+        {
+          "id": 106,
+          "pid": 1,
+          "cid": 3637765,
+          "name": "电影直播厅6",
+          "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4190.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/3637765rrt97QwBF.flv?uuid="
+        },
+        {
+          "id": 107,
+          "pid": 1,
+          "cid": 7077241,
+          "name": "电影直播厅7",
+          "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/7077241rjJnPBfQS.flv?uuid="
+        },
+        {
+          "id": 108,
+          "pid": 1,
+          "cid": 218859,
+          "name": "电影直播厅8",
+          "pic": "https://img1.doubanio.com/view/activity_page/raw/public/p4197.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/218859rhVaTIAcuG.flv?uuid="
+        },
+        {
+          "id": 109,
+          "pid": 1,
+          "cid": 20415,
+          "name": "电影直播厅9",
+          "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4192.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/20415rnWbjg6Ex1K.flv?uuid="
+        },
+        {
+          "id": 110,
+          "pid": 1,
+          "cid": 52787,
+          "name": "电影直播厅10",
+          "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4193.jpg",
+          "url": "http://tx2play1.douyucdn.cn/live/52787rNtGBH5eKTB.flv?uuid="
+        }
+      ]
+    },
+    {
+      "name": "央视频道",
+      "listData": [
+        {
+          "id": 901,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV1",
+          "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01E7FXFW2C4PTzFHduX_!!913168420.png",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/cctv1hd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 902,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV2",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01DUTeiN2C4PTx46Uqz_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8"
+        },
+        {
+          "id": 903,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV3",
+          "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01xB3Jdg2C4PTudZbP7_!!913168420.png",
+          "url": "http://121.18.168.149/cache.ott.ystenlive.itv.cmvideo.cn:80/000000001000/7583927553614607925/1.m3u8?stbId=005301FF001589101611549359B9531C&channel-id=shvoolive&Contentid=7583927553614607925&mos=jbjhhzstsl&livemode=1&proto=7&version=1.0&owaccmark=758392755"
+        },
+        {
+          "id": 904,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV4",
+          "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN0125HFWO2C4PU23VRpm_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225802/1.m3u8"
+        },
+        {
+          "id": 905,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV5+",
+          "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN01qVNMui2C4PTwd66Ea_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225821/1.m3u8"
+        },
+        {
+          "id": 906,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV5",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01rrSawP2C4PU0L0EVg_!!913168420.png",
+          "url": "http://112.17.40.6:80/PLTV/88888888/224/3221226400/index.m3u8"
+        },
+        {
+          "id": 907,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV6",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01rrSawP2C4PU0L0EVg_!!913168420.png",
+          "url": "http://112.17.40.48:80/PLTV/88888888/224/3221226433/1.m3u8"
+        },
+        {
+          "id": 908,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV7",
+          "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN017eHDB82C4PTzFK3ck_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225927/1.m3u8"
+        },
+        {
+          "id": 909,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV8",
+          "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01mEHs2t2C4PU10n9cy_!!913168420.png",
+          "url": "http://223.110.247.161:6610/cntv/live1/HD-2500k-1080P-cctv8/HD-2500k-1080P-cctv8"
+        },
+        {
+          "id": 910,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV9",
+          "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN01vKDvMj2C4PU10mgWR_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225820/1.m3u8"
+        },
+        {
+          "id": 911,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV10",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01Y7uizT2C4PTxeGjRx_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225814/1.m3u8"
+        },
+        {
+          "id": 912,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV11",
+          "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN01i7464y2C4PTx48RO8_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225815/1.m3u8"
+        },
+        {
+          "id": 913,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV12",
+          "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN01yXyjpg2C4PTzYY2Ay_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225816/1.m3u8"
+        },
+        {
+          "id": 914,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV13",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01CXo8WR2C4PU10lXtb_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225817/1.m3u8"
+        },
+        {
+          "id": 915,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV14",
+          "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01jisJe12C4PTxVsZYC_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225819/1.m3u8"
+        },
+        {
+          "id": 916,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV15",
+          "pic": "1",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225818/1.m3u8"
+        },
+        {
+          "id": 917,
+          "pid": 9,
+          "cid": 9,
+          "name": "CCTV17",
+          "pic": "1",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221226986/1.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "卫视频道",
+      "listData": [
+        {
+          "id": 1100,
+          "pid": 10,
+          "cid": 10,
+          "name": "湖南卫视",
+          "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN01PMMuHe2C4PTzYYlt9_!!913168420.png",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225827/1.m3u8"
+        },
+        {
+          "id": 1101,
+          "pid": 10,
+          "cid": 10,
+          "name": "江苏卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01hhbGGb2C4PU10loXe_!!913168420.png",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/jswshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1102,
+          "pid": 10,
+          "cid": 10,
+          "name": "东方卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN015XSxdh2C4PTzFH6gC_!!913168420.png",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/hddfws/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1103,
+          "pid": 10,
+          "cid": 10,
+          "name": "浙江卫视",
+          "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01Pa8un72C4PTzFHdvS_!!913168420.png",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/zjwshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1104,
+          "pid": 10,
+          "cid": 10,
+          "name": "安徽卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01VVVPmE2C4PTtehMvT_!!913168420.png",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229086/index.m3u8"
+        },
+        {
+          "id": 1105,
+          "pid": 10,
+          "cid": 10,
+          "name": "深圳卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01MFlgfx2C4PTtehIll_!!913168420.png",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/szwshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1106,
+          "pid": 10,
+          "cid": 10,
+          "name": "广东卫视",
+          "pic": "1",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/gdwshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1107,
+          "pid": 10,
+          "cid": 10,
+          "name": "黑龙江卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01vTl02b2C4PU1jbBK1_!!913168420.png",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/hljwshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1108,
+          "pid": 10,
+          "cid": 10,
+          "name": "重庆卫视",
+          "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN01ILG2jQ2C4PTv3El0A_!!913168420.png",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229061/index.m3u8"
+        },
+        {
+          "id": 1110,
+          "pid": 10,
+          "cid": 10,
+          "name": "广西卫视",
+          "pic": "1",
+          "url": "http://liveplay-kk.rtxapp.com/live/program/live/gxws/1300000/mnf.m3u8"
+        },
+        {
+          "id": 1111,
+          "pid": 10,
+          "cid": 10,
+          "name": "贵州卫视",
+          "pic": "1",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221226827/1.m3u8"
+        },
+        {
+          "id": 1112,
+          "pid": 10,
+          "cid": 10,
+          "name": "河南卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229371/index.m3u8"
+        },
+        {
+          "id": 1113,
+          "pid": 10,
+          "cid": 10,
+          "name": "湖北卫视",
+          "pic": "1",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/hbwshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1114,
+          "pid": 10,
+          "cid": 10,
+          "name": "江西卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229374/index.m3u8"
+        },
+        {
+          "id": 1115,
+          "pid": 10,
+          "cid": 10,
+          "name": "辽宁卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229112/index.m3u8"
+        },
+        {
+          "id": 1109,
+          "pid": 10,
+          "cid": 10,
+          "name": "东南卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01NIB0T92C4PTx4MsG8_!!913168420.png",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229068/index.m3u8"
+        },
+        {
+          "id": 1116,
+          "pid": 10,
+          "cid": 10,
+          "name": "山东卫视",
+          "pic": "1",
+          "url": "http://keonline.shanghai.liveplay.qq.com/live/program/live/sdwshd/4000000/mnf.m3u8"
+        },
+        {
+          "id": 1117,
+          "pid": 10,
+          "cid": 10,
+          "name": "四川卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01s6rmeP2C4PTxW8Ttq_!!913168420.png",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229064/index.m3u8"
+        },
+        {
+          "id": 1118,
+          "pid": 10,
+          "cid": 10,
+          "name": "海南卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227912/index.m3u8"
+        },
+        {
+          "id": 1119,
+          "pid": 10,
+          "cid": 10,
+          "name": "甘肃卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229077/index.m3u8"
+        },
+        {
+          "id": 1120,
+          "pid": 10,
+          "cid": 10,
+          "name": "宁夏卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229080/index.m3u8"
+        },
+        {
+          "id": 1121,
+          "pid": 10,
+          "cid": 10,
+          "name": "山西卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229074/index.m3u8"
+        },
+        {
+          "id": 1122,
+          "pid": 10,
+          "cid": 10,
+          "name": "内蒙古卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01LreacI2C4PTv3RVvC_!!913168420.png",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229043/index.m3u8"
+        },
+        {
+          "id": 1123,
+          "pid": 10,
+          "cid": 10,
+          "name": "新疆卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229116/index.m3u8"
+        },
+        {
+          "id": 1124,
+          "pid": 10,
+          "cid": 10,
+          "name": "青海卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229067/index.m3u8"
+        },
+        {
+          "id": 1125,
+          "pid": 10,
+          "cid": 10,
+          "name": "陕西卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229052/index.m3u8"
+        },
+        {
+          "id": 1126,
+          "pid": 10,
+          "cid": 10,
+          "name": "西藏卫视",
+          "pic": "1",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8"
+        },
+        {
+          "id": 1127,
+          "pid": 10,
+          "cid": 10,
+          "name": "云南卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229055/index.m3u8"
+        },
+        {
+          "id": 1128,
+          "pid": 10,
+          "cid": 10,
+          "name": "吉林卫视",
+          "pic": "1",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229049/index.m3u8"
+        },
+        {
+          "id": 1129,
+          "pid": 10,
+          "cid": 10,
+          "name": "天津卫视",
+          "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN010tphS42C4PTv3FpTv_!!913168420.png",
+          "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228905/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "港澳频道",
+      "listData": [
+        {
+          "id": 1500,
+          "pid": 15,
+          "cid": 15,
+          "name": "凤凰中文1",
+          "pic": "1",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225900/1.m3u8"
+        },
+        {
+          "id": 1501,
+          "pid": 15,
+          "cid": 15,
+          "name": "凤凰中文2",
+          "pic": "1",
+          "url": "http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8"
+        },
+        {
+          "id": 1502,
+          "pid": 15,
+          "cid": 15,
+          "name": "凤凰资讯1",
+          "pic": "1",
+          "url": "http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8"
+        },
+        {
+          "id": 1503,
+          "pid": 15,
+          "cid": 15,
+          "name": "凤凰资讯2",
+          "pic": "1",
+          "url": "http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8"
+        },
+        {
+          "id": 1504,
+          "pid": 15,
+          "cid": 15,
+          "name": "凤凰香港1",
+          "pic": "1",
+          "url": "http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8"
+        },
+        {
+          "id": 1505,
+          "pid": 15,
+          "cid": 15,
+          "name": "凤凰香港2",
+          "pic": "1",
+          "url": "http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8"
+        },
+        {
+          "id": 1506,
+          "pid": 15,
+          "cid": 15,
+          "name": "香港卫视",
+          "pic": "1",
+          "url": "http://zhibo.hkstv.tv/livestream/mutfysrq.flv"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "品牌首单礼金低至0.01",
+      "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
+      "url": "http://www.bei8.store/firstorder.html?id=61998",
+      "type": 1,
+      "types": "app://shopWeb"
+    }
+  ]
+}
