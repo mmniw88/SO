@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "2",
+      "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN018FpU8s2C4PVB9ZNKP_!!913168420.png",
+      "url": "https://s.click.ele.me/sI1mxuu",
+      "color": "#FFFFFF",
+      "type": "url://taobao"
+    }
+  ]
+}

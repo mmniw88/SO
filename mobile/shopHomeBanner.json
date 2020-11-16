@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "饿了么领红包",
+      "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01usCS3I2C4PSCm4CJO_!!913168420.jpg",
+      "url": "https://s.click.ele.me/svfrCuu",
+      "type": 1,
+      "types": "url://taobao"
+    }
+  ]
+}

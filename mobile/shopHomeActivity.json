@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "大牌鞋子",
+      "pic": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01TCa00d2JJi1bBBbLG_!!2053469401.jpg",
+      "url": "https://s.click.taobao.com/cnABTyu",
+      "color": "0",
+      "type": "url://taobao"
+    },
+    {
+      "id": 2,
+      "name": "淘宝主会场",
+      "pic": "https://img.alicdn.com/imgextra/i1/2053469401/O1CN01swmtIq2JJi1ecSGze_!!2053469401.jpg",
+      "url": "https://s.click.taobao.com/cnABTyu",
+      "color": "0",
+      "type": "url://taobao"
+    },
+    {
+      "id": 3,
+      "name": "今日值得买",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594902294720",
+      "url": "http://www.bei5.store/benefit_web.html?id=16056&v=9",
+      "color": "1",
+      "type": "app://shopWeb"
+    },
+    {
+      "id": 4,
+      "name": "九块九",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594899664593",
+      "url": "http://www.bei5.store/benefit_web.html?id=16056&v=9",
+      "color": "1",
+      "type": "app://shopWeb"
+    }
+  ]
+}

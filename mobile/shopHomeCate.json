@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "京东",
+      "type": "app://jd",
+      "pic": "https://static.fenxianglife.com/poster/9d152e77ca96f2301d83537b9565c3f0.png",
+      "url": "2"
+    },
+    {
+      "id": 2,
+      "name": "9.9包邮",
+      "type": "app://type=2",
+      "pic": "http://static.fenxianglife.com/poster/614e641f68472798d4e067182405ae48.png",
+      "url": "测试"
+    },
+    {
+      "id": 3,
+      "name": "拼多多",
+      "type": "app://pdd",
+      "pic": "https://static.fenxianglife.com/poster/4a392007f503d7a17057d69493810044.png",
+      "url": "3"
+    },
+    {
+      "id": 4,
+      "name": "30元封顶",
+      "type": "app://type=3",
+      "pic": "http://static.fenxianglife.com/poster/b84f0d67a2faeaba98b43bffa6a1dc4c.png",
+      "url": "4"
+    },
+    {
+      "id": 5,
+      "name": "聚划算",
+      "type": "app://type=4",
+      "pic": "http://static.fenxianglife.com/poster/a0a0fcbb96806edd0dafed5f148f32e4.png",
+      "url": "5"
+    },
+    {
+      "id": 6,
+      "name": "天猫超市",
+      "type": "app://type=11",
+      "pic": "http://static.fenxianglife.com/poster/f820fff9408883f4cb66d5b20f5caba0.png",
+      "url": "6"
+    },
+    {
+      "id": 7,
+      "name": "偏远包邮",
+      "type": "app://type=12",
+      "pic": "https://static.fenxianglife.com/poster/aef7ebd39a8ef9a88fa1c37102944c6f.gif",
+      "url": "7"
+    },
+    {
+      "id": 8,
+      "name": "品牌榜",
+      "type": "app://type=8",
+      "pic": "http://static.fenxianglife.com/poster/f5dd8c64b3187de93c07e88482385da8.png",
+      "url": "8"
+    },
+    {
+      "id": 9,
+      "name": "淘抢购",
+      "type": "app://type=5",
+      "pic": "http://static.fenxianglife.com/poster/0d2384fbf9a1ed98c97ce32aeebc5740.png",
+      "url": "9"
+    }
+  ]
+}
