@@ -2246,7 +2246,7 @@
       "subMobileTitle": "高清无筛选",
       "click": true,
       "webPlus": {
-        "search_url": "http://www.9rmb.com/search?wd={kw}",
+        "search_url": "https://www.dhfun.cn/search.php?searchword={kw}",
         "nav_url": "https://www.douhao.tv/list/navCate-navPage.html",
         "cate_url": "http://www.ameiju.net/vodshow/cateNav-cateArea--cateCate--catePage--cateYear.html",
         "web_name": "逗号影视",
@@ -2355,6 +2355,7 @@
             "descAttr": "",
             "descCss": "span.video-grade",
             "descIndex": 0,
+            "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
             "imgCss": "img",
