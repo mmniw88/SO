@@ -2891,7 +2891,7 @@
       "subMobileTitle": "高清速度快有筛选",
       "click": true,
       "webPlus": {
-        "search_url": "https://www.nfmovies.com/search.php?searchword={kw}",
+        "search_url": "https://www.nfstar.net/vodsearch/-------------/?wd={kw}",
         "nav_url": "https://www.nfstar.net/vodtype/navCate-navPage.html",
         "cate_url": "https://www.nfmovies.com/search.php?page=catePage&searchtype=5&tid=cateNav&area=cateArea&year=cateYear",
         "web_name": "暮光影视",
