@@ -798,7 +798,7 @@
       "subMobileTitle": "最低720P",
       "click": true,
       "webPlus": {
-        "search_url": "https://www.subaibai.com/grabble?q=",
+        "search_url": "https://www.subaibai.com/grabble?q={kw}",
         "nav_url": "https://www.subaibai.com/movie_bt/movie_bt_series/navCate/page/navPage",
         "cate_url": "https://www.k1080.net/index.php/vodshow/cateNav-cateArea--cateCate-----catePage---cateYear.html",
         "web_name": "1080影视",
