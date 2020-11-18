@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>手机重构版本</title>
+</head>
+<body>
+<p>手机版已重写，全新UI，因老版本无法推送更新，请手动点击复制浏览器打开下载</p>
+<p>或者长按此下载链接进行下载<p/>
+<p>https://www.lanzoui.com/b025mpw7e
+<p/>
+<div>
+    <span id="copyMy" style="position: absolute;left: -100000px;">https://www.lanzoui.com/b025mpw7e
+</span>
+    <button onClick="copyFn()">点击这里复制下载地址</button>
+</div>
+<script>
+    function copyFn() {
+        var val = document.getElementById('copyMy');
+        window.getSelection().selectAllChildren(val);
+        document.execCommand("Copy");
+        alert("复制成功，打开浏览器下载吧");
+    }
+</script>
+</body>
+</html>
