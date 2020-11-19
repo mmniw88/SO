@@ -12,10 +12,16 @@
 <p>或者长按此下载链接进行下载<p/>
 <p>https://www.lanzoui.com/b025mpw7e
 <p/>
+<p>更新情况使用技巧关注最新<p/>
 <div>
     <span id="copyMy" style="position: absolute;left: -100000px;">https://www.lanzoui.com/b025mpw7e
 </span>
     <button onClick="copyFn()">点击这里复制下载地址</button>
+</div>
+<div>
+    <span id="copyMy1" style="position: absolute;left: -100000px;">FreeD影院
+</span>
+    <button onClick="copyFn1()">点击这里复制下载地址</button>
 </div>
 <script>
     function copyFn() {
@@ -23,6 +29,12 @@
         window.getSelection().selectAllChildren(val);
         document.execCommand("Copy");
         alert("复制成功，打开浏览器下载吧");
+    }
+    function copyFn1() {
+        var val = document.getElementById('copyMy1');
+        window.getSelection().selectAllChildren(val);
+        document.execCommand("Copy");
+        alert("复制成功，打开微信搜索关注吧");
     }
 </script>
 </body>
