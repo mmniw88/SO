@@ -254,12 +254,7 @@
           "pic": "https://www.yy.com/favicon.ico",
           "url": "https://www.yy.com/"
         },
-        {
-          "name": "电视直播",
-          "type": "app://customWeb",
-          "pic": "",
-          "url": "http://www.dszbdq.cn/&&&ad-banner"
-        },
+
         {
           "name": "直播频道1",
           "type": "app://m3u",
