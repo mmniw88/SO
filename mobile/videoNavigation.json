@@ -262,22 +262,10 @@
           "url": "https://iptv-org.github.io/iptv/languages/zho.m3u"
         },
         {
-          "name": "这个别点",
+          "name": "直播频道2",
           "type": "app://m3u",
           "pic": "",
-          "url": "https://gitee.com/qq50951685/IPTV/raw/master/直播源/私人定制源.m3u"
-        },
-        {
-          "name": "直播频道3",
-          "type": "app://m3u",
-          "pic": "",
-          "url": "https://gitee.com/xiliuwangluo/zby/raw/master/yuan.m3u8"
-        },
-        {
-          "name": "直播频道4",
-          "type": "app://m3u",
-          "pic": "",
-          "url": "https://gitee.com/chang-chen/iptv/raw/master/cczby.m3u8"
+          "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/new.m3u"
         }
       ]
     },
