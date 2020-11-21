@@ -6,9 +6,17 @@
       "id": 1,
       "name": "饿了么领红包",
       "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01usCS3I2C4PSCm4CJO_!!913168420.jpg",
-      "url": "https://s.click.ele.me/svfrCuu",
+      "url": "1571715733668",
       "type": 1,
-      "types": "url://taobao"
+      "types": "api://taobaohuodongid"
+    },
+    {
+      "id": 1,
+      "name": "百亿补贴",
+      "pic": "https://gw.alicdn.com/tfs/TB1iwoaSBr0gK0jSZFnXXbRRXXa-800-450.png",
+      "url": "20150318020000462",
+      "type": 1,
+      "types": "api://taobaohuodongid"
     }
   ]
 }
