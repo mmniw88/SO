@@ -85,6 +85,279 @@
         }
       ]
     },
+    {"name": "明星频道",
+    "listData": [
+      {
+        "itemid": "uid0000",
+        "name": "李连杰",
+        "num": "00001",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021912#http://dl.shanxiyaxing.com/优酷.php?id=8021912"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "周星驰",
+        "num": "00002",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021901#http://dl.shanxiyaxing.com/优酷.php?id=8021901"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "成龙",
+        "num": "00003",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021903#http://dl.shanxiyaxing.com/优酷.php?id=8021903"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "刘德华",
+        "num": "00004",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021902#http://dl.shanxiyaxing.com/优酷.php?id=8021902"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "张学友",
+        "num": "00005",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8027929#http://dl.shanxiyaxing.com/优酷.php?id=8027929"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "黎明",
+        "num": "00006",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8028239#http://dl.shanxiyaxing.com/优酷.php?id=8028239"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "郭富城",
+        "num": "00007",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8027876#http://dl.shanxiyaxing.com/优酷.php?id=8027876"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "谢霆锋",
+        "num": "00008",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8020518#http://dl.shanxiyaxing.com/优酷.php?id=8020518"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "张国荣",
+        "num": "00009",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8019325#http://dl.shanxiyaxing.com/优酷.php?id=8019325"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "周润发",
+        "num": "00010",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021907#http://dl.shanxiyaxing.com/优酷.php?id=8021907"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "任达华",
+        "num": "00011",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8026523#http://dl.shanxiyaxing.com/优酷.php?id=8026523"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "吴彦祖",
+        "num": "00012",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8020520#http://dl.shanxiyaxing.com/优酷.php?id=8020520"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "沈腾",
+        "num": "00013",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8026514#http://dl.shanxiyaxing.com/优酷.php?id=8026514"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "黄渤",
+        "num": "00014",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021910#http://dl.shanxiyaxing.com/优酷.php?id=8021910"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "李小龙",
+        "num": "00015",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8020382"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "郑中基",
+        "num": "00016",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8027935#http://dl.shanxiyaxing.com/优酷.php?id=8027935"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "郑秀文",
+        "num": "00017",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8018673"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "葛优",
+        "num": "00018",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8034804"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "徐峥",
+        "num": "00019",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8034807"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "文章马伊琍",
+        "num": "00020",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8021367#http://dl.shanxiyaxing.com/优酷.php?id=8021367"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "宋慧乔宋仲基经典作品",
+        "num": "00021",
+        "pic":"","url": "http://520574.xyz/dl/youku.php?id=8020223"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "林志玲",
+        "num": "00022",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8019694"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "刘德华电影",
+        "num": "00023",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8020329"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "李连杰电影",
+        "num": "00024",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8020330"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "成龙电影",
+        "num": "00025",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8020331"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "梁家辉",
+        "num": "00026",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8027873"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "刘青云",
+        "num": "00027",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8019311"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "古天乐",
+        "num": "00028",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8019006"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "宋慧乔宋仲基",
+        "num": "00029",
+        "pic":"","url": "http://dl.shanxiyaxing.com/优酷.php?id=8020223"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "胡歌",
+        "num": "00030",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3807164"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "王凯",
+        "num": "00031",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3807180"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "靳东",
+        "num": "00032",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3807182"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "唐嫣",
+        "num": "00033",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3807184"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "聂远",
+        "num": "00034",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=4013101"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "倪大妮",
+        "num": "00035",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3807186"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "朱亚文",
+        "num": "00036",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3807168"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "赵丽颖",
+        "num": "00037",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3806664"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "张嘉译",
+        "num": "00038",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3806662"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "郭德纲",
+        "num": "00039",
+        "pic":"","url": "http://dl.shanxiyaxing.com/爱奇艺.php?id=3802073"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "周润发",
+        "num": "00040",
+        "pic":"","url": "http://kumeitv.top/youku.php?id=8021907"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "刘德华",
+        "num": "00041",
+        "pic":"","url": "http://kumeitv.top/youku.php?id=8018618"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "金庸武侠",
+        "num": "00042",
+        "pic":"","url": "http://kumeitv.top/youku.php?id=8026519"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "如果可以这样爱",
+        "num": "00043",
+        "pic":"","url": "http://kumeitv.top/youku.php?id=8019192"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "奥斯卡",
+        "num": "00044",
+        "pic":"","url": "http://kumeitv.top/youku.php?id=8018655"
+      },
+      {
+        "itemid": "uid0000",
+        "name": "宋慧乔",
+        "num": "00045",
+        "pic":"","url": "http://kumeitv.top/youku.php?id=8020223"
+      }
+    ]},
     {
       "name": "央视频道",
       "listData": [
