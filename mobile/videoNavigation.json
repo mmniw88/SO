@@ -266,12 +266,6 @@
           "type": "app://m3u",
           "pic": "",
           "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/live/new.m3u"
-        },
-        {
-          "name": "直播频道3",
-          "type": "app://m3u",
-          "pic": "",
-          "url": "https://gitee.com/yanlongcodesky/live_source/raw/master/3222%E9%83%A8%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%BD%B1.m3u"
         }
       ]
     },
