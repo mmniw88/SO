@@ -68,6 +68,14 @@
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/youku.json",
       "type": "gitJson",
       "subTitle": "某酷24小时轮播",
+      "click": false
+    },
+    {
+      "name": "电影轮播",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/电影轮播.json",
+      "type": "gitJson",
+      "subTitle": "电影轮播",
       "click": true
     },
     {
@@ -76,7 +84,7 @@
       "url": "https://mp.weixin.qq.com/s/JSOlvmV8YH7rg0qTZdx7pA",
       "type": "activity",
       "subTitle": "打开微信扫一扫查看新版本，点赞，点广告，支持作者",
-      "click": true
+      "click": false
     },
     {
       "name": "",
@@ -84,7 +92,7 @@
       "url": "http://www.a06.store/firstorder.html?id=88745",
       "type": "activity",
       "subTitle": "天猫首单礼金，浏览器扫一扫每天撸单(有具体教程)",
-      "click": true
+      "click": false
     }
   ]
 }
