@@ -79,6 +79,30 @@
       "click": true
     },
     {
+      "name": "电视轮播",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/电视轮播.json",
+      "type": "gitJson",
+      "subTitle": "电视轮播",
+      "click": true
+    },
+    {
+      "name": "动漫轮播",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/动漫轮播.json",
+      "type": "gitJson",
+      "subTitle": "动漫轮播",
+      "click": true
+    },
+    {
+      "name": "综艺轮播",
+      "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p4191.jpg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/综艺轮播.json",
+      "type": "gitJson",
+      "subTitle": "综艺轮播",
+      "click": true
+    },
+    {
       "name": "",
       "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
       "url": "https://mp.weixin.qq.com/s/JSOlvmV8YH7rg0qTZdx7pA",
