@@ -113,6 +113,15 @@
         "color": "1",
         "type": "api://taobaohuodongid",
         "show": true
+      },
+      {
+        "id": 1,
+        "name": "京东礼金",
+        "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FlorCl6BGl2H9IbVyLZSz47iQHqc",
+        "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/jd_activity.html",
+        "color": "11",
+        "type": "app://updateInfo",
+        "show": true
       }
     ]
   }
