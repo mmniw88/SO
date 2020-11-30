@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>京享礼金</title>
+
+  <script>
+  ;(function (win, lib) {
+    var doc = win.document;
+    var docEl = doc.documentElement;
+    var metaEl = doc.querySelector("meta[name=\"viewport\"]");
+    var flexibleEl = doc.querySelector("meta[name=\"flexible\"]");
+    var dpr = 0;
+    var scale = 0;
+    var tid;
+    var flexible = lib.flexible || (lib.flexible = {});
+    if (metaEl) {
+      // console.warn('将根据已有的meta标签来设置缩放比例')
+      var match = metaEl.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
+      if (match) {
+        scale = parseFloat(match[1]);
+        dpr = parseInt(1 / scale);
+      }
+    } else if (flexibleEl) {
+      var content = flexibleEl.getAttribute("content");
+      if (content) {
+        var initialDpr = content.match(/initial\-dpr=([\d\.]+)/);
+        var maximumDpr = content.match(/maximum\-dpr=([\d\.]+)/);
+        if (initialDpr) {
+          dpr = parseFloat(initialDpr[1]);
+          scale = parseFloat((1 / dpr).toFixed(2));
+        }
+        if (maximumDpr) {
+          dpr = parseFloat(maximumDpr[1]);
+          scale = parseFloat((1 / dpr).toFixed(2));
+        }
+      }
+    }
+    if (!dpr && !scale) {
+      var isAndroid = win.navigator.appVersion.match(/android/gi);
+      var isIPhone = win.navigator.appVersion.match(/iphone/gi);
+      var devicePixelRatio = win.devicePixelRatio;
+      if (isIPhone) {
+        // iOS下，对于2和3的屏，用2倍的方案，其余的用1倍方案
+        if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {
+          dpr = 3;
+        } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)) {
+          dpr = 2;
+        } else {
+          dpr = 1;
+        }
+      } else {
+        // 其他设备下，仍旧使用1倍的方案
+        dpr = 1;
+      }
+      scale = 1 / dpr;
+    }
+    docEl.setAttribute("data-dpr", dpr);
+    if (!metaEl) {
+      metaEl = doc.createElement("meta");
+      metaEl.setAttribute("name", "viewport");
+      metaEl.setAttribute(
+        "content",
+        "initial-scale=" +
+        scale +
+        ", maximum-scale=" +
+        scale +
+        ", minimum-scale=" +
+        scale +
+        ", user-scalable=no"
+      );
+      if (docEl.firstElementChild) {
+        docEl.firstElementChild.appendChild(metaEl);
+      } else {
+        var wrap = doc.createElement("div");
+        wrap.appendChild(metaEl);
+        doc.write(wrap.innerHTML);
+      }
+    }
+
+    function refreshRem() {
+      var width = docEl.getBoundingClientRect().width;
+      if (width / dpr > 540) {
+        width = 540 * dpr;
+      }
+      var rem = width * 0.133334;
+      docEl.style.fontSize = rem + "px";
+      flexible.rem = win.rem = rem;
+    }
+
+    win.addEventListener(
+      "resize",
+      function () {
+        clearTimeout(tid);
+        tid = setTimeout(refreshRem, 300);
+      },
+      false
+    );
+    win.addEventListener(
+      "pageshow",
+      function (e) {
+        if (e.persisted) {
+          clearTimeout(tid);
+          tid = setTimeout(refreshRem, 300);
+        }
+      },
+      false
+    );
+    if (doc.readyState === "compvare") {
+      doc.body.style.fontSize = 12 * dpr + "px";
+    } else {
+      doc.addEventListener(
+        "DOMContentLoaded",
+        function (e) {
+          doc.body.style.fontSize = 12 * dpr + "px";
+        },
+        false
+      );
+    }
+    refreshRem();
+    flexible.dpr = win.dpr = dpr;
+    flexible.refreshRem = refreshRem;
+    flexible.rem2px = function (d) {
+      var val = parseFloat(d) * this.rem;
+      if (typeof d === "string" && d.match(/rem$/)) {
+        val += "px";
+      }
+      return val;
+    };
+    flexible.px2rem = function (d) {
+      var val = parseFloat(d) / this.rem;
+      if (typeof d === "string" && d.match(/px$/)) {
+        val += "rem";
+      }
+      return val;
+    };
+  })(window, window["lib"] || (window["lib"] = {}));
+  </script>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/layer/2.3/skin/layer.css">
+  <!--  <link rel="stylesheet" href="jd_activity.css">-->
+  <style>*{-webkit-tap-highlight-color:transparent}body,html{background:#b50007;padding:0;margin:0}[v-cloak]{display:none}.free-container{min-height:100vh;max-width:7.5rem;background:#b50007;padding-bottom:1.76rem;margin:0 auto;box-sizing:border-box}.free-banner{width:7.5rem;height:auto;display:block}.rule{position:relative;display:block;width:7.02rem;height:2.61rem;padding:.75rem .1rem .1rem .28rem;box-sizing:border-box;margin:-.5rem auto 0;background:url(http://img-haodanku-com.cdn.fudaiapp.com/FigJSqLrLoDa8hvdpIcEjKncfZzX);background-size:cover}.rule .rule-box{height:100%;overflow:auto}.rule p{margin:0;font-size:.22rem;font-family:PingFang SC;font-weight:500;line-height:.4rem;color:#333}.free-explain{width:7.02rem;height:auto;display:block;margin:0 auto .4rem}.free-navbar{position:-webkit-sticky;position:sticky;z-index:100;top:0;background:#b50007;padding:.4rem 0 .28rem}.free-navbar .free-navbar-class{position:relative;display:flex;align-items:center;height:.88rem;width:7.02rem;margin:0 auto;border:1px solid #e7a37e;border-radius:.44rem;box-sizing:border-box;overflow:hidden;background:#bd1d14;font-size:0;box-shadow:inset 0 0 6px 0 rgba(0,0,0,.4)}.free-navbar .free-navbar-class span{flex:1;display:flex;align-items:center;height:100%;position:relative;z-index:1;font-size:.36rem;font-weight:700;color:#ffdea9;justify-content:center;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center}.free-navbar .free-navbar-class span.active-bg{position:absolute;z-index:0;top:-1px;left:0;height:.88rem;background:#06f;transition:left .2s ease-out;background:linear-gradient(90deg,#ffdda8,#fff6e2);border-radius:.44rem}.free-navbar .free-navbar-class span.active{color:#bd1d14}.free-navbar .free-navbar-second{justify-content:space-between;padding:0 .26rem;box-sizing:border-box}.free-navbar .free-navbar-second span{width:1.5rem;height:.6rem;font-size:.3rem;font-weight:700;color:#ffeb90;background:rgba(249,227,136,.2);justify-content:center;border-radius:.3rem;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.free-navbar .free-navbar-second span.active{color:#bd1d14;background:#f9e388}.free-navbar .free-navbar-tips{font-size:.24rem;font-weight:400;color:#ebaf51;text-align:center;margin:.24rem 0 .28rem;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.free-navbar .free-navbar-second,.free-navbar .free-navbar-second span{display:flex;align-items:center}.free-lists{padding:0 .24rem;box-sizing:border-box}.free-lists .free-item{width:7.02rem;background:#fff;display:flex;align-items:center;padding:.2rem;margin-bottom:.2rem;border-radius:.2rem;box-sizing:border-box;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.free-lists .free-item>img{width:2.3rem;height:2.3rem;border-radius:.1rem}.free-lists .free-item .detail{position:relative;width:calc(100% - 2.3rem);padding-left:.2rem;box-sizing:border-box}.free-lists .free-item .detail .ticket{display:inline-flex;height:.38rem;padding:1px 1px 1px 0;box-sizing:border-box;background:linear-gradient(0deg,#ff753c,#ff4b42);border-radius:2px;font-size:0;font-family:Microsoft YaHei}.free-lists .free-item .detail .ticket .label,.free-lists .free-item .detail .ticket .value{padding:0 .05rem;font-size:.25rem;font-family:Microsoft YaHei}.free-lists .free-item .detail .ticket .label{font-weight:300;color:#fff}.free-lists .free-item .detail .ticket .value{display:flex;align-items:center;height:100%;font-weight:400;color:#ff4d42;background:#fff}.free-lists .free-item .detail .price{font-size:.3rem;padding-right:.5rem;font-family:PingFang SC;font-weight:700;line-height:1em}.free-lists .free-item .detail .price .discount{color:#f23015;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.free-lists .free-item .detail .price .discount strong{font-size:.44rem;line-height:1em}.free-lists .free-item .detail .price .origin{margin-top:.1rem;font-weight:500;text-decoration:line-through;color:#b9b9b9}.free-lists .free-item .detail .title{font-size:.3rem;font-weight:500;color:#000;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin:0}.free-lists .free-item .detail .title .icon{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;height:.3rem;width:auto;vertical-align:middle;margin-right:2px}.free-lists .free-item .detail .center{margin:.2rem 0}.free-lists .free-item .detail .share{position:absolute;top:.8rem;right:-.2rem;width:1.03rem;font-size:.26rem;font-weight:500;padding-left:.1rem;border-radius:.28rem 0 0 .28rem;cursor:pointer;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:1}.free-lists .free-item .detail .footer{display:flex;justify-content:space-between;align-items:flex-end}.free-lists .free-item .detail .footer .operation{width:1.87rem;height:.64rem;font-size:.28rem;font-weight:700;color:#bd1d14;background:linear-gradient(0deg,#ffcd62,#fde989);display:flex;justify-content:center;align-items:center;border-radius:.36rem}.free-lists .free-item .detail .footer .operation.sell-out{background:#eee;color:#ccc}.free-lists .free-item-loading{text-align:center;margin:.24rem 0}.free-lists .free-item-loading span{font-size:.24rem;color:#fff;letter-spacing:.01rem}.free-lists .free-item .detail .share{height:.56rem;color:#f23015;background:#ffefed}.free-lists .free-item .detail .share,.free-loading{display:flex;justify-content:center;align-items:center}.free-loading{flex-direction:column;padding-top:.6rem}.free-loading>p{font-size:.3rem;color:#fff;letter-spacing:.01rem;margin:.2rem 0 0}.free-loading .la-line-scale{width:1.6rem;height:1.28rem;display:block;font-size:0;color:#fff}.free-loading .la-line-scale>div{display:inline-block;float:none;background-color:currentColor;border:0 solid;width:.16rem;height:1.28rem;margin:0 .08rem;border-radius:0;-webkit-animation:line-scale 1.2s ease infinite;animation:line-scale 1.2s ease infinite}.free-loading .la-line-scale>div:first-child{-webkit-animation-delay:-1.2s;animation-delay:-1.2s}.free-loading .la-line-scale>div:nth-child(2){-webkit-animation-delay:-1.1s;animation-delay:-1.1s}.free-loading .la-line-scale>div:nth-child(3){-webkit-animation-delay:-1s;animation-delay:-1s}.free-loading .la-line-scale>div:nth-child(4){-webkit-animation-delay:-.9s;animation-delay:-.9s}.free-loading .la-line-scale>div:nth-child(5){-webkit-animation-delay:-.8s;animation-delay:-.8s}.free-share{position:fixed;bottom:0;width:7.5rem;height:1.76rem;background:linear-gradient(180deg,transparent,#b50007 50%);padding:.32rem .24rem;box-sizing:border-box;z-index:100}.free-share span{display:block;width:6.22rem;height:.9rem;margin:auto;background:url(http://img-haodanku-com.cdn.fudaiapp.com/Fjjv0r_2CMm1oSu5ZmFXsgP9adkv) no-repeat;background-size:contain}.poster-loading{display:none;position:fixed;top:0;left:0;transform:translateX(-50%);width:7.5rem;height:100%;background:rgba(0,0,0,.6);z-index:199}.poster-loading .loading-content{position:relative;transform:translateY(-50%);width:4.8rem;height:2.8rem;background:#fff;display:flex;justify-content:center;align-items:center;flex-direction:column;margin:0 auto;border-radius:.1rem}.poster-loading .loading-content img{width:.68rem;height:.68rem;margin-bottom:.36rem;-webkit-animation:turn 1s linear infinite;animation:turn 1s linear infinite}.poster-loading .loading-content span{font-size:.28rem;font-weight:500;color:#666}@-webkit-keyframes turn{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@keyframes turn{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@-webkit-keyframes line-scale{0%,40%,to{transform:scaleY(.4)}20%{transform:scaleY(1)}}@keyframes line-scale{0%,40%,to{transform:scaleY(.4)}20%{transform:scaleY(1)}}</style>
+</head>
+<body>
+<div id="free_app" class="free-container" v-cloak>
+  <div class="free-mail">
+    <img :src="banner" alt="" class="free-banner">
+    <div class="rule">
+      <div class="rule-box">
+        <p v-for="item in rules">{{item}}</p>
+      </div>
+    </div>
+
+    <div class="free-navbar">
+      <div class="free-navbar-class">
+        <span
+          class="active-bg"
+          v-bind:style="{left:(oNavbar.activeIndex / oNavbar.list.length * 100) + '%',width:(100/oNavbar.list.length)+'%'}"
+        ></span>
+        <span
+          v-for="(item, index) in oNavbar.list"
+          v-bind:class="{'active': item.value == oNavbar.selected}"
+          v-on:click="handleNavbar(item, index)"
+        >
+          {{ item.name }}
+        </span>
+      </div>
+      <p class="free-navbar-tips" v-if="false">每个专区可任意选择1个商品下单，仅限1天</p>
+    </div>
+
+    <div class="free-lists">
+      <template v-if="!oData.loading">
+        <div class="free-item" v-for="item in oData.list">
+          <img v-lazy="item.itempic" v-if="item.itempic">
+          <img src="http://img.bc.fqapps.com/fudai13cae4ae6ef16739ed3b100a2ec39e97.gif" alt="" v-else>
+          <div class="detail">
+            <div class="title">
+              <img
+                class="icon"
+                src="http://img-haodanku-com.cdn.fudaiapp.com/FieNXmZjc_io1YMTcsCbrxsQJBR0"
+                alt="">{{item.itemtitle }}
+            </div>
+            <div class="center">
+              <div class="price">
+                <div class="discount">礼金价：<strong>{{ item.itemprice }}元</strong></div>
+                <div class="origin">原价{{ item.activityprice }}元</div>
+              </div>
+              <span class="share" :id="'item' + item.sku" v-on:click="handleGoodsTransfer(item, 'share')">分享</span>
+            </div>
+            <div class="footer">
+              <div class="ticket">
+                <span class="label">券</span><span class="value">￥{{ item.coupon_amount }}</span>
+              </div>
+              <span v-if="item.stock == 0" class="operation sell-out">已抢完</span>
+              <span v-else-if="item.stock == -1" class="operation sell-out">未开始</span>
+              <span v-else class="operation" v-on:click="handleGoodsTransfer(item, 'shop')">立即购买</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 底部提示 -->
+        <!-- <div class="free-item-loading">
+            <span v-if="oData.endShowTips">已经加载到底啦~</span>
+            <span v-else>数据正在赶来的路上...</span>
+        </div> -->
+      </template>
+
+      <!-- 加载效果 -->
+      <div class="free-loading" v-if="oData.loading">
+        <div style="color: #FFFFFF" class="la-line-scale">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p>数据加载中...</p>
+      </div>
+    </div>
+
+    <div class="free-share">
+      <span id="share_href" v-on:click="handleShare"></span>
+    </div>
+  </div>
+  <!--分享复制图  暂不做-->
+  <div class="copy-base" v-if="false">
+    <img v-bind:src="shareBg" alt="">
+  </div>
+</div>
+
+<script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/vue/2.6.10/vue.min.js"></script>
+<script src="https://cdn.staticfile.org/vue-lazyload/1.3.3/vue-lazyload.js"></script>
+<script src="https://cdn.staticfile.org/layer/2.3/layer.js"></script>
+<script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>
+var vmUrlSearchs = null;
+
+function vmRequest(name) {
+  if (!vmUrlSearchs) {
+    vmUrlSearchs = new vmUrlSearch();
+  }
+  return vmUrlSearchs[name];
+}
+
+function vmUrlSearch() {
+  var name, value;
+  var str = location.href;
+  var num = str.indexOf("?");
+  str = str.substr(num + 1);
+  var arr = str.split("&");
+  for (var i = 0; i < arr.length; i++) {
+    num = arr[i].indexOf("=");
+    if (num > 0) {
+      name = arr[i].substring(0, num);
+      value = arr[i].substr(num + 1);
+      this[name] = value;
+    }
+  }
+}
+
+Vue.use(VueLazyload, {
+  preLoad: 1.3,
+  error: "http://img.bc.haodanku.com/haodanku/1595237918",
+  loading: "http://img.bc.fqapps.com/fudai13cae4ae6ef16739ed3b100a2ec39e97.gif",
+  attempt: 1
+});
+var vmJdFree = new Vue({
+  el: "#free_app",
+  data: {
+    vmCid: vmRequest("cid"),
+    hostLink: window.location,
+    vmHttp: (function () {
+      var protocol = window.location.protocol;
+      protocol = protocol.substring(0, protocol.length - 1);
+      return protocol.includes("http") ? protocol : "http";
+    })(),
+    oNavbar: {
+      list: [
+        /* {
+           name: "5元礼金专区",
+           value: 5
+         },
+         {
+           name: "3元礼金专区",
+           value: 3
+         }*/
+      ],
+      selected: "",
+      activeIndex: 0
+      // secondList: [
+      //     {
+      //         name: '1区',
+      //         value: 1
+      //     },
+      //     {
+      //         name: '2区',
+      //         value: 2
+      //     },
+      //     {
+      //         name: '3区',
+      //         value: 3
+      //     },
+      //     {
+      //         name: '4区',
+      //         value: 4
+      //     }
+      // ],
+      // secondSelected: 1
+    },
+    oBasic: {
+      page: 1,
+      page_total: 1,
+      share_href: ""
+    },
+    oData: {
+      list: [],
+      loading: true,
+      ajaxSwtich: true,
+      endShowTips: false
+    },
+    rules: [],
+    banner: "",
+    shareBg: ""
+  },
+  created: function () {
+    this.oBasic.share_href = this.hostLink.href;
+    this.getConfig();
+    // this.getJdGoods();
+  },
+  computed: {
+    configUrl: function () {
+      return this.vmHttp + "://api.haodanku.com/jdactivity/ActivitySetting";
+    }
+  },
+  methods: {
+    /**
+     * 切换导航栏
+     */
+    handleNavbar: function (item, index) {
+      this.oNavbar.activeIndex = index;
+      if (this.oNavbar.selected == item.value) return false;
+      if (!this.oData.ajaxSwtich) return false;
+      this.oNavbar.selected = item.value;
+      this.oNavbar.secondSelected = 1;
+      this.oData.list = [];
+      this.oData.loading = true;
+      this.oData.ajaxSwtich = false;
+      this.getJdGoods();
+    },
+    /**
+     * 获取商品数据
+     */
+    getJdGoods: function () {
+      var that = this;
+      $.ajax({
+        url: "https://api.haodanku.com/activity/get_jd_items",
+        type: "GET",
+        data: {
+          amount: this.oNavbar.selected,
+          // nav: this.oNavbar.secondSelected
+        },
+        dataType: "json"
+      }).done(function (res) {
+        if (res.code == 200) {
+          that.oData.list = res.data.list;
+          that.oData.ajaxSwtich = true;
+          setTimeout(function () {
+            that.oData.loading = false;
+          }, 200);
+        } else {
+          that.getJdGoods();
+        }
+      });
+    },
+    /**
+     * 商品转链
+     */
+    handleGoodsTransfer: function (item, source) {
+      if (item.stock == 0) {
+        layer.msg("已抢完", {
+          time: 1200,
+          shift: 5
+        });
+        return;
+      } else if(item.stock == -1){
+        layer.msg("活动未开始", {
+          time: 1200,
+          shift: 5
+        });
+        return;
+      }
+      var that = this;
+      $.ajax({
+        url: that.vmHttp + "://v2.api.haodanku.com/get_jdresult_url",
+        type: "POST",
+        data: {
+          apikey: 'shunziyouxuan',  //必填项   应用中心获取apikey
+          code: 'shunziyouxuan', //自定义备注（*用于区分渠道订单数据；60位字符之内，仅支持字母数字*）
+          version: 3,
+          type: this.oNavbar.selected,
+          item_url: item.itemlink
+        },
+        dataType: "json",
+        async: false
+      }).done(function (res) {
+        if (res.code == 200) {
+          if (source == "shop") {
+            // 购买
+            window.location.href = res.data.short_url;
+          } else if (source == "share") {
+            // 分享
+            $("#item" + item.sku).attr("data-word", item.itemtitle + "\n" + res.data.short_url);
+          }
+        } else {
+          layer.msg(res.msg, {
+            time: 4000,
+            shift: 5
+          });
+          return;
+        }
+      });
+      var clipboard = new ClipboardJS("#item" + item.sku, {
+        text: function () {
+          return $("#item" + item.sku).attr("data-word");
+        }
+      });
+      clipboard.on("success", function (e) {
+        layer.msg("复制成功，分享给身边好友吧~", {
+          time: 1200,
+          shift: 5
+        });
+      });
+      clipboard.on("error", function (e) {
+        layer.msg("复制失败，请稍后重试", {
+          time: 1200,
+          shift: 5
+        });
+      });
+    },
+    /**
+     * 分享给好友
+     */
+    handleShare: function () {
+      var that = this;
+      var clipboard = new ClipboardJS("#share_href", {
+        text: function () {
+          return "我发现了一个京东福利，每天都可以一元购，不信点开看看～" + that.oBasic.share_href;
+        }
+      });
+      clipboard.on("success", function (e) {
+        layer.msg("复制成功，分享给身边好友吧~", {
+          time: 1200,
+          shift: 5
+        });
+      });
+      clipboard.on("error", function (e) {
+        layer.msg("复制失败，请稍后重试", {
+          time: 1200,
+          shift: 5
+        });
+      });
+    },
+    getConfig: function () {
+      var that = this;
+      $.ajax({
+        url: this.configUrl,
+        type: "GET",
+        data: {},
+        dataType: "json"
+      }).done(function (res) {
+        if (res.code === 200) {
+          var data = res.data;
+          that.banner = data.banner;
+          that.rules = data.regulation;
+          that.shareBg = data.share;
+          that.oNavbar.list = data.type.map(function (item) {
+            return {name: item.name, value: item.id};
+          });
+          that.oNavbar.activeIndex = 0;
+          that.oNavbar.selected = that.oNavbar.list[0].value;
+          that.getJdGoods();
+        } else {
+        }
+      });
+    }
+  }
+});
+</script>
+</body>
+</html>
