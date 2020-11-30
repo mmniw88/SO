@@ -187,7 +187,7 @@
                 <div class="discount">礼金价：<strong>{{ item.itemprice }}元</strong></div>
                 <div class="origin">原价{{ item.activityprice }}元</div>
               </div>
-              <span class="share" :id="'item' + item.sku" v-on:click="handleGoodsTransfer(item, 'share')">分享</span>
+<!--              <span class="share" :id="'item' + item.sku" v-on:click="handleGoodsTransfer(item, 'share')">分享</span>-->
             </div>
             <div class="footer">
               <div class="ticket">
@@ -220,9 +220,9 @@
       </div>
     </div>
 
-    <div class="free-share">
+<!--    <div class="free-share">
       <span id="share_href" v-on:click="handleShare"></span>
-    </div>
+    </div>-->
   </div>
   <!--分享复制图  暂不做-->
   <div class="copy-base" v-if="false">
