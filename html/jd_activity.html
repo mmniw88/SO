@@ -409,7 +409,12 @@ var vmJdFree = new Vue({
         if (res.code == 200) {
           if (source == "shop") {
             // 购买
-            window.location.href = res.data.short_url;
+            // window.location.href = res.data.short_url;
+            try{
+            window.jsAndroid.toJd(res.data.short_url)
+            } catch (e) {
+              window.location.href = res.data.short_url;
+            }
           } else if (source == "share") {
             // 分享
             $("#item" + item.sku).attr("data-word", item.itemtitle + "\n" + res.data.short_url);
