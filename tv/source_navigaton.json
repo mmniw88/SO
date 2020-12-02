@@ -69,7 +69,7 @@
       "type": "gitJson",
       "noParse": true,
       "subTitle": "某酷24小时轮播",
-      "click": false
+      "click": true
     },
     {
       "name": "电影轮播",
