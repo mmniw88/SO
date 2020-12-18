@@ -121,7 +121,7 @@
         "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/jd_activity.html",
         "color": "11",
         "type": "app://updateInfo",
-        "show": true
+        "show": false
       }
     ]
   }
