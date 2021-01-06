@@ -4,12 +4,52 @@
   "data": [
     {
       "id": 1,
-      "name": "大牌鞋子",
-      "pic": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01TCa00d2JJi1bBBbLG_!!2053469401.jpg",
-      "url": "https://s.click.taobao.com/cnABTyu",
-      "color": "0",
-      "type": "url://taobao"
+      "name": "好物低至一元",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FtGOXtB2bib_pV3CQidX1x_mRBwi",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=lowprice&code=zlKnko&f=web&demo_type=5",
+      "color": "1",
+      "type": "app://shopWeb"
     },
+    {
+      "id": 1,
+      "name": "天猫超值买反购",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FhgWQBJW76d57pAct5CDqC2vnm5x",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=maifan&code=yvjvGH&f=web&demo_type=10",
+      "color": "1",
+      "type": "app://shopWeb"
+    },
+    {
+      "id": 1,
+      "name": "热销专场",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FvIFXZNa_NNB0YWoSBGNZc6RrXf-",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=hot_sale&code=7rYz8Q&f=web&demo_type=8",
+      "color": "1",
+      "type": "app://shopWeb"
+    },         
+    {
+      "id": 1,
+      "name": "聚划算热销",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FnHi1kIxNe9yPkAtSDIVrhJIK8oX",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=juhuasuan&code=Sw4Xl1&f=web&demo_type=7",
+      "color": "1",
+      "type": "app://shopWeb"
+    }, 
+    {
+      "id": 1,
+      "name": "大牌尖货",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/Ftc05oymZ7qKQCkyOfBu6K3gsSce",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=maochao&code=s6tvj6&f=web&demo_type=9",
+      "color": "1",
+      "type": "app://shopWeb"
+    }, 
+    {
+      "id": 1,
+      "name": "福利清单",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FidecMbZv9-1_VLlFQl6aViRFa4T",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=ac_qingdan&code=6cSsco&f=web&demo_type=1",
+      "color": "1",
+      "type": "app://shopWeb"
+    },              
     {
       "id": 2,
       "name": "淘宝主会场",
@@ -23,7 +63,7 @@
       "name": "今日值得买",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594902294720",
       "url": "http://www.bei5.store/benefit_web.html?id=16056&v=9",
-      "color": "1",
+      "color": "0",
       "type": "app://shopWeb"
     },
     {
@@ -31,7 +71,7 @@
       "name": "九块九",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594899664593",
       "url": "http://www.bei5.store/benefit_web.html?id=16056&v=9",
-      "color": "1",
+      "color": "0",
       "type": "app://shopWeb"
     }
   ]
