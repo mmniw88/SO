@@ -10,6 +10,14 @@
       "url": "http://www.bei8.store/firstorder.html?id=61998",
       "type": 1,
       "types": "app://shopWeb"
+    },
+    {
+      "id": 1,
+      "name": "天猫超值买反购",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FhgWQBJW76d57pAct5CDqC2vnm5x",
+      "url": "https://fuliqingdan832.kuaizhan.com/?tmp=maifan&code=yvjvGH&f=web&demo_type=10",
+      "type": 1,
+      "types": "app://shopWeb"
     }
   ]
 }
