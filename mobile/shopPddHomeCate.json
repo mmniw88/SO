@@ -4,7 +4,7 @@
   "data": [
     {
       "id": 1,
-      "name": "1.9元",
+      "name": "低至1.9",
       "type": "",
       "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01EKDYMS2C4PSfBbjbw_!!913168420.png",
       "url": "pinduoduo://com.xunmeng.pinduoduo/duo_nine_nine.html?pid=8147037_187241452&cpsSign=CM_210109_8147037_187241452_ab2bde42b2ece3955a955b349b85bb5f&duoduo_type=2\n\n\n"
@@ -22,6 +22,41 @@
       "type": "",
       "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
       "url": "pinduoduo://com.xunmeng.pinduoduo/duo_brand_sales.html?pid=8147037_187241452&cpsSign=CM_210109_8147037_187241452_08dbca6f54610fcac0d7e465b5c82520&duoduo_type=2"
+    },
+    {
+      "id": 1,
+      "name": "内购清单",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_collection.html?__page=dis&pid=8147037_187241452&cpsSign=CIP_210109_8147037_187241452_0165a6eb07a714e56807f5e46154e3f5&duoduo_type=2"
+    },
+    {
+      "id": 1,
+      "name": "百亿补贴",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_transfer_channel.html?resourceType=39996&pid=8147037_187241452&_pdd_fs=1&_pdd_tc=ffffff&_pdd_sbs=1&cpsSign=CE_210109_8147037_187241452_332adb7bf71560c373267df15503846a&duoduo_type=2"
+    },
+    {
+      "id": 1,
+      "name": "限时秒杀",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_transfer_channel.html?resourceType=4&pid=8147037_187241452&cpsSign=CE_210109_8147037_187241452_48283f1711249e22c2d0c61b30fd8998&duoduo_type=2"
+    },
+    {
+      "id": 1,
+      "name": "充值中心",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_transfer_channel.html?resourceType=39997&pid=8147037_187241452&cpsSign=CE_210109_8147037_187241452_821c59f08cd17b5697990282ca8d7cdf&duoduo_type=2"
+    },
+    {
+      "id": 1,
+      "name": "领券中心",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_transfer_channel.html?resourceType=40000&pid=8147037_187241452&cpsSign=CE_210109_8147037_187241452_9ec6e3426c51d7fefcc3602f31de47dd&duoduo_type=2\n\n\n"
     }
   ]
 }
