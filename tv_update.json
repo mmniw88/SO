@@ -1,8 +1,8 @@
 {
-  "name": "顺子影院TV1.0.8.8",
-  "message": "优化云插件\n遥控器点击返回然后切换到【我的】点击【检查更新】下载最新版本那个下载快【部分无法使用那个更新再使用这个】",
+  "name": "",
+  "message": "",
   "clickDownload": true,
-  "clickMessage": "马上就去",
+  "clickMessage": "",
   "versionCode": 11,
-  "url": "http://139.129.228.202:8887/TV1.0.8.8.apk"
+  "url": "http:TV1.0.8.8.apk"
 }
