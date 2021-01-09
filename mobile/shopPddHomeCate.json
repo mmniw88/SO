@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": 1,
+      "name": "1.9元",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01EKDYMS2C4PSfBbjbw_!!913168420.png",
+      "url": ""
+    },
+    {
+      "id": 1,
+      "name": "今日爆款",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i3/913168420/O1CN01MorGOv2C4PSiHBN6Z_!!913168420.png",
+      "url": ""
+    },
+    {
+      "id": 1,
+      "name": "品牌清仓",
+      "type": "",
+      "pic": "https://img.alicdn.com/imgextra/i2/913168420/O1CN01IlIQPE2C4PSlKQs3q_!!913168420.png",
+      "url": ""
+    }
+  ]
+}

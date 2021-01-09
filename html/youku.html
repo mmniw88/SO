@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>优酷24小时轮播</title>
+    <!-- 引入样式文件 -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/vant@2.7.1/lib/index.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vant@2.7.1/lib/vant.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="pd-10">
+            <div class="flex">
+                <div class="flex-l">
+                    <van-button @click="add" class="mg-b-15" type="primary">新增分类</van-button>
+                    <div>
+                        <div @click="selectItem(index)" class="cate-box " :class="tagIndex == index ? 'active' : ''" v-for="(item,index) in list"  :key="item.name">
+                            {{item.name}}
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-r">
+                    <van-field
+                    class="mg-b-10"
+                    v-model="name"
+                    center
+                    clearable
+                    placeholder="请输入分类名"
+                    >
+                    <template #button>
+                        <van-button size="small" @click="save" type="info">保存</van-button>
+                        <van-button size="small" @click="del" type="danger">删除</van-button>
+                    </template>
+                    </van-field>
+                    <div class="border">
+                        <van-field
+                        v-model="data"
+                        rows="10"
+                        autosize
+                        type="textarea"
+                        placeholder="请输入地址"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            data: '', //数据框
+            name:'',  //分类名
+            list:[
+                {"id":"1","name":"分类1","data":""}
+            ],
+            tagIndex:null,
+            host:null
+        },
+        mounted () {
+            this.host = window.location.href
+			//this.host = 'http://192.168.0.101:6688/'
+            this.getData()
+        },
+        watch: {
+            //监听tagIndex变化 给两个框动态赋值
+            'tagIndex':function(newVal,oldVal){
+                this.name = this.list[newVal].name
+                this.data = this.list[newVal].data
+            }
+        },
+        methods: {
+            getData(){
+              let _this = this
+                //这里调getResult  把获取到的结果赋值给 list
+                axios.get(this.host+'getSources', {
+
+                })
+                .then(function (response) {
+                    console.log(response);
+                    _this.list = response.data.data
+                    // _this.tagIndex = 0
+					// console.log(response.data)
+					// console.log(this.list)
+                })
+                .catch(function (error) {
+                    console.log(error);
+                    vant.Toast('获取失败');
+                });
+                // this.list = [
+                //     {"id":"1","name":"分类一","data":"CCTV-1蓝光,http:\/\/111.13.111.242\/otttv.bj.chinamobile.com\/PLTV\/88888888\/224\/3221226226\/1.m3u8\r\nCCTV-17蓝光,http:\/\/ott.fj.chinamobile.com\/PLTV\/88888888\/224\/3221226990\/1.m3u8\r\nCCTV-17蓝光,http:\/\/ott.fj.chinamobile.com\/PLTV\/88888888\/224\/3221226990\/1.m3u8CCTV-17\r\n"},
+                //     {"id":"2","name":"分类二","data":"CCTV-1蓝光,http:\/\/111.13.111.242\/otttv.bj.chinamobile.com\/PLTV\/88888888\/224\/3221226226\/1.m3u8\r\n"},
+                //     {"id":"3","name":"新分类","data":""},
+                //     {"id":"4","name":"新分类2","data":""},
+                //     {"id":"5","name":"新分类3","data":""}
+                // ]
+
+            },
+            add(){
+                let _length = this.list.length
+                let _name = '分类' + (_length + 1)
+                let _obj = {
+                    name:_name,
+                    data:''
+                }
+                this.list.push(_obj)
+            },
+            selectItem(index){
+                this.tagIndex = index
+            },
+            save(){
+              this.list[this.tagIndex].name = this.name
+              this.list[this.tagIndex].data = this.data
+                //保存时候 id重新赋
+              this.list.map((item,index)=>{
+                    item.id = index + 1
+                })
+                console.log(this.list)
+                //这里调saveResult保存
+                axios.post(this.host+'saveSources', {
+                    data:this.list
+                })
+                .then(function (response) {
+                    console.log(response);
+                    vant.Toast('保存成功');
+                })
+                .catch(function (error) {
+                    console.log(error);
+                    vant.Toast('保存失败');
+                });
+
+
+            },
+            del(){
+              //删完的话list给默认值
+              if(this.list.length == 1){
+                this.list = [
+                  {"id":"1","name":"分类1","data":""}
+                ]
+                this.name = '分类1'
+                this.data = ''
+                this.tagIndex = 0
+
+              }else{
+                this.list.splice(this.tagIndex,1)
+                //tagIndex 没变化 手动赋值一下
+                if(this.tagIndex == this.list.length - 1){
+                  this.name = this.list[this.tagIndex].name
+                  this.data = this.list[this.tagIndex].data
+                }
+                this.tagIndex = this.list.length - 1
+              }
+
+              //删完调一下保存
+              //保存时候 id重新赋
+              this.list.map((item,index)=>{
+                item.id = index + 1
+              })
+              console.log(this.list)
+              //这里调saveResult保存
+              axios.post(this.host+'saveSources', {
+                data:this.list
+              })
+                .then(function (response) {
+                  console.log(response);
+                  vant.Toast('保存成功');
+                })
+                .catch(function (error) {
+                  console.log(error);
+                  vant.Toast('保存失败');
+                });
+            }
+        }
+    })
+</script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #app{
+        margin: 0;
+        padding: 0;
+    }
+    .mg-b-10{
+        margin-bottom: 10px;
+    }
+    .mg-b-15{
+        margin-bottom: 15px;
+    }
+    .mg-b-30{
+        margin-bottom: 30px;
+    }
+    .pd-10{
+        padding: 10px;
+    }
+    .flex{
+        display: flex;
+    }
+    .flex-l{
+        display: inline-block;
+        text-align: center;
+        padding-right: 5px;
+        width: 30%;
+    }
+    .flex-r{
+        flex: 1;
+    }
+    .border{
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    .cate-box{
+        border: 1px solid #ccc;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .cate-box.active{
+        background-color: #07c160;
+        color: #fff;
+    }
+</style>
+</html>
