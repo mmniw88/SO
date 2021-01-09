@@ -8,6 +8,20 @@
       "pic": "https://t16img.yangkeduo.com/pdd_oms/2020-03-06/a26ed01950b56a0a601f9fe1105842e7.png",
       "url": "pinduoduo://com.xunmeng.pinduoduo/duo_theme_activity.html?themeId=7602&pid=8147037_116211913&cpsSign=CT_200314_8147037_116211913_a2826769fd070221c5f046c894a65319&duoduo_type=2",
       "type": 1
-    }
+    },
+    {
+      "id": 26,
+      "name": "防疫专区",
+      "pic": "https://t16img.yangkeduo.com/pdd_oms/2021-01-03/3506a7f714cbc02ff3e6713e7b2ff6b1.jpg",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_theme_activity.html?themeId=7628&pid=8147037_187241452&cpsSign=CT_210109_8147037_187241452_eda053b8a8e6fe177a7afabefa42b08b&duoduo_type=2",
+      "type": 1
+    },   
+    {
+      "id": 26,
+      "name": "开年补贴",
+      "pic": "https://t16img.yangkeduo.com/pdd_oms/2020-12-31/8c4982a42171002be033beaf5ad3817d.jpg",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/duo_theme_activity.html?themeId=7627&pid=8147037_187241452&cpsSign=CT_210109_8147037_187241452_13360617b8a4b943fbe48db42c171021&duoduo_type=2",
+      "type": 1
+    }      
   ]
 }
