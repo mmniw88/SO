@@ -4,6 +4,14 @@
   "data": [
     {
       "id": 1,
+      "name": "淘宝一元购",
+      "pic": "http://img.bc.fqapps.com/id780e9aca22e39f2f2f3f098184fcd89e.png",
+      "url": "https://fuliqingdan834.kuaizhan.com/?tmp=tbonebuy&code=wgn51x&f=web&demo_type=13",
+      "type": 1,
+      "types": "app://shopWeb"
+    },      
+    {
+      "id": 1,
       "name": "防疫专场",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FpxH3fEBTB6kf_NP9lQC-_CM9rHE",
       "url": "https://fuliqingdan832.kuaizhan.com/?tmp=fangyi&code=azZVL6&f=web&demo_type=11",
