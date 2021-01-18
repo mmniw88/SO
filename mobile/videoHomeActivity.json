@@ -5,12 +5,12 @@
     "banner": [
       {
         "id": 1,
-        "name": "717",
-        "pic": "https://img.alicdn.com/imgextra/i4/913168420/O1CN018FpU8s2C4PVB9ZNKP_!!913168420.png",
-        "url": "https://s.click.ele.me/svfrCuu",
+        "name": "年货节",
+        "pic": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01KChu0M2JJi4CnjsPB_!!2053469401.gif?v=202010",
+        "url": "https://s.click.taobao.com/Q7Zl2su",
         "color": "#00000000",
         "type": "url://taobao",
-        "show": false
+        "show": true
       },
       {
         "id": 1,
