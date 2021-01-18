@@ -4,6 +4,14 @@
   "data": [
     {
       "id": 1,
+      "name": "年过节",
+      "pic": "https://img.alicdn.com/imgextra/i2/O1CN01MJZQIU1C3wxBQrtXr_!!6000000000026-0-tps-800-450.jpg",
+      "url": "https://s.click.taobao.com/jwzm2su",
+      "type": 1,
+      "types": "url://taobao"
+    },        
+    {
+      "id": 1,
       "name": "淘宝一元购",
       "pic": "http://img.bc.fqapps.com/id780e9aca22e39f2f2f3f098184fcd89e.png",
       "url": "http://fuliqingdan836.kuaizhan.com/?tmp=tbonebuy&code=5wTXUH&f=web&demo_type=13",
