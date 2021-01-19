@@ -22,9 +22,9 @@
       "id": 1,
       "name": "防疫专场",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FpxH3fEBTB6kf_NP9lQC-_CM9rHE",
-      "url": "http://fuliqingdan836.kuaizhan.com/?tmp=fangyi&code=ryQVgG&f=web&demo_type=11",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/fangyi.html",
       "type": 1,
-      "types": "app://shopWeb"
+      "types": "app://updateInfo"
     },
     {
       "id": 1,
