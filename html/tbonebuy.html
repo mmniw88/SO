@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>限量一元购</title>
+    <script>
+        ;
+        (function (win, lib) {
+            var doc = win.document
+            var docEl = doc.documentElement
+            var metaEl = doc.querySelector('meta[name="viewport"]')
+            var flexibleEl = doc.querySelector('meta[name="flexible"]')
+            var dpr = 0
+            var scale = 0
+            var tid
+            var flexible = lib.flexible || (lib.flexible = {})
+
+            if (metaEl) {
+                // console.warn('将根据已有的meta标签来设置缩放比例')
+                var match = metaEl.getAttribute('content').match(/initial\-scale=([\d\.]+)/)
+                if (match) {
+                    scale = parseFloat(match[1])
+                    dpr = parseInt(1 / scale)
+                }
+            } else if (flexibleEl) {
+                var content = flexibleEl.getAttribute('content')
+                if (content) {
+                    var initialDpr = content.match(/initial\-dpr=([\d\.]+)/)
+                    var maximumDpr = content.match(/maximum\-dpr=([\d\.]+)/)
+                    if (initialDpr) {
+                        dpr = parseFloat(initialDpr[1])
+                        scale = parseFloat((1 / dpr).toFixed(2))
+                    }
+                    if (maximumDpr) {
+                        dpr = parseFloat(maximumDpr[1])
+                        scale = parseFloat((1 / dpr).toFixed(2))
+                    }
+                }
+            }
+
+            if (!dpr && !scale) {
+                var isAndroid = win.navigator.appVersion.match(/android/gi)
+                var isIPhone = win.navigator.appVersion.match(/iphone/gi)
+                var devicePixelRatio = win.devicePixelRatio
+                if (isIPhone) {
+                    // iOS下，对于2和3的屏，用2倍的方案，其余的用1倍方案
+                    if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {
+                        dpr = 3
+                    } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)) {
+                        dpr = 2
+                    } else {
+                        dpr = 1
+                    }
+                } else {
+                    // 其他设备下，仍旧使用1倍的方案
+                    dpr = 1
+                }
+                scale = 1 / dpr
+            }
+
+            docEl.setAttribute('data-dpr', dpr)
+            if (!metaEl) {
+                metaEl = doc.createElement('meta')
+                metaEl.setAttribute('name', 'viewport')
+                metaEl.setAttribute(
+                    'content',
+                    'initial-scale=' +
+                    scale +
+                    ', maximum-scale=' +
+                    scale +
+                    ', minimum-scale=' +
+                    scale +
+                    ', user-scalable=no'
+                )
+                if (docEl.firstElementChild) {
+                    docEl.firstElementChild.appendChild(metaEl)
+                } else {
+                    var wrap = doc.createElement('div')
+                    wrap.appendChild(metaEl)
+                    doc.write(wrap.innerHTML)
+                }
+            }
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width
+                if (width / dpr > 540) {
+                    width = 540 * dpr
+                }
+                var rem = width * 0.133334
+                docEl.style.fontSize = rem + 'px'
+                flexible.rem = win.rem = rem
+            }
+
+            win.addEventListener(
+                'resize',
+                function () {
+                    clearTimeout(tid)
+                    tid = setTimeout(refreshRem, 300)
+                },
+                false
+            )
+            win.addEventListener(
+                'pageshow',
+                function (e) {
+                    if (e.persisted) {
+                        clearTimeout(tid)
+                        tid = setTimeout(refreshRem, 300)
+                    }
+                },
+                false
+            )
+
+            if (doc.readyState === 'compvare') {
+                doc.body.style.fontSize = 12 * dpr + 'px'
+            } else {
+                doc.addEventListener(
+                    'DOMContentLoaded',
+                    function (e) {
+                        doc.body.style.fontSize = 12 * dpr + 'px'
+                    },
+                    false
+                )
+            }
+
+            refreshRem()
+
+            flexible.dpr = win.dpr = dpr
+            flexible.refreshRem = refreshRem
+            flexible.rem2px = function (d) {
+                var val = parseFloat(d) * this.rem
+                if (typeof d === 'string' && d.match(/rem$/)) {
+                    val += 'px'
+                }
+                return val
+            }
+            flexible.px2rem = function (d) {
+                var val = parseFloat(d) / this.rem
+                if (typeof d === 'string' && d.match(/px$/)) {
+                    val += 'rem'
+                }
+                return val
+            }
+        })(window, window['lib'] || (window['lib'] = {}))
+    </script>
+    <style>
+        body {
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        body,
+        p,
+        div,
+        ul,
+        li,
+        figure {
+            margin: 0;
+            padding: 0;
+        }
+
+        i {
+            font-style: normal;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border: 0;
+            vertical-align: middle;
+        }
+
+        [v-cloak] {
+            display: none;
+        }
+
+        #app {
+            max-width: 540px;
+            min-height: 100vh;
+            margin: auto;
+            padding-bottom: 1.2rem;
+            background: #D7241E;
+            box-sizing: border-box;
+        }
+
+        .header {
+            position: relative;
+        }
+
+        .header img {
+            width: 100%;
+        }
+
+        .header .header-tips {
+            position: absolute;
+            top: 3.54rem;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            align-items: center;
+            width: 100%;
+            height: 0.68rem;
+            font-size: 0.28rem;
+            font-weight: bold;
+            color: #FFF3BD;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .date-tips {
+            padding: 0 0.2rem 0 0.93rem;
+            font-size: 0.24rem;
+            font-weight: 500;
+            color: #FFF3BD;
+            line-height: 0.46rem;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .goods-wrap {
+            padding: 0.2rem;
+        }
+
+        .goods-wrap li {
+            position: relative;
+            display: -webkit-flex;
+            display: flex;
+            width: 7.1rem;
+            height: 2.82rem;
+            padding: 0.16rem 0.17rem;
+            background: #FFFFFF;
+            box-shadow: 0rem 0.05rem 0.2rem 0rem rgba(0, 0, 0, 0.1);
+            border-radius: 0.15rem;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+        .goods-wrap li+li {
+            margin-top: 0.1rem;
+        }
+
+        .goods-wrap .good-tag {
+            position: absolute;
+            top: 0;
+            left: 0.17rem;
+            width: 0.62rem;
+        }
+
+        .goods-wrap .good-img {
+            width: 2.5rem;
+            min-width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 0.1rem;
+        }
+
+        .goods-wrap .good-info {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            margin-left: 0.2rem;
+            padding: 0.14rem 0;
+        }
+
+        .good-info .title {
+            position: relative;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            padding-left: 0.35rem;
+            font-size: 0.26rem;
+            font-weight: 500;
+            color: #333333;
+            line-height: 0.4rem;
+        }
+
+        .good-info .title .platform {
+            position: absolute;
+            top: 0.08rem;
+            left: 0;
+            width: 0.25rem;
+            height: 0.25rem;
+        }
+
+        .price-details .price {
+            line-height: 0.6rem;
+            font-size: 0.24rem;
+            font-weight: 500;
+            color: #EC1D41;
+        }
+
+        .price-details .price span {
+            font-size: 0.36rem;
+            font-weight: bold;
+        }
+
+        .price-details .buy-btn {
+            display: -webkit-flex;
+            display: flex;
+            width: 3.9rem;
+            height: 0.55rem;
+            margin-left: 0.04rem;
+            background: linear-gradient(-90deg, #FE3A3F 0%, #FAA450 100%);
+            box-shadow: 0rem 0.05rem 0.1rem 0rem rgba(215, 21, 55, 0.2);
+            border-radius: 0.28rem;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .buy-btn span {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            width: 1.73rem;
+            height: 0.55rem;
+            font-size: 0.24rem;
+            font-weight: 800;
+            color: #FFFEFD;
+            text-align: center;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .buy-btn span:first-child {
+            width: 2.17rem;
+            height: 0.55rem;
+            background: linear-gradient(-90deg, #FE3A3F 0%, #FAA450 100%);
+            border-radius: 0.28rem;
+            text-align: center;
+            text-decoration: line-through;
+        }
+
+        .hall-wrap {
+            height: 5.29rem;
+            margin-top: 0.08rem;
+            padding: 0.48rem 0.2rem 0;
+            background: url("http://img.bc.fqapps.com/id279d74ad84c248c3462a673e2e9834d4.png") 0 0/100% no-repeat;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .hall-wrap .text {
+            text-align: center;
+            line-height: 0.56rem;
+            font-size: 0.28rem;
+            font-weight: bold;
+            color: #AA1A12;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .hall-wrap .copy-btn {
+            width: 4.8rem;
+            height: 1rem;
+            margin: 0.2rem auto 0;
+            background: url("http://img.bc.fqapps.com/id1c854c1690a9cbf09aeb8c84757d9685.png") 0 0 / 100% no-repeat;
+            border-radius: 0.4rem;
+            font-size: 0.28rem;
+            font-weight: bold;
+            color: #FFFFFF;
+            -webkit-user-select: none;
+            user-select: none;
+            line-height: 0.8rem;
+            text-align: center;
+        }
+
+        .fixed-bottom {
+            position: fixed;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            display: -webkit-flex;
+            display: flex;
+            width: 100%;
+            max-width: 540px;
+            height: 1rem;
+            background: #D7241E;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .fixed-bottom span {
+            width: 100%;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            background: #A30000;
+            font-size: 0.28rem;
+            font-weight: 500;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .fixed-bottom span.on {
+            background: #FE3F40;
+            font-size: 0.28rem;
+            font-weight: bold;
+            color: #FDEECC;
+        }
+
+        .fixed-bottom span:first-child img {
+            width: 0.16rem;
+            height: 0.3rem;
+            margin-right: 0.12rem;
+        }
+
+        .fixed-bottom span:last-child img {
+            width: 0.26rem;
+            height: 0.26rem;
+            margin-left: 0.09rem;
+        }
+
+        .fixed-bottom i,
+        .fixed-bottom img {
+            vertical-align: middle;
+        }
+
+        .redbag {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: -4.98rem;
+            width: 7.5rem;
+        }
+
+        .redbag img {
+            width: 7.5rem;
+        }
+
+        .share-close {
+            width: 0.6rem;
+            height: 0.6rem;
+            background: url(http://img-haodanku-com.cdn.fudaiapp.com/FlurpAT3kxza9muqesxhTJYNkhz-) no-repeat;
+            background-size: 100%;
+            display: block;
+            margin: 0.16rem auto 0;
+            cursor: pointer;
+        }
+
+        @media only screen and (-webkit-device-pixel-ratio: 3) and (device-height: 812px) and (device-width: 375px) {
+            #app {
+                padding-bottom: 1.5rem;
+            }
+
+            .fixed-bottom {
+                padding-bottom: 0.3rem;
+            }
+        }
+
+        @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-radio: 3) {
+            #app {
+                padding-bottom: 1.5rem;
+            }
+
+            .fixed-bottom {
+                padding-bottom: 0.3rem;
+            }
+        }
+
+        @media screen and (device-width: 375px) and (device-height: 812px) {
+            #app {
+                padding-bottom: 1.5rem;
+            }
+
+            .fixed-bottom {
+                padding-bottom: 0.3rem;
+            }
+        }
+
+
+        @media screen and (device-width: 414px) and (device-height: 896px) {
+            #app {
+                padding-bottom: 1.5rem;
+            }
+
+            .fixed-bottom {
+                padding-bottom: 0.3rem;
+            }
+        }
+
+        .realpic-loading {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.24rem;
+            text-align: center;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app" v-cloak>
+        <div class="header">
+            <img src="http://img.bc.fqapps.com/id780e9aca22e39f2f2f3f098184fcd89e.png" alt="">
+            <p class="header-tips">{{basicData.title || ''}}</p>
+        </div>
+        <p class="date-tips">预热期：{{basicData.time1}}</p>
+        <p class="date-tips">正式期：{{basicData.time2}}</p>
+        <template v-if="onNav == 1">
+            <ul class="goods-wrap" ref="goodsWrap">
+                <li v-for="(item,index) in goodsArr">
+                    <img draggable="false" src="http://img.bc.fqapps.com/idd997898476243b8bd5cb663eda5f006d.png" alt=""
+                        class="good-tag">
+                    <!-- <img class="good-img" :src="item.itempic" alt=""> -->
+                    <img class="good-img" v-lazy="item.itempic" v-if="item.itempic">
+                    <img class="good-img" src="http://img.bc.fqapps.com/fudai13cae4ae6ef16739ed3b100a2ec39e97.gif"
+                        alt="" v-else>
+                    <div class="good-info">
+                        <p class="title">
+                            <img v-if="item.user_type == 1"
+                                src="http://img.bc.fqapps.com/id925e039cbe89fa6d4a7330d6e9827270.png" alt=""
+                                class="platform">
+                            <img v-else src="http://img.bc.fqapps.com/id0603302d1b3f6c65c4b86abdae286503.png" alt=""
+                                class="platform">
+                            {{item.itemtitle}}
+                        </p>
+                        <div class="price-details">
+                            <p class="price">抢购价￥<span>{{item.itemendprice}}</span></p>
+                            <div class="buy-btn">
+                                <span>￥{{item.itemprice}}</span>
+                                <span v-on:click="tokenBtn('#goods' + index,0,item.itemid)"
+                                    :id="'goods' + index">10点开抢</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <p class="realpic-loading" v-show="dataLoadingEnd"
+                    :style="goodsArr.length == 0 ? 'padding-top:1rem;' : ''">暂无更多商品</p>
+                <p class="realpic-loading" v-show="loadmsg" :style="(goodsArr.length == 0)?'padding-top:1rem;':''">
+                    加载中...</p>
+            </div>
+        </template>
+        <div class="hall-wrap" v-if="onNav == 2">
+            <p class="text">
+                每天早上10点开抢<br>
+                全场1元！1元！快上车<br>
+                纸巾、数据线、消毒洗手液...<br>
+                通通只需1元！手慢无！<br>
+                复制（{{hallWord}}），<br>
+                打开手淘APP，立即抢购
+            </p>
+            <div class="copy-btn" id="hall-copy" v-on:click="copyHallWord">点击复制</div>
+        </div>
+        <div class="fixed-bottom">
+            <span :class="{on: onNav == 1}" v-on:click="changeNav(1)">
+                <img src="http://img.bc.fqapps.com/iddd46496be917e589d7fbea6efb2f4a4e.png" alt="">
+                <i>单品抢购</i>
+            </span>
+            <span :class="{on: onNav == 2}" v-on:click="changeNav(2)">
+                <i>前往会场</i>
+                <img src="http://img.bc.fqapps.com/id9f63fb65532a5139410abd7b423d9705.png" alt="">
+            </span>
+        </div>
+        <div class="redbag">
+            <div>
+                <img src="http://img.bc.fqapps.com/id761a9fbf5c51b76fccdc021ae9972c5d.png" id="redword"
+                    v-on:click="tokenBtn('#redword',1)" alt="">
+                <span class="share-close" v-on:click="modalClose"></span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.staticfile.org/vue/2.6.10/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/layer/2.3/layer.js"></script>
+    <script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script src="//cdn.staticfile.org/vue-lazyload/1.3.3/vue-lazyload.js"></script>
+    <script>
+        Vue.use(VueLazyload, {
+            preLoad: 1.3,
+            error: 'http://img.bc.haodanku.com/haodanku/1595237918',
+            loading: 'http://img.bc.fqapps.com/fudai13cae4ae6ef16739ed3b100a2ec39e97.gif',
+            attempt: 1
+        });
+
+        var baseUrl = 'https://api.haodanku.com';
+        var activityApp = new Vue({
+            el: '#app',
+            data: {
+                onNav: 1,
+                basicData: {},
+                redbag_id: '',
+                page: 1,
+                loadmsg: false,
+                dataLoadingEnd: false, // 数据是否加载完毕
+                goodsArr: [],
+                Token: '',
+                hallText: '0每天早上10点开抢\n全场1元！1元！快上车\n纸巾、数据线、消毒洗手液...\n通通只需1元！手慢无！\n复制(淘口令参数)，打开手淘APP，立即抢购/',
+                hallWord: ''
+            },
+            created: function () {
+                this.getHallData();
+                this.getGoodsList();
+            },
+            mounted: function () {
+                this.getBasicData();
+                var that = this;
+
+                window.addEventListener('scroll', function () { //下拉加载
+                    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                    // 滑动到底部 加载更多数据
+                    if (scrollTop + window.innerHeight >= document.body.offsetHeight - 150) {
+                        if (that.loadmsg == false && that.dataLoadingEnd == false) {
+                            that.getGoodsList();
+                        }
+                    }
+                });
+            },
+            methods: {
+                /**
+                 * 获取地址栏参数
+                 */
+                getUrlParam: function (name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); // 构造一个含有目标参数的正则表达式对象
+                    var r = window.location.search.substr(1).match(reg); // 匹配目标参数
+                    if (r != null) return unescape(r[2]);
+                    return null; // 返回参数值
+                },
+                /**
+                 * 切换导航
+                 */
+                changeNav: function (nav) {
+                    if (this.onNav == nav) return;
+                    this.onNav = nav;
+                },
+                getBasicData: function () {
+                    var that = this;
+                    $.ajax({
+                        url: baseUrl + '/api/tb_onebuy_setting',
+                        type: 'get',
+                        dataType: 'json',
+                        timeout: 5000,
+                        success: function (res) {
+                            that.basicData = res.data;
+                            if (res.data.activity.is_open == 1) {
+                                layer.open({
+                                    type: 1,
+                                    shift: 0,
+                                    title: false,
+                                    closeBtn: 0,
+                                    shade: 0.4,
+                                    shadeClose: true,
+                                    content: $('.redbag')
+                                });
+                                that.redbag_id = res.data.activity.activity_id;
+                            }
+                        },
+                        error: function () {},
+                    })
+                },
+                /**
+                 * 获取商品
+                 */
+                getGoodsList: function () {
+                    if (this.dataLoadingEnd) return;
+                    var that = this;
+                    this.loadmsg = true; // 加载中
+                    $.ajax({
+                        url: baseUrl + '/activity/tb_onebuy_items',
+                        type: 'get',
+                        data: {
+                            p: this.page
+                        },
+                        dataType: 'json',
+                        timeout: 5000,
+                        success: function (res) {
+                            if (res.code == -1) return;
+                            that.loadmsg = false;
+                            that.goodsArr = that.goodsArr.concat(res.data);
+                            that.dataLoadingEnd = (res.data.length == 0);
+                            that.page++;
+                        },
+                        error: function () {},
+                    })
+                },
+                /**
+                 * 获取红包、商品口令
+                 * command 0 商品 1 红包
+                 */
+                tokenBtn: function (dom, command, id) {
+                    var that = this;
+                    var data = {
+                        apikey: 'shunziyouxuan', //必填
+                        pid: 'mm_97788430_30616603_108414450395', //必填
+                        tb_name: '高财顺', //必填
+                        relationid: '',
+                    };
+                    data[command == 1 ? 'activity_id' : 'itemid'] = (command == 1 ? this.redbag_id : id);
+                    $.ajax({
+                        url: baseUrl + '/api/activity_ratesurl',
+                        type: 'post',
+                        data,
+                        dataType: 'json',
+                        timeout: 5000,
+                        async: false,
+                        success: function (res) {
+                            if (res.code == 200) {
+                                that.Token = res.data;
+                                that.copyBtn(dom, command);
+                            } else {
+                                that.Token = '';
+                                layer.msg(res.msg, {
+                                    time: 2000,
+                                    shade: 0.1,
+                                    shadeClose: true
+                                })
+                            }
+                        },
+                        error: function () {
+                            that.Token = '';
+                            layer.msg('网络错误，请检查网络重试', {
+                                time: 2000,
+                                shade: 0.1,
+                                shadeClose: true
+                            })
+                        },
+                    });
+                },
+                /**
+                 * 复制商品口令
+                 */
+                copyBtn: function (dom) {
+                    var that = this;
+                    var clipboard = new ClipboardJS(dom, {
+                        text: function (target) {
+                            return that.Token;
+                        }
+                    });
+
+                    clipboard.on('success', function (e) {
+                        layer.msg('复制口令成功,请打开淘宝领取', {
+                            shade: 0.4,
+                            time: 2000,
+                            shadeClose: true,
+                        }, function () {
+                            layer.closeAll();
+                        });
+                        e.clearSelection();
+                        clipboard.destroy();
+                    });
+
+                    clipboard.on('error', function (e) {
+                        layer.msg('复制口令失败！', {
+                            shade: 0.4,
+                            time: 1000,
+                            shadeClose: false,
+                        }, function () {
+
+                        });
+                    });
+                },
+                /**
+                 *  获取会场口令
+                 */
+                getHallData: function () {
+                    var that = this;
+                    $.ajax({
+                        url: baseUrl + '/api/activitys_ratesurl',
+                        type: 'post',
+                        data: {
+                            apikey: 'shunziyouxuan', //必填
+                            pid: 'mm_97788430_30616603_108414450395', //必填
+                            tb_name: '高财顺', //必填
+                            relationid: '',
+                        },
+                        dataType: 'json',
+                        timeout: 5000,
+                        success: function (res) {
+                            if (res.code == -1) return;
+                            var word = res.data.split('(')[1].split(')')[0];
+                            that.hallText = that.hallText.replace('淘口令参数', word);
+                            that.hallWord = word;
+                        },
+                        error: function () {},
+                    })
+                },
+                /**
+                 *  复制会场口令
+                 */
+                copyHallWord: function () {
+                    var that = this;
+                    var clipboard = new ClipboardJS('#hall-copy', {
+                        text: function (target) {
+                            return that.hallText
+                        }
+                    });
+
+                    clipboard.on('success', function (e) {
+                        layer.msg('复制口令成功,请打开淘宝领取', {
+                            shade: 0.4,
+                            time: 2000,
+                            shadeClose: true,
+                        }, function () {
+                            layer.closeAll();
+                        });
+                        e.clearSelection();
+                        clipboard.destroy();
+                    });
+
+                    clipboard.on('error', function (e) {
+                        layer.msg('复制口令失败！', {
+                            shade: 0.4,
+                            time: 1000,
+                            shadeClose: false,
+                        }, function () {
+
+                        });
+                    });
+                },
+                modalClose: function () {
+                    layer.closeAll();
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
