@@ -14,9 +14,9 @@
       "id": 1,
       "name": "淘宝一元购",
       "pic": "http://img.bc.fqapps.com/id780e9aca22e39f2f2f3f098184fcd89e.png",
-      "url": "http://fuliqingdan836.kuaizhan.com/?tmp=tbonebuy&code=5wTXUH&f=web&demo_type=13",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/tbonebuy.html",
       "type": 1,
-      "types": "app://shopWeb"
+      "types": "app://updateInfo"
     },      
     {
       "id": 1,
