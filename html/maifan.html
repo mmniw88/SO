@@ -1,0 +1,689 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"><title>超值买返购</title><link rel="stylesheet" href="https://at.alicdn.com/t/font_1534407_edyx096nc5c.css"><link rel="stylesheet" href="https://cdn.staticfile.org/layer/2.3/skin/layer.css"><script>;(function (win, lib) {
+  var doc = win.document;
+  var docEl = doc.documentElement;
+  var metaEl = doc.querySelector("meta[name=\"viewport\"]");
+  var flexibleEl = doc.querySelector("meta[name=\"flexible\"]");
+  var dpr = 0;
+  var scale = 0;
+  var tid;
+  var flexible = lib.flexible || (lib.flexible = {});
+  if (metaEl) {
+    // console.warn('将根据已有的meta标签来设置缩放比例')
+    var match = metaEl.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
+    if (match) {
+      scale = parseFloat(match[1]);
+      dpr = parseInt(1 / scale);
+    }
+  } else if (flexibleEl) {
+    var content = flexibleEl.getAttribute("content");
+    if (content) {
+      var initialDpr = content.match(/initial\-dpr=([\d\.]+)/);
+      var maximumDpr = content.match(/maximum\-dpr=([\d\.]+)/);
+      if (initialDpr) {
+        dpr = parseFloat(initialDpr[1]);
+        scale = parseFloat((1 / dpr).toFixed(2));
+      }
+      if (maximumDpr) {
+        dpr = parseFloat(maximumDpr[1]);
+        scale = parseFloat((1 / dpr).toFixed(2));
+      }
+    }
+  }
+  if (!dpr && !scale) {
+    var isAndroid = win.navigator.appVersion.match(/android/gi);
+    var isIPhone = win.navigator.appVersion.match(/iphone/gi);
+    var devicePixelRatio = win.devicePixelRatio;
+    if (isIPhone) {
+      // iOS下，对于2和3的屏，用2倍的方案，其余的用1倍方案
+      if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {
+        dpr = 3;
+      } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)) {
+        dpr = 2;
+      } else {
+        dpr = 1;
+      }
+    } else {
+      // 其他设备下，仍旧使用1倍的方案
+      dpr = 1;
+    }
+    scale = 1 / dpr;
+  }
+  docEl.setAttribute("data-dpr", dpr);
+  if (!metaEl) {
+    metaEl = doc.createElement("meta");
+    metaEl.setAttribute("name", "viewport");
+    metaEl.setAttribute(
+      "content",
+      "initial-scale=" +
+      scale +
+      ", maximum-scale=" +
+      scale +
+      ", minimum-scale=" +
+      scale +
+      ", user-scalable=no"
+    );
+    if (docEl.firstElementChild) {
+      docEl.firstElementChild.appendChild(metaEl);
+    } else {
+      var wrap = doc.createElement("div");
+      wrap.appendChild(metaEl);
+      doc.write(wrap.innerHTML);
+    }
+  }
+
+  function refreshRem() {
+    var width = docEl.getBoundingClientRect().width;
+    if (width / dpr > 540) {
+      width = 540 * dpr;
+    }
+    var rem = width * 0.133334;
+    docEl.style.fontSize = rem + "px";
+    flexible.rem = win.rem = rem;
+  }
+
+  win.addEventListener(
+    "resize",
+    function () {
+      clearTimeout(tid);
+      tid = setTimeout(refreshRem, 300);
+    },
+    false
+  );
+  win.addEventListener(
+    "pageshow",
+    function (e) {
+      if (e.persisted) {
+        clearTimeout(tid);
+        tid = setTimeout(refreshRem, 300);
+      }
+    },
+    false
+  );
+  if (doc.readyState === "compvare") {
+    doc.body.style.fontSize = 12 * dpr + "px";
+  } else {
+    doc.addEventListener(
+      "DOMContentLoaded",
+      function (e) {
+        doc.body.style.fontSize = 12 * dpr + "px";
+      },
+      false
+    );
+  }
+  refreshRem();
+  flexible.dpr = win.dpr = dpr;
+  flexible.refreshRem = refreshRem;
+  flexible.rem2px = function (d) {
+    var val = parseFloat(d) * this.rem;
+    if (typeof d === "string" && d.match(/rem$/)) {
+      val += "px";
+    }
+    return val;
+  };
+  flexible.px2rem = function (d) {
+    var val = parseFloat(d) / this.rem;
+    if (typeof d === "string" && d.match(/px$/)) {
+      val += "rem";
+    }
+    return val;
+  };
+})(window, window["lib"] || (window["lib"] = {}));
+</script><script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script><script src="https://cdn.staticfile.org/vue/2.6.10/vue.min.js"></script><script src="https://cdn.staticfile.org/vue-lazyload/1.3.3/vue-lazyload.js"></script><script src="https://cdn.staticfile.org/layer/2.3/layer.js"></script><script>var vmUrlSearchs = null;
+
+function vmRequest(name) {
+  if (!vmUrlSearchs) {
+    vmUrlSearchs = new vmUrlSearch();
+  }
+  return vmUrlSearchs[name];
+}
+
+function vmUrlSearch() {
+  var name, value;
+  var str = location.href;
+  var num = str.indexOf("?");
+  str = str.substr(num + 1);
+  var arr = str.split("&");
+  for (var i = 0; i < arr.length; i++) {
+    num = arr[i].indexOf("=");
+    if (num > 0) {
+      name = arr[i].substring(0, num);
+      value = arr[i].substr(num + 1);
+      this[name] = value;
+    }
+  }
+}
+
+/**
+ * 判断是否已滚动到底部
+ * @param el {HTMLElement}
+ * @param direct {"vertical"|"horizontal"?}
+ * @param offset {number?}
+ * @returns {boolean}
+ */
+function isScrollEnd(el, direct, offset) {
+  if (direct === void 0) {
+    direct = "vertical";
+  }
+  if (offset === void 0) {
+    offset = 10;
+  }
+  var scrollTop = el.scrollTop;
+  var scrollLeft = el.scrollLeft;
+  var scrollHeight = el.scrollHeight;
+  var scrollWidth = el.scrollWidth;
+  var width = el.clientWidth;
+  var height = el.clientHeight;
+  if (el === window) {
+    scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft;
+    scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+    scrollWidth = document.documentElement.scrollWidth || document.body.scrollWidth;
+    width = document.documentElement.clientWidth || document.body.clientWidth;
+    height = document.documentElement.clientHeight || document.body.clientHeight;
+  }
+  if (direct === "vertical") {
+    return scrollTop >= scrollHeight - height - offset;
+  } else {
+    return scrollLeft >= scrollWidth - width - offset;
+  }
+}
+
+var isDom = (function () {
+  return (typeof HTMLElement === "object") ?
+    function (target) {
+      return target instanceof HTMLElement;
+    } :
+    function (target) {
+      return target && typeof target === "object" && target.nodeType === 1 && typeof target.nodeName === "string";
+    };
+})();
+
+/**
+ * 手动添加img标签下载图片
+ * @param url {string}
+ * @returns {Promise}
+ */
+function loadImg(url) {
+  return new Promise(function (resolve, reject) {
+    var img = document.createElement("img");
+    var parent = document.body;
+    img.style.display = "none";
+    img.onload = function (ev) {
+      parent.removeChild(img);
+      resolve();
+    };
+    img.onabort = img.onerror = function (ev) {
+      parent.removeChild(img);
+      reject(ev);
+    };
+    img.src = url;
+    parent.append(img);
+  });
+}
+
+function select(element) {
+  var selectedText;
+  if (element.nodeName === "SELECT") {
+    element.focus();
+    selectedText = element.value;
+  } else if (element.nodeName === "INPUT" || element.nodeName === "TEXTAREA") {
+    var isReadOnly = element.hasAttribute("readonly");
+    if (!isReadOnly) {
+      element.setAttribute("readonly", "");
+    }
+    element.select();
+    element.setSelectionRange(0, element.value.length);
+    if (!isReadOnly) {
+      element.removeAttribute("readonly");
+    }
+    selectedText = element.value;
+  } else {
+    if (element.hasAttribute("contenteditable")) {
+      element.focus();
+    }
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(element);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    selectedText = selection.toString();
+  }
+  return selectedText;
+}
+
+function copy(element, successMsg, errorMsg, isFromCopy) {
+  var isText = typeof element === "string";
+  if (isText) {
+    var text = element;
+    element = document.createElement("div");
+    element.innerText = text;
+    element.style.position = "fixed";
+    element.style.left = "-100000px";
+    document.body.appendChild(element);
+  }
+  var p = new Promise(function (resolve, reject) {
+    select(element);
+    var succeeded;
+    try {
+      succeeded = document.execCommand("copy");
+    } catch (err) {
+      succeeded = false;
+    }
+    if (succeeded) {
+      layer.msg(successMsg || "复制成功!", {
+        time: 2000,
+        shift: 5
+      });
+      resolve();
+    } else {
+      if (!isFromCopy) {
+        layer.alert(
+          "点击复制",
+          {
+            btn: "复制"
+          },
+          function () {
+            copy(element, successMsg, errorMsg, true).then(resolve, reject);
+          }
+        );
+      } else {
+        layer.msg(errorMsg || "复制失败，请稍后重试!", {
+          time: 2000,
+          shift: 5
+        });
+        reject();
+      }
+    }
+  });
+  p.finally(function () {
+    window.getSelection().removeAllRanges();
+    if (isText) {
+      document.body.removeChild(element);
+    }
+  });
+  return p;
+}
+
+/**
+ * 复制文字
+ * @param text {string}
+ * @param successMsg {string?}
+ */
+function copyText(text, successMsg) {
+  return copy(text, successMsg);
+}
+
+/**
+ * 复制html
+ * @param targetNode {HTMLElement}
+ * @param successMsg {string?}
+ * @param repeat {boolean?}
+ */
+function copyHtml(targetNode, successMsg, repeat) {
+  return copy(targetNode, successMsg);
+}
+
+/**
+ * 判断是否固定在顶部的条件
+ * @param target {HTMLElement}
+ * @param cb {Function}
+ * @return {function(): void}
+ */
+function isFixed(target, cb) {
+  var container = window;
+
+  function getScrollTop() {
+    return document.documentElement.scrollTop || document.body.scrollTop;
+  }
+
+  var rect = target.getBoundingClientRect();
+  var distanceTop = rect.top + getScrollTop();
+  console.log("distanceTop", rect.top, distanceTop, getScrollTop());
+  var handler;
+  container.addEventListener("scroll", handler = function () {
+    // 当滑动距离大于等于分类距离顶部位置时，则固定定位
+    cb(getScrollTop() >= distanceTop);
+  });
+  return function () {
+    container.removeEventListener("scroll", handler);
+  };
+}
+
+Vue.use(VueLazyload, {
+  preLoad: 1.3,
+  error: "http://img.bc.haodanku.com/haodanku/1595237918",
+  loading: "http://img.bc.fqapps.com/fudai13cae4ae6ef16739ed3b100a2ec39e97.gif",
+  attempt: 1
+});
+var navStr = "0:全部，1:女装，2:男装，3:内衣，4:美妆，5:配饰，6:鞋品，7:箱包，8:儿童，9:母婴，10:居家，11:美食，12:数码，13:家电，14:其他，15:车品，16:文体，17:宠物";
+var navList = navStr.split("，").map(function (value) {
+  var split = value.split(":");
+  return {label: split[1], value: split[0]};
+});
+</script></head><body><style>ul{list-style:none}*{-webkit-tap-highlight-color:transparent}*,body,html{padding:0;margin:0}body,html{background:#d71537}[v-cloak]{display:none}.mainnav{z-index:99}.mainnav,.mainnav>.mainnav-content{position:relative;width:100%;height:.74rem;display:flex}.mainnav>.mainnav-content{overflow:hidden}.mainnav .partnav{height:.74rem;position:relative;overflow:hidden;flex:1;background:#fff;color:#333}.mainnav .partnavlist{position:absolute;left:0;-webkit-overflow-scrolling:touch;background:#fff}.mainnav .partnavlist ul{position:relative;white-space:nowrap;font-size:0}.mainnav .partnavlist ul li{padding:0 .15rem;height:.74rem;line-height:.76rem;position:relative;display:inline-block;color:#333;font-size:.26rem;text-align:center;text-decoration:none;cursor:pointer;background:#fff;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.mainnav .partnavlist ul li:first-child:before{content:normal}.mainnav .partnavlist ul li.active{font-weight:500;color:#d71537}.mainnav .partnavlist ul li.active i{display:inline-block;width:.22rem;transform:translateY(.04rem)}.mainnav .partnavlist ul li.active i svg .st0{fill-rule:evenodd;clip-rule:evenodd;fill:currentColor}.mainnav .partnavlist ul li.active i svg .st1{fill:currentColor}.mainnav .partnavlist.goods-nav-list ul li{width:1.28rem}.mainnav .morenav{position:relative;width:.8rem;height:.74rem;display:flex;justify-content:center;align-items:center;cursor:pointer;background:#fff}.mainnav .morenav i{font-size:.26rem;color:#333}.mainnav .opennav{position:absolute;top:.74rem;left:0;width:100%;background:#fff}.mainnav .opennav ul{display:flex;flex-wrap:wrap;justify-content:space-around;box-shadow:0 8px 14px -7px rgba(0,0,0,.1);padding:.05rem .15rem;border-top:.0133rem solid #f5f5f5}.mainnav .opennav ul li{font-size:.22rem;letter-spacing:.02rem;text-align:center;display:flex;align-items:center;justify-content:center;border-radius:.08rem;width:1.64rem;height:.54rem;padding:.09rem 0;margin:.15rem .08rem;background:#f5f5f5;color:#666;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.mainnav .opennav ul li.active{color:#fff;background:#5a4af4}.mainnav .opennav ul li.active img{width:.2667rem}.mainnav-fixed{position:fixed;top:0;left:0;width:100%;border-radius:0;z-index:199;height:.74rem;background:#fff}.mainnav-fixed .mainnav{width:100%;margin:0 auto}.mainnav-fixed .opennav ul{justify-content:normal}.goods-card{width:7.02rem;background:#fff;display:flex;align-items:center;padding:.2rem;margin-bottom:.2rem;border-radius:.2rem;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.goods-card>img{width:2.3rem;height:2.3rem;border-radius:.1rem;filter:contrast(97%)}.goods-card .detail{position:relative;width:calc(100% - 2.3rem);padding-left:.2rem;box-sizing:border-box}.goods-card .detail .ticket{display:inline-flex;align-items:center;height:.38rem;padding:1px 1px 1px 0;box-sizing:border-box;background:linear-gradient(0deg,#ff753c,#ff4b42);border-radius:2px;font-size:0;font-family:Microsoft YaHei}.goods-card .detail .ticket .name,.goods-card .detail .ticket .value{padding:0 .05rem;font-size:.25rem;font-family:Microsoft YaHei}.goods-card .detail .ticket .name{line-height:1em;font-weight:300;color:#fff}.goods-card .detail .ticket .value{display:flex;align-items:center;height:100%;font-weight:400;color:#ff4d42;background:#fff}.goods-card .detail .price{font-size:.24rem;font-family:PingFang SC;font-weight:700;line-height:1em}.goods-card .detail .price.has-share{padding-right:.5rem}.goods-card .detail .price .discount{color:#f23015;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.goods-card .detail .price .discount strong{font-size:.44rem;line-height:1em}.goods-card .detail .price .price-bottom{margin-top:.1rem}.goods-card .detail .price .price-bottom>div{display:inline-block;vertical-align:top}.goods-card .detail .price .price-bottom .origin{font-weight:500;text-decoration:line-through;color:#b9b9b9}.goods-card .detail .price .price-bottom .sales{float:right;color:#a09f9f}.goods-card .detail .price .price-bottom .sales .name{margin-right:2px}.goods-card .detail .icon{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;height:.3rem;width:auto;margin-right:2px}.goods-card .detail .title{display:flex;align-items:center;font-size:.3rem;font-weight:500;color:#000;margin:0}.goods-card .detail .title span{flex:1;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.goods-card .detail .tm-icons+div{margin-top:0}.goods-card .detail .center{margin:.2rem 0}.goods-card .detail .share{position:absolute;top:.8rem;right:-.2rem;width:1.03rem;font-size:.26rem;font-weight:500;padding-left:.1rem;border-radius:.28rem 0 0 .28rem;cursor:pointer;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:1;height:.56rem;color:#f23015;background:#ffefed;display:flex;justify-content:center;align-items:center}.goods-card .detail .footer{display:flex;justify-content:space-between;align-items:flex-end}.goods-card .detail .footer .operation{width:1.87rem;height:.64rem;font-size:.28rem;font-weight:700;color:#bd1d14;background:linear-gradient(0deg,#ffcd62,#fde989);display:flex;justify-content:center;align-items:center;border-radius:.36rem;cursor:pointer}.goods-card .detail .footer .operation.sell-out{background:#eee;color:#ccc;cursor:default}.goods-card-loading{text-align:center;padding:.4rem 0;color:#fff}.goods-card-loading span{font-size:.24rem;color:currentColor;letter-spacing:.01rem}.free-share{position:fixed;bottom:0;width:7.5rem;height:1.76rem;background:linear-gradient(180deg,hsla(0,0%,100%,0),#d71537 50%);padding:.32rem .24rem;box-sizing:border-box;z-index:100;cursor:pointer}.free-share #share_href{display:flex;align-items:center;justify-content:center;width:6.22rem;height:.9rem;margin:auto;background:linear-gradient(180deg,#fff8e6,#fdeabf);border-radius:.45rem;text-align:center;color:#d71537;font-size:.324rem;line-height:1em}.free-share #share_href #svg-icon{margin-top:.05rem;margin-right:.1rem;height:1em}.free-share #share_href #svg-icon .cls-1,.free-share #share_href #svg-icon .cls-2{fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:2px}.free-share #share_href #svg-icon .cls-2{stroke-linecap:round}.free-loading{display:flex;justify-content:center;align-items:center;flex-direction:column;padding-top:.6rem}.free-loading>p{font-size:.3rem;color:#fff;letter-spacing:.01rem;margin:.2rem 0 0}.free-loading .la-line-scale{width:1.6rem;height:1.28rem;display:block;font-size:0;color:#d71537}.free-loading .la-line-scale>div{display:inline-block;float:none;background-color:currentColor;border:0 solid;width:.16rem;height:1.28rem;margin:0 .08rem;border-radius:0;-webkit-animation:line-scale 1.2s ease infinite;animation:line-scale 1.2s ease infinite}.free-loading .la-line-scale>div:first-child{-webkit-animation-delay:-1.2s;animation-delay:-1.2s}.free-loading .la-line-scale>div:nth-child(2){-webkit-animation-delay:-1.1s;animation-delay:-1.1s}.free-loading .la-line-scale>div:nth-child(3){-webkit-animation-delay:-1s;animation-delay:-1s}.free-loading .la-line-scale>div:nth-child(4){-webkit-animation-delay:-.9s;animation-delay:-.9s}.free-loading .la-line-scale>div:nth-child(5){-webkit-animation-delay:-.8s;animation-delay:-.8s}.free-container{min-height:100vh;max-width:7.5rem;background:#d71537;padding-bottom:1.76rem;margin:0 auto;box-sizing:border-box}.free-banner{width:7.5rem;min-height:3.4rem;display:block}.rule{position:relative;display:block;width:7.02rem;height:2.61rem;padding:.75rem .1rem .1rem .28rem;box-sizing:border-box;margin:-.5rem auto 0;background:url(http://img-haodanku-com.cdn.fudaiapp.com/FigJSqLrLoDa8hvdpIcEjKncfZzX);background-size:cover}.rule .rule-box{height:100%;overflow:auto}.rule p{margin:0;font-size:.22rem;font-family:PingFang SC;font-weight:500;line-height:.4rem;color:#333}.free-lists{width:7.02rem;margin:.28rem auto 0;box-sizing:border-box;border-radius:0 0 .23rem .23rem}@-webkit-keyframes turn{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@keyframes turn{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@-webkit-keyframes line-scale{0%,40%,to{transform:scaleY(.4)}20%{transform:scaleY(1)}}@keyframes line-scale{0%,40%,to{transform:scaleY(.4)}20%{transform:scaleY(1)}}.free-container{font-family:PingFang SC}.free-container .banner{height:4.6rem}.free-container .rules{margin-top:-1.05rem;position:relative}.free-container .rules .rule-bg{width:7.5rem;height:4.8rem}.free-container .rules .rule-container{position:absolute;top:1.82rem;left:0;padding:0 .78rem;font-family:PingFang SC;font-weight:500;color:#ab5e0a}.free-container .rules .rule-container .rule-btn{font-size:.24rem;margin-bottom:.4rem;text-align:center;cursor:pointer}.free-container .rules .rule-container .rule-tips{text-align:center;font-size:.2rem;margin-bottom:.22rem}.free-container .rules .rule-container .rule-tips span{display:inline-block;position:relative;padding:0 .16rem}.free-container .rules .rule-container .rule-tips span:after,.free-container .rules .rule-container .rule-tips span:before{display:block;position:absolute;top:50%;right:100%;height:1px;width:2.3rem;background:linear-gradient(90deg,rgba(157,2,30,.1),rgba(157,2,30,.5));opacity:.1;content:""}.free-container .rules .rule-container .rule-tips span:after{right:auto;background:linear-gradient(-90deg,rgba(157,2,30,.1),rgba(157,2,30,.5));left:100%}.free-container .rules .rule-container .rule-content{margin:0;padding:0;font-size:.2rem;line-height:.26rem;max-height:1.5rem;overflow:auto}.free-container .rules .rule-container .rule-content li{margin-bottom:.05rem}.free-container .item-card{position:relative;width:7.1rem;background:#fff;display:flex;align-items:center;padding:.2rem;margin-bottom:.2rem;border-radius:.2rem;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.free-container .item-card .card-left{position:relative;width:2.2rem;height:2.2rem}.free-container .item-card .card-left>img{width:100%;height:100%;border-radius:.1rem;filter:contrast(97%)}.free-container .item-card .card-left .sales{position:absolute;left:0;bottom:0;padding:0 .1rem;height:.4rem;background:#e70403;opacity:.7;border-radius:0 .15rem 0 .1rem;font-size:.2rem;font-weight:500;color:#fff;line-height:.4rem}.free-container .item-card .card-right{flex:1;overflow:hidden;padding-left:.28rem}.free-container .item-card .card-right .icon{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;height:.3rem;width:auto;margin-right:2px}.free-container .item-card .card-right .title{display:flex;align-items:center;font-size:.3rem;font-weight:500;color:#000;margin:0}.free-container .item-card .card-right .title span{flex:1;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.free-container .item-card .card-right .desc{margin:.12rem 0 .48rem;width:3.2rem;height:.38rem;background:linear-gradient(90deg,rgba(236,29,65,.1),hsla(0,0%,100%,0) 130%);border-radius:.19rem;font-size:.2rem;font-weight:500;color:#ec1d41;line-height:.38rem;text-align:left;text-indent:.2rem}.free-container .item-card .card-right .desc.empty{visibility:hidden}.free-container .item-card .card-right .end-price{font-size:.2rem;font-weight:500;color:#ec1d41}.free-container .item-card .card-right .end-price strong{font-size:.36rem}.free-container .item-card .card-right .origin-price_coupon .coupon,.free-container .item-card .card-right .origin-price_coupon .origin-price{display:inline-block;vertical-align:middle}.free-container .item-card .card-right .origin-price_coupon .origin-price{font-size:.2rem;font-weight:400;text-decoration:line-through;color:#666}.free-container .item-card .card-right .origin-price_coupon .coupon{display:inline-flex;align-items:center;margin-left:.1rem;padding:0 .05rem;height:.28rem;background:rgba(255,166,181,.05);border:1px dashed #f55c77;text-align:center;font-size:.16rem;font-weight:500;color:#ec1d41}.free-container .item-card .card-right .origin-price_coupon .coupon strong{font-size:.2rem}.free-container .item-card .btn-block .btn{position:absolute;right:0;width:1.3rem;height:.56rem;line-height:.56rem;border-radius:.28rem 0 0 .28rem;font-size:.24rem;font-weight:800;text-align:center;cursor:pointer}.free-container .item-card .btn-block .get-coupon{top:1.04rem;background:#fff3f5;border:1px dashed #f55c77;border-right:none;color:#ec1d41}.free-container .item-card .btn-block .to-order{bottom:.2rem;background:linear-gradient(-90deg,#fe3a3f,#faa450);box-shadow:0 5px 10px 0 rgba(215,21,55,.2);color:#fffefd}.free-container .fixed-nav{z-index:100;width:7.5rem;height:1.34rem;margin:auto;box-sizing:border-box;padding:.22rem .2rem;transform:translateZ(0);background:#d71537}.free-container .fixed-nav.fixed{position:fixed;top:-2px}.free-container .fixed-nav.fixed+.free-lists{margin-top:1.34rem}.free-container .fixed-nav .nav-list{height:100%;background:#fff;border-radius:.15rem;display:flex;align-items:center}.free-container .fixed-nav .nav-list .nav-item{flex:1;font-size:.26rem;font-weight:700;text-align:center;color:#333;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.free-container .fixed-nav .nav-list .nav-item .arrow-icon{display:inline-block;position:relative;width:.18rem;height:.18rem;margin-left:.1rem;transition:transform .2s linear}.free-container .fixed-nav .nav-list .nav-item .arrow-icon.up{transform:rotate(180deg)}.free-container .fixed-nav .nav-list .nav-item .arrow-icon:after{top:50%;left:50%;width:0;height:0;position:absolute;border:.06rem solid transparent;border-top-color:currentcolor;transform:translate(-50%,-.03rem);content:""}.free-container .fixed-nav .nav-list .nav-item.active{color:#d71537}.free-container .free-lists{margin-top:0}.free-container .free-loading .la-line-scale{color:#fff}.free-container .modal{position:fixed;left:0;top:0;right:0;bottom:0;z-index:10000;overflow:auto;background:rgba(0,0,0,.5)}.free-container .modal .post-img{width:100%;height:auto;position:absolute;top:50%;transform:translateY(-50%)}.free-container .modal .modal-container{margin:1rem auto;width:6rem;background:#fff;border-radius:.2rem}.free-container .modal .modal-container .title{position:relative;height:.82rem;text-align:center;font-size:.26rem;font-weight:700;color:#fe3940;line-height:.82rem}.free-container .modal .modal-container .btn-close{position:absolute;top:50%;right:0;height:.32rem;width:.32rem;margin-right:.32rem;transform:translateY(-50%);cursor:pointer}.free-container .modal .modal-container .content{padding:.3rem}.free-container .copy-base{position:fixed;left:-10000px}</style><template id="c-loading">
+  <!-- 加载效果 -->
+  <div class="free-loading">
+    <div class="la-line-scale">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <p>数据加载中...</p>
+  </div>
+</template>
+<script>
+Vue.component("loading", {
+  template: "#c-loading"
+});
+</script>
+<!--<template id="c-share">
+  <div class="free-share">
+    <div id="share_href" v-on:click="handleShare">
+      <i>
+        <svg xmlns="http://www.w3.org/2000/svg" id="svg-icon" data-name="图层 1" viewBox="0 0 18 19.11">
+          <title>分享</title>
+          <path class="cls-1" d="M17.5,8A2.5,2.5,0,1,0,15,5.5,2.5,2.5,0,0,0,17.5,8Z" transform="translate(-3 -2)"/>
+          <path class="cls-1" d="M6.5,14.5A2.5,2.5,0,1,0,4,12,2.5,2.5,0,0,0,6.5,14.5Z" transform="translate(-3 -2)"/>
+          <path class="cls-2" d="M15,6.79,8.67,10.62" transform="translate(-3 -2)"/>
+          <path class="cls-2" d="M8.67,13.28,13.27,16" transform="translate(-3 -2)"/>
+          <path class="cls-1" d="M15.77,15.11a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,15.77,15.11Z"
+                transform="translate(-3 -2)"/>
+        </svg>
+      </i>
+      <span>分享好友</span>
+    </div>
+  </div>
+</template>-->
+<script>
+Vue.component("share", {
+  template: "#c-share",
+  methods: {
+    handleShare: function () {
+      this.$emit("share");
+    }
+  }
+});
+</script>
+<template id="list-item">
+  <div class="item-card">
+    <div class="card-left">
+      <img v-if="item.itempic" v-lazy="item.itempic">
+      <img v-else src="http://img.bc.fqapps.com/fudai13cae4ae6ef16739ed3b100a2ec39e97.gif" alt="">
+      <div class="sales">
+        <span class="name">月销</span><span class="value">{{item.itemsale}}</span>
+      </div>
+    </div>
+    <div class="card-right">
+      <div class="title">
+        <img
+          class="icon"
+          src="http://img-haodanku-com.cdn.fudaiapp.com/Fswyzm7oIZGLInzaidPkrMXWEbqx"
+          alt="">
+        <!-- <img
+           v-else-if="'tm' === type"
+           class="icon"
+           src="http://img-haodanku-com.cdn.fudaiapp.com/FtThlDILaSzwEIAIvFYK3iIDJv4-"
+           alt="">-->
+        <span>{{ item.itemshorttitle || item.itemtitle }}</span>
+      </div>
+      <div class="desc" v-bind:class="{empty:!item.couponexplain}">{{item.couponexplain}}</div>
+      <div class="end-price">
+        <span>预估支出</span><strong>￥{{ Number(item.estimate_price) }}</strong>
+      </div>
+      <div class="origin-price_coupon">
+        <div class="origin-price">
+          原价：￥{{ item.itemprice }}
+        </div>
+        <div class="coupon" v-if="item.couponmoney != 0">
+          <span>优惠券</span> <strong>￥{{ type !== "jd" ? item.couponmoney : item.coupon_amount }}</strong>
+        </div>
+      </div>
+    </div>
+    <div class="btn-block">
+      <div class="btn get-coupon" v-on:click="clickGetCoupon" v-if="item.activityid"><span>立即领券</span></div>
+      <div class="btn to-order" v-on:click="clickOrder"><span>立即下单</span></div>
+    </div>
+  </div>
+</template>
+<script>
+Vue.component("list-item", {
+  template: "#list-item",
+  props: {
+    item: Object,
+    type: {
+      type: String,
+      default: "tb" // tb || jd
+    },
+    showShare: {
+      type: Boolean,
+      default: false
+    }
+  },
+  methods: {
+    clickGetCoupon: function () {
+      this.$emit("coupon");
+    },
+    clickOrder: function () {
+      this.$emit("order");
+    }
+  }
+});
+</script>
+<div class="free-container" id="free_app" v-cloak><div class="free-mail"><img class="free-banner" v-bind:src="banner" alt=""><div class="rules"><img class="rule-bg" src="http://img-haodanku-com.cdn.fudaiapp.com/FgAeRWE0nxtRLMYdNlXwXC8vBf1E"><div class="rule-container"><div class="rule-btn" v-on:click="showDirect">查看使用教程 ></div><div class="rule-tips"><span>注意事项</span></div><ul class="rule-content"><li>1. 商品页有“超值买返”字样才能返红包（活动随时可能结束，下单前需确认）；</li><li>2. 买返红包为付款金额的10%-90%，付款后秒返，若无红包可选择退款；</li><li>3. 红包只能用于天猫商品，有效期到下个月1号。</li></ul></div></div></div><div class="fixed-nav" ref="nav" v-bind:class="{fixed: navFixed}"><ul class="nav-list"><li class="nav-item" v-for="(item, index) in switchData.list" v-bind:class="{active: index === switchData.activeIndex}" v-on:click="handleNavbar(item,index)"><span>{{item.name}}</span><i class="arrow-icon down"></i></li></ul></div><div class="free-lists"><template v-if="listData.list.length || listData.finished"><list-item v-for="(item,index) in listData.list" v-bind:item="item" v-bind:key="index" v-on:buy="handleGoodsTransfer" v-on:coupon="onClickGetCoupon(item)" v-on:order="onClickOrder(item)"></list-item><!-- 底部提示 --><div class="goods-card-loading"><span v-if="listData.finished">已经加载到底啦~</span><span v-else>数据正在赶来的路上...</span></div></template><!-- 加载效果 --><loading v-else-if="!listData.list.length && listData.loading"></loading></div><div class="modal" v-show="showModal" v-on:click="closeDirect"><div class="modal-container" v-on:click.stop><div class="title">教程<img class="btn-close" src="http://img-haodanku-com.cdn.fudaiapp.com/Fvw6D3FiUxMEmst7WvXomZsGL0Gk" v-on:click="closeDirect"></div><div class="content"><img style="width: 100%;height: auto;" src="http://img-haodanku-com.cdn.fudaiapp.com/Fq05luII2OwNx5B9kZt90gyGLH5L"></div></div></div><share v-on:share="handleShare"></share><div class="copy-base" ref="copyBase"><img v-bind:src="postImgUrl"></div><div class="modal" v-show="showPostModal" v-on:click="showPostModal = false"><img class="post-img" v-bind:src="postImgUrl"></div></div><script>var switchDataList = [
+  {
+    name: "预估支出",
+    reverse: false,
+    value: 2
+  },
+  {
+    name: "返现比例",
+    reverse: false,
+    value: 1
+  },
+  {
+    name: "热销",
+    reverse: false,
+    value: 3
+  }
+];
+var maifangouMixins = {
+  el: "#free_app",
+  data: function () {
+    return {
+      vmCid: vmRequest("cid"),
+      hostLink: window.location,
+      vmHttp: (function () {
+        var protocol = window.location.protocol;
+        protocol = protocol.substring(0, protocol.length - 1);
+        return protocol.includes("http") ? protocol : "http";
+      })(),
+      switchData: {
+        list: switchDataList,
+        selected: switchDataList[0].value,
+        activeIndex: 0
+      },
+      listData: {
+        list: [],
+        loading: false,
+        finished: false,
+        min_id: 1
+      },
+      rules: [],
+      banner: "http://img-haodanku-com.cdn.fudaiapp.com/FhgWQBJW76d57pAct5CDqC2vnm5x",
+      showModal: false,
+      postImgUrl: "",
+      showPostModal: false,
+      navFixed: false
+    };
+  },
+  created: function () {
+    this.getListData();
+  },
+  mounted: function () {
+    var that = this;
+    window.addEventListener("scroll", function (ev) {
+      if (isScrollEnd(this, "vertical", 40)) {
+        that.getListData();
+      }
+    });
+    setTimeout(function () {
+      isFixed(that.$refs.nav, function (fixed) {
+        that.navFixed = fixed;
+      });
+    }, 500);
+  },
+  methods: {
+    resetListData: function () {
+      this.listData = {
+        list: [],
+        loading: false,
+        finished: false,
+        min_id: 1
+      };
+    },
+    /**
+     * 切换导航栏
+     */
+    handleNavbar: function (item, index) {
+      if (this.listData.loading || this.switchData.activeIndex === index) return;
+      this.switchData.activeIndex = index;
+      this.switchData.selected = item.value;
+      this.resetListData();
+      this.getListData();
+    },
+    getListDataParams: function (item) {
+      throw new Error("需要使用了该mixins的组件实现listDataParams函数");
+    },
+    /**
+     * 获取商品数据
+     */
+    getListData: function () {
+      if (this.listData.loading || this.listData.finished) return;
+      var that = this;
+      that.listData.loading = true;
+      $.ajax({
+        url: this.vmHttp + "://v2.api.haodanku.com/get_buyreturn_items",
+        type: "GET",
+        data: this.getListDataParams(),
+        dataType: "json"
+      }).done(function (res) {
+        if (Number(res.code) !== 200) {
+          that.listData.finished = true;
+          that.listData.loading = false;
+          return;
+        }
+        setTimeout(function () {
+          that.listData.finished = !Boolean(res.data && res.data.length);
+          that.listData.list = that.listData.list.concat(res.data);
+          that.listData.min_id = res.min_id;
+          that.listData.loading = false;
+        }, 200);
+      }).fail(function () {
+        that.listData.finished = true;
+        that.listData.loading = false;
+      });
+    },
+    getTransferParams: function () {
+      throw new Error("需要使用了该mixins的组件实现transferParams函数");
+    },
+    /**
+     * 商品转链
+     */
+    handleGoodsTransfer: function (item, source) {
+      if (item.stock == 0) {
+        layer.msg("已抢完", {
+          time: 1200,
+          shift: 5
+        });
+        return;
+      } else if (item.stock == -1) {
+        layer.msg("活动未开始", {
+          time: 1200,
+          shift: 5
+        });
+        return;
+      }
+      var obj = {orderCode: "下单", couponCode: "领券"};
+      var successMsg = "复制淘口令成功，请打开淘宝" + obj[source];
+      if (item[source]) {
+        copyText(item[source], successMsg);
+        return;
+      }
+      var that = this;
+      $.ajax({
+        url: that.vmHttp + "://v2.api.haodanku.com/get_buyresult_url",
+        type: "POST",
+        data: this.getTransferParams(item),
+        dataType: "json",
+        async: false
+      }).done(function (res) {
+        if (res.code == 200) {
+          item.couponCode = res.data.get_quan_code;
+          item.orderCode = res.data.place_order_code;
+          if (!item[source]) {
+            layer.msg("未获取到淘口令", {
+              time: 4000,
+              shift: 5
+            });
+          } else {
+            copyText(item[source], successMsg);
+          }
+        } else {
+          layer.msg(res.msg, {
+            time: 4000,
+            shift: 5
+          });
+        }
+      }).fail(function () {
+        layer.msg("获取淘口令失败", {
+          time: 4000,
+          shift: 5
+        });
+      });
+    },
+    /**
+     * 分享给好友
+     */
+    handleShare: function () {
+      copyText(location.href, "复制成功，分享给身边好友吧~");
+    },
+    onClickOrder: function (item) {
+      this.handleGoodsTransfer(item, "orderCode");
+    },
+    onClickGetCoupon: function (item) {
+      this.handleGoodsTransfer(item, "couponCode");
+    },
+    showDirect: function () {
+      this.showModal = true;
+    },
+    closeDirect: function () {
+      this.showModal = false;
+    }
+  }
+};
+</script><script>new Vue({
+  mixins: [maifangouMixins],
+  methods: {
+    getListDataParams: function () {
+      return {
+        apikey: "shunziyouxuan", // 必填
+        min_id: this.listData.min_id,
+        order: this.switchData.selected
+      }
+    },
+    getTransferParams: function (item) {
+      return {
+        apikey: "shunziyouxuan", // 必填
+        itemid: item.itemid,
+        title: item.itemshorttitle || item.itemtitle,
+        pid: "mm_97788430_30616603_108414450395", // 必填
+        tb_name: "高财顺", // 必填
+        relation_id: "",
+        activityid: item.activityid,
+        domain: location.host
+      }
+    }
+  }
+})</script></body></html>
