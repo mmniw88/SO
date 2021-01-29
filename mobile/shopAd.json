@@ -1,10 +1,10 @@
 {
   "data": {
-    "name": "",
+    "name": "淘宝狂撒一个亿",
     "id": "",
-    "pic": "",
-    "url": "",
-    "type": "",
-    "show": false
+    "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FngoIoHiD_25mUeY-hoa974CpPEO",
+    "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/tb_special.html",
+    "type": "app://updateInfo",
+    "show": true
   }
 }
