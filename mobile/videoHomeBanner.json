@@ -25,6 +25,14 @@
       "url": "https://video.hcyunshang.cn/20210215/QqhBRxje/index.m3u8",
       "type": 1,
       "types": "app://shopWeb"
+    },
+    {
+      "id": 1,
+      "name": "熊出没·狂野大陆",
+      "pic": "https://img2.doubanio.com/view/photo/m/public/p2575893202.webp",
+      "url": "https://video.hcyunshang.cn/20210215/yfWZuvRt/index.m3u8",
+      "type": 1,
+      "types": "app://shopWeb"
     }
   ]
 }
