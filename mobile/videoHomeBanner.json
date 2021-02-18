@@ -6,33 +6,25 @@
       "id": 1,
       "name": "你好！李焕英",
       "pic": "https://img1.doubanio.com/view/photo/l/public/p2624104859.webp",
-      "url": "https://video.hcyunshang.cn/share/diQECy2YnjCm96Ah",
+      "url": "https://video.hcyunshang.cn/20210215/cEkErZnB/index.m3u8",
       "type": 1,
       "types": "app://shopWeb"
     },
     {
       "id": 1,
-      "name": "年过节",
-      "pic": "https://img.alicdn.com/imgextra/i2/O1CN01MJZQIU1C3wxBQrtXr_!!6000000000026-0-tps-800-450.jpg",
-      "url": "https://s.click.taobao.com/jwzm2su",
+      "name": "唐人街探案3",
+      "pic": "https://img9.doubanio.com/view/photo/m/public/p2622388984.webp",
+      "url": "https://video.hcyunshang.cn/20210215/zh3TgBx0/index.m3u8",
       "type": 1,
-      "types": "url://taobao"
+      "types": "app://shopWeb"
     },
     {
       "id": 1,
-      "name": "防疫专场",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FpxH3fEBTB6kf_NP9lQC-_CM9rHE",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/fangyi.html",
+      "name": "侍神令",
+      "pic": "https://img1.doubanio.com/view/photo/m/public/p2630083169.webp",
+      "url": "https://video.hcyunshang.cn/20210215/QqhBRxje/index.m3u8",
       "type": 1,
-      "types": "app://updateInfo"
-    },
-    {
-      "id": 1,
-      "name": "天猫超值买反购",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FhgWQBJW76d57pAct5CDqC2vnm5x",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/fangyi.html",
-      "type": 1,
-      "types": "app://updateInfo"
+      "types": "app://shopWeb"
     }
   ]
 }
