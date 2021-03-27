@@ -4,6 +4,14 @@
   "data": [
     {
       "id": 3,
+      "name": "商品全网搜",
+      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FgR08eD9JxRqFocT9_IXkmf6zrnO",
+      "url": "https://coupon.aikanll.com/?tmp=super_search&code=Yqortu&f=web&demo_type=22",
+      "color": "1",
+      "type": "app://shopWeb"
+    },           
+    {
+      "id": 3,
       "name": "热销专场",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FvIFXZNa_NNB0YWoSBGNZc6RrXf-",
       "url": "https://coupon.aikanll.com/?tmp=hot_sale&code=kFXCDz&f=web&demo_type=8",
