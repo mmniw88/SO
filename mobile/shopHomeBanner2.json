@@ -4,11 +4,11 @@
   "data": [
       {
         "id": 1,
-        "name": "年货节",
-        "pic": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01KChu0M2JJi4CnjsPB_!!2053469401.gif?v=202010",
-        "url": "https://s.click.taobao.com/Q7Zl2su",
+        "name": "福利清单",
+        "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FidecMbZv9-1_VLlFQl6aViRFa4T",
+        "url": "https://coupon.aikanll.com/?tmp=ac_qingdan&code=NVoyqb&f=web&demo_type=1",
         "color": "#00000000",
-        "type": "url://taobao",
+        "type": "app://shopWeb",
         "show": true
       }
   ]
