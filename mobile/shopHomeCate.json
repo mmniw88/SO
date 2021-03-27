@@ -35,7 +35,7 @@
       "name": "京东热销",
       "type": "app://updateInfo",
       "pic": "https://static.fenxianglife.com/poster/9d152e77ca96f2301d83537b9565c3f0.png",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/jd_hotitem.html"
+      "url": "https://cdn.jsdelivr.net/gh/FreeDTV/Test/jd_hot.html"
     },
     {
       "id": 5,
@@ -49,7 +49,7 @@
       "name": "拼多多热",
       "type": "app://updateInfo",
       "pic": "https://static.fenxianglife.com/poster/4a392007f503d7a17057d69493810044.png",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/pdd_hotitem.html"
+      "url": "https://cdn.jsdelivr.net/gh/FreeDTV/Test/pdd_hot.html"
     },
     {
       "id": 6,
