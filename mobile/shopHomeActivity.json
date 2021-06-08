@@ -4,6 +4,15 @@
   "data": [
      {
       "id": 1,
+      "name": "超级福利",
+      "pic": "https://img-haodanku-com.cdn.fudaiapp.com/0_1620959106_651829",
+      "url": "https://shop.aikanll.com/?cid=YPcr2wUm#/",
+      "color": "1",
+      "height":117,
+      "type": "app://shopWeb"
+    },
+     {
+      "id": 1,
       "name": "饿了么领红包",
       "pic": "https://gw.alicdn.com/tfs/TB16Sf834v1gK0jSZFFXXb0sXXa-640-361.jpg",
       "url": "1571715733668",
@@ -13,19 +22,19 @@
     },
     {
       "id": 1,
-      "name": "饿了么果蔬",
-      "pic": "http://api.xeemm.com:10000/images/eleme2.jpg",
-      "url": "20150318020004284",
+      "name": "美团红包",
+      "pic": "https://gw.alicdn.com/tfs/TB16Sf834v1gK0jSZFFXXb0sXXa-640-361.jpg",
+      "url": "",
       "color": "1",
       "height":117,
-      "type": "api://taobaohuodongid"
+      "type": "api://meituanwaimai"
     },
     {
       "id": 3,
       "name": "商品全网搜",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FgR08eD9JxRqFocT9_IXkmf6zrnO",
       "url": "https://coupon.aikanll.com/?tmp=super_search&code=Yqortu&f=web&demo_type=22",
-      "color": "1",
+      "color": "0",
       "height":117,
       "type": "app://shopWeb"
     }
