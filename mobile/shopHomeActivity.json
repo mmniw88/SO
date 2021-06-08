@@ -2,102 +2,30 @@
   "success": true,
   "error": null,
   "data": [
+     {
+      "id": 1,
+      "name": "饿了么领红包",
+      "pic": "https://gw.alicdn.com/tfs/TB16Sf834v1gK0jSZFFXXb0sXXa-640-361.jpg",
+      "url": "1571715733668",
+      "color": "1",
+      "height":117,
+      "type": "api://taobaohuodongid"
+    },
+    {
+      "id": 1,
+      "name": "饿了么果蔬",
+      "pic": "http://api.xeemm.com:10000/images/eleme2.jpg",
+      "url": "20150318020004284",
+      "color": "1",
+      "height":117,
+      "type": "api://taobaohuodongid"
+    },
     {
       "id": 3,
       "name": "商品全网搜",
       "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FgR08eD9JxRqFocT9_IXkmf6zrnO",
       "url": "https://coupon.aikanll.com/?tmp=super_search&code=Yqortu&f=web&demo_type=22",
       "color": "1",
-      "height":117,
-      "type": "app://shopWeb"
-    },           
-    {
-      "id": 3,
-      "name": "热销专场",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FvIFXZNa_NNB0YWoSBGNZc6RrXf-",
-      "url": "https://coupon.aikanll.com/?tmp=hot_sale&code=kFXCDz&f=web&demo_type=8",
-      "color": "1",
-      "height":117,
-      "type": "app://shopWeb"
-    },      
-    {
-      "id": 1,
-      "name": "聚划算热销",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FnHi1kIxNe9yPkAtSDIVrhJIK8oX",
-      "url": "https://coupon.aikanll.com/?tmp=juhuasuan&code=PddVCw&f=web&demo_type=7",
-      "color": "1",
-      "height":117,
-      "type": "app://shopWeb"
-    },
-    {
-      "id": 1,
-      "name": "天猫超值买反购",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FhgWQBJW76d57pAct5CDqC2vnm5x",
-      "url": "https://coupon.aikanll.com/?tmp=maifan&code=TK5XXV&f=web&demo_type=10",
-      "type": 1,
-      "height":117,
-      "types": "app://shopWeb"
-    },
-    {
-      "id": 1,
-      "name": "天猫超市尖货",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/Ftc05oymZ7qKQCkyOfBu6K3gsSce",
-      "url": "https://coupon.aikanll.com/?tmp=maochao&code=vcDYMu&f=web&demo_type=9",
-      "color": "1",
-      "height":117,
-      "type": "app://shopWeb"
-    },         
-    {
-      "id": 1,
-      "name": "聚划算热销",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FnHi1kIxNe9yPkAtSDIVrhJIK8oX",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/juhuasuan.html",
-      "color": "0",
-      "height":117,
-      "type": "app://updateInfo"
-    }, 
-    {
-      "id": 1,
-      "name": "大牌尖货",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/Ftc05oymZ7qKQCkyOfBu6K3gsSce",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/html/maochao.html",
-      "color": "0",
-      "height":117,
-      "type": "app://updateInfo"
-    }, 
-    {
-      "id": 1,
-      "name": "福利清单",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/FidecMbZv9-1_VLlFQl6aViRFa4T",
-      "url": "http://fuliqingdan836.kuaizhan.com/?tmp=ac_qingdan&code=GOIl8X&f=web&demo_type=1",
-      "color": "0",
-      "height":117,
-      "type": "app://shopWeb"
-    },              
-    {
-      "id": 2,
-      "name": "淘宝主会场",
-      "pic": "https://img.alicdn.com/imgextra/i1/2053469401/O1CN01swmtIq2JJi1ecSGze_!!2053469401.jpg",
-      "url": "https://s.click.taobao.com/cnABTyu",
-      "color": "0",
-      "height":117,
-      "type": "url://taobao"
-    },
-    {
-      "id": 3,
-      "name": "今日值得买",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594902294720",
-      "url": "http://www.bei5.store/benefit_web.html?id=16056&v=9",
-      "color": "0",
-      "height":117,
-      "type": "app://shopWeb"
-    },
-    {
-      "id": 4,
-      "name": "九块九",
-      "pic": "http://img-haodanku-com.cdn.fudaiapp.com/4_1594899664593",
-      "url": "http://www.bei5.store/benefit_web.html?id=16056&v=9",
-      "color": "0",
       "height":117,
       "type": "app://shopWeb"
     }
