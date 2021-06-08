@@ -2,45 +2,30 @@
   "success": true,
   "error": null,
   "data": [
+     {
+      "id": 1,
+      "name": "饿了么领红包",
+      "pic": "https://img.alicdn.com/imgextra/i2/2053469401/O1CN01vFHzHB2JJi32bxfJM_!!2053469401.png",
+      "url": "1571715733668",
+      "color": "1",
+      "height":200,
+      "type": "api://taobaohuodongid"
+    },
     {
       "id": 1,
-      "name": "淘宝特价版撸羊毛",
-      "pic": "http://img.bc.haodanku.com/haodanku/1616206175",
-      "url": "https://coupon.aikanll.com/?tmp=tb_specials&code=ppO4ET&f=web&demo_type=24",
-      "type": 1,
-      "types": "app://shopWeb"
-    },      
+      "name": "美团红包",
+      "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01dbzd8S2JJi37geUi7_!!2053469401.png",
+      "url": "",
+      "color": "1",
+      "height":200,
+      "type": "api://meituanwaimai"
+    },     
     {
       "id": 1,
       "name": "送你一朵小红花",
       "pic": "https://img9.doubanio.com/view/photo/m/public/p2629782077.webp",
       "url": "https://api.subaibai.com/m3/国产电影/送你一朵小红花.m3u8",
-      "type": 1,
-      "types": "app://shopWeb"
-    },
-    {
-      "id": 1,
-      "name": "缉魂",
-      "pic": "https://img9.doubanio.com/view/photo/m/public/p2631377952.webp",
-      "url": "https://api.subaibai.com/m3/国产电影/缉魂.m3u8",
-      "type": 1,
-      "types": "app://shopWeb"
-    },
-    {
-      "id": 1,
-      "name": "侍神令",
-      "pic": "https://img1.doubanio.com/view/photo/m/public/p2630083169.webp",
-      "url": "https://api.subaibai.com/m3/%E5%9B%BD%E4%BA%A7%E7%94%B5%E5%BD%B1/%E4%BE%8D%E7%A5%9E%E4%BB%A4.m3u8",
-      "type": 1,
-      "types": "app://shopWeb"
-    },
-    {
-      "id": 1,
-      "name": "东北轴神",
-      "pic": "https://img9.doubanio.com/view/photo/l/public/p2634030946.webp",
-      "url": "https://api.subaibai.com/m3/国产电影/东北轴神.m3u8",
-      "type": 1,
-      "types": "app://shopWeb"
+      "type": "app://shopWeb"
     }
   ]
 }
