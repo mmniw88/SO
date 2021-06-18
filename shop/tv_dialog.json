@@ -7,7 +7,7 @@
       "desc": "打开手机淘宝扫描下面二维码进入主会场抢618元红包",
       "img": "https://gw.alicdn.com/tfs/TB1nFoWUhD1gK0jSZFsXXbldVXa-800-450.png",
       "scanDesc": "\n打开手机淘宝扫描下面二维码进入",
-      "show": true,
+      "show": false,
       "isGoods": false,
       "goodsId": "570511367490"
     },
