@@ -16,7 +16,7 @@
       "name": "饿了么领红包",
       "pic": "https://img.alicdn.com/imgextra/i2/2053469401/O1CN01vFHzHB2JJi32bxfJM_!!2053469401.png",
       "url": "1571715733668",
-      "color": "1",
+      "color": "0",
       "height":200,
       "type": "api://taobaohuodongid"
     },
@@ -25,7 +25,7 @@
       "name": "美团红包",
       "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01dbzd8S2JJi37geUi7_!!2053469401.png",
       "url": "",
-      "color": "1",
+      "color": "0",
       "height":200,
       "type": "api://meituanwaimai"
     },     
