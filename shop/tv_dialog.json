@@ -37,7 +37,7 @@
       "desc": "微信扫一扫查看资源专题新增蓝光轮播直链,可拷贝至浏览器进行播放(看完点一点 谢谢)",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
       "scanDesc": "",
-      "show": true,
+      "show": false,
       "isGoods": false,
       "goodsId": "614895243709"
     },
