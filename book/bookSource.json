@@ -1,27 +1,22 @@
 [
     {
-        "name":"推荐1111111",
-        "url": "https://shuyuan.miaogongzi.net/shuyuan/1630489605.json",
+        "name":"小说1000+(20210910更新)",
+        "url": "https://pbpobing.coding.net/p/yueduyuan/d/sy/git/raw/master/syhj.json",
         "show":true
     },
     {
-        "name":"听书",
+        "name":"听书(20210910更新)",
         "url": "https://shuyuan.miaogongzi.cc/shuyuan/f70534fc59c14f6d9e76b9c16e390a29.json",
         "show":true
     },
     {
-        "name":"推荐1111111",
-        "url": "https://shuyuan.miaogongzi.net/shuyuan/1630489605.json",
+        "name":"漫画1(20210910更新)",
+        "url": "https://shuyuan.miaogongzi.cc/shuyuan/170899eb14b04718846f21564a66afd3.json",
         "show":true
     },
     {
-        "name":"推荐1111111",
-        "url": "https://shuyuan.miaogongzi.net/shuyuan/1630489605.json",
-        "show":true
-    },
-    {
-        "name":"推荐1111111",
-        "url": "https://shuyuan.miaogongzi.net/shuyuan/1630489605.json",
+        "name":"漫画2(20210910更新)",
+        "url": "https://shuyuan.miaogongzi.cc/shuyuan/1942ace02fc24e6a92479e5638c33221.json",
         "show":true
     }
 ]
