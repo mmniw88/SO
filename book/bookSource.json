@@ -14,11 +14,7 @@
         "url": "https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/Book3.0Source.json",
         "show":true
     },
-    {
-        "name":"女频书源1(20210922更新)",
-        "url": "https://guaner001125.coding.net/p/coding-code-guide/d/booksources/git/raw/master/sources/guaner.json",
-        "show":true
-    },
+
     {
         "name":"女频书源2(20210922更新)",
         "url": "https://tangguochaotian.coding.net/p/tangguoshuyuan1015/d/tangguo/git/raw/master/exportBookSource.json",
