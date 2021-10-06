@@ -1,22 +1,31 @@
-[
+[    
+    {
+        "name":"1000+(20211006更新)",
+        "url": "https://namofree.gitee.io/yuedu3/legado3_booksource_by_Namo.json",
+        "show":true
+    },
     {
         "name":"通用，简洁(20210922更新)",
         "url": "https://namofree.gitee.io/yuedu3/legado3_booksource_by_Namo.json",
         "show":true
     },
     {
-        "name":"听书(20210922更新)",
-        "url": "https://pbpobing.coding.net/p/yueduyuan/d/sy/git/raw/master/yshj.json",
+        "name":"听书(20211006更新)",
+        "url": "https://pbpobing.coding.net/p/yueduyuan/d/sy/git/raw/master/3yshj.json",
         "show":true
     },
     {
-        "name":"漫画1(20210922更新)",
-        "url": "https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/Book3.0Source.json",
+        "name":"漫画(20211006更新)",
+        "url": "https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/bookSource.json",
         "show":true
     },
-
     {
-        "name":"女频书源2(20210922更新)",
+        "name":"女频书源1(20211006更新)",
+        "url": "https://guaner001125.coding.net/p/coding-code-guide/d/booksources/git/raw/master/sources/guaner.json",
+        "show":true
+    },
+    {
+        "name":"女频书源2(20211006更新)",
         "url": "https://tangguochaotian.coding.net/p/tangguoshuyuan1015/d/tangguo/git/raw/master/exportBookSource.json",
         "show":true
     }
