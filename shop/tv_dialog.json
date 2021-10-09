@@ -27,17 +27,17 @@
       "desc": "推荐个自己也在用的小说APP看漫画，看小说，听书，自带书源，并且免费无广告，打开浏览器扫一扫下载安装",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
       "scanDesc": "",
-      "show": true,
+      "show": false,
       "isGoods": false,
       "goodsId": "614895243709"
     },
     {
-      "title": "天猫商品一分购",
-      "url": "http://www.a25.store/firstorder.html?id=70767",
-      "desc": "(一分购撸单)打开浏览器或微信扫一扫领取天猫发放淘礼金内低至一分购有具体视频教程",
+      "title": "dou'gou'sheng",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/donate/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211009113024.jpg",
+      "desc": "微信扫码关注！送你一个省钱哆啦A梦，我们提供最优惠的信息，麦当劳，话费，团购，电影，外卖，网购返现，生活省钱助手的四次元口袋，奔向美好生活！",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
       "scanDesc": "",
-      "show": false,
+      "show": true,
       "isGoods": false,
       "goodsId": "614895243709"
     }
