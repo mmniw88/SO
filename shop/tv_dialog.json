@@ -37,7 +37,7 @@
       "desc": "微信扫码关注！此公众号提供最优惠的信息，麦当劳，话费，团购，电影，外卖，网购返现，更多功能即将上线",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
       "scanDesc": "",
-      "show": true,
+      "show": false,
       "isGoods": false,
       "goodsId": "614895243709"
     }
