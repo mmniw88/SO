@@ -27,17 +27,17 @@
       "desc": "推荐个自己也在用的小说APP看漫画，看小说，听书，自带书源，并且免费无广告，打开浏览器扫一扫下载安装",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN01WQLE8i2C4PMQ0qRkd_!!913168420.png",
       "scanDesc": "",
-      "show": true,
+      "show": false,
       "isGoods": false,
       "goodsId": "614895243709"
     },
     {
-      "title": "公告",
-      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/donate/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211009113024.jpg",
-      "desc": "微信扫码关注！此公众号提供最优惠的信息，麦当劳，话费，团购，电影，外卖，网购返现，更多功能即将上线",
+      "title": "准时抢首发超级红包！今晚8点抢【8888元】",
+      "url": "https://m.tb.cn/h.ff9NLqV",
+      "desc": "淘宝打开扫一扫扫描二维码进入天猫双十一会场！晚8点全网超红首发，消费者1次可以抢2个红包！红包最高可得8888元！",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
       "scanDesc": "",
-      "show": false,
+      "show": true,
       "isGoods": false,
       "goodsId": "614895243709"
     }
