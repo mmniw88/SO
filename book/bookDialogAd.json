@@ -5,7 +5,7 @@
             "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01Tete8J2JJi7reZ4xW_!!2053469401.png",
             "url": "https://m.tb.cn/h.f4sHCsA",
             "type": "tb",
-            "show": false
+            "show": true
         },
         {
             "name": "dialog",
@@ -26,7 +26,7 @@
             "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01Tete8J2JJi7reZ4xW_!!2053469401.png",
             "url": "https://gitee.com/jia_to_hui/read-30-preferred-book-source/raw/master/bookSource.json",
             "type": "book",
-            "show": true
+            "show": false
         }
     ]
 }
