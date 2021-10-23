@@ -26,6 +26,13 @@
             "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01Tete8J2JJi7reZ4xW_!!2053469401.png",
             "url": "https://gitee.com/jia_to_hui/read-30-preferred-book-source/raw/master/bookSource.json",
             "type": "book",
+            "show": false
+        },
+        {
+            "name": "dialog",
+            "pic": "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01Tete8J2JJi7reZ4xW_!!2053469401.png",
+            "url": "711322016",
+            "type": "alipay",
             "show": true
         }
     ]
