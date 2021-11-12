@@ -37,7 +37,7 @@
       "desc": "淘宝打开扫一扫扫描二维码进入天猫双十一会场！晚8点全网超红首发，消费者1次可以抢2个红包！红包最高可得8888元！",
       "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
       "scanDesc": "",
-      "show": true,
+      "show": false,
       "isGoods": false,
       "goodsId": "614895243709"
     }
