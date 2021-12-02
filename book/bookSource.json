@@ -1,36 +1,36 @@
 [
     {
-        "name":"万能搜索(20211015更新)",
+        "name":"万能搜索(一个月更新一次即可)",
         "url": "http://no-mystery.gitee.io/shuyuan/%E5%85%A8%E7%BD%91%E9%80%9A%E7%94%A8.json",
         "show":true
     },    
     {
-        "name":"1000+(20211006更新)",
+        "name":"1000+(一个月更新一次即可)",
         "url": "https://pbpobing.coding.net/p/yueduyuan/d/sy/git/raw/master/3syhj.json",
         "show":false
     },
     {
-        "name":"通用，简洁(20210922更新)",
+        "name":"通用，简洁(一个月更新一次即可)",
         "url": "https://namofree.gitee.io/yuedu3/legado3_booksource_by_Namo.json",
         "show":true
     },
     {
-        "name":"听书(20211006更新)",
+        "name":"听书(一个月更新一次即可)",
         "url": "https://pbpobing.coding.net/p/yueduyuan/d/sy/git/raw/master/3yshj.json",
         "show":false
     },
     {
-        "name":"漫画(20211006更新)",
+        "name":"漫画(一个月更新一次即可)",
         "url": "https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/bookSource.json",
         "show":true
     },
     {
-        "name":"女频书源1(20211006更新)",
+        "name":"女频书源1(一个月更新一次即可)",
         "url": "https://guaner001125.coding.net/p/coding-code-guide/d/booksources/git/raw/master/sources/guaner.json",
         "show":true
     },
     {
-        "name":"女频书源2(20211006更新)",
+        "name":"女频书源2(一个月更新一次即可)",
         "url": "https://tangguochaotian.coding.net/p/tangguoshuyuan1015/d/tangguo/git/raw/master/exportBookSource.json",
         "show":true
     }
