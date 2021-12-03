@@ -40,6 +40,16 @@
       "show": false,
       "isGoods": false,
       "goodsId": "614895243709"
+    },
+    {
+      "title": "支付宝红包加码日(一天一次)",
+      "url": "https://qr.alipay.com/11w14450xdwwhdaiakzxo61",
+      "desc": "打开支付宝扫一扫二维码领支付宝到店付红包，如领取5元红包 实体店支付6元减5元 实付1元",
+      "img": "https://img.alicdn.com/imgextra/i1/913168420/O1CN018shWqo2C4PULwuLuh_!!913168420.png",
+      "scanDesc": "",
+      "show": true,
+      "isGoods": false,
+      "goodsId": "614895243709"
     }
   ]
 }
