@@ -1,3 +1,5 @@
 {
-    "exit":false
+    "data": {
+        "exit": false
+    }
 }
